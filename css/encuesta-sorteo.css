@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* Estilos generales
-Modified: viveros 171113
+Modified: viveros 201113
  */
+
+
+
 
 @media screen and (min-width: 624px) {
 	.encuesta_sorteo{
@@ -10,16 +13,14 @@ Modified: viveros 171113
 		margin-bottom: 28px;
 	}
 
-.ts_poll_cont {
-background: #FFF!important;
-}
+
 .esmas_safe_simple_poll_box ul.share_poll_tim_social li.poll_text_share div{
 	font-family:Trebuchet MS!important;
 	font-size:14px!important;
 	color:#8f8f8f!important;	
 }
 .encuesta_sorteo ul li{
-		width:100%!important;
+		width:100%;
 	}
 
 }
@@ -229,3 +230,50 @@ background: #FFF!important;
     	margin: 0;
     }
 
+.ts_poll_cont {
+background: #FFF!important;
+}
+
+.share_poll_tim_social .btn_poll_twitter_off{
+    background: url(http://i2.esmas.com.mx/comunidades/img/polls/bg_tw_off.png) no-repeat center center!important;
+    width: 42px!important;
+    border: none!important;
+}
+.share_poll_tim_social .btn_poll_facebook_off{
+background: url(http://i2.esmas.com.mx/comunidades/img/polls/bg_fb_off.png) no-repeat center center!important;
+border: none!important;
+width: 42px!important;
+}
+
+
+.share_poll_tim_social .btn_poll_twitter_on{
+    background: url(http://i2.esmas.com.mx/comunidades/img/polls/bg_tw_on.png) no-repeat center center!important;
+    border: none!important;
+
+}
+
+.share_poll_tim_social .btn_poll_facebook_on{
+    background: url(http://i2.esmas.com.mx/comunidades/img/polls/bg_fb_on.png) no-repeat center center!important;
+    border: none!important;
+}
+
+
+  .share_poll_tim_social li {
+        padding-top: 5px!important;
+    }  
+
+.share_poll_tim_social li{        
+        padding: 0!important;
+    }
+
+@media screen and (min-width: 624px) {
+    .share_poll_tim_social li{
+        width: 45px!important;
+        float: left!important;        
+        padding: 0!important;
+    }
+    .share_poll_tim_social .poll_text_share{
+    width: 198px!important;
+}
+
+}

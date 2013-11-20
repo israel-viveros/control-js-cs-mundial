@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 /* Estilos generales */
-
+/* QA diseño */
 @media screen {
 	.video{
 		display: inline-block;
@@ -8,17 +8,13 @@
 		max-height: 445px;
 		margin-bottom: 36px;
 	}
-	.video .menu_video ul li input {
+	.video .menu_video ul li a {
 		font-family: "Trebuchet MS";
 		font-weight: bold;
 		font-size: 1.1em;
 		color: #bbd67e;
 		text-decoration: none;
 		border-left: 1px dotted #AAA;
-		border-right: none;
-		border-top: none;
-		border-bottom: none;
-		background-color:transparent;
 		line-height: 10px;
 		*line-height: 16px;
 		margin-top: 5px;
@@ -47,7 +43,7 @@
 		font-family: roboto_slabbold;
 		color: #00a9e0;
 	}
-	.video .menu_video ul li input.no-border {
+	.video .menu_video ul li a.no-border {
 		border: 0;
 	}
 	.video .videoWrapper{
@@ -58,8 +54,7 @@
 	}
 	.video .content_video{
 		display: block;
-		height:auto; 
-        min-height: 348px;
+		height: 348px;
 		width:624px;
 		overflow: hidden;
 		position: relative;
@@ -98,7 +93,6 @@
 	.video .overlay{
 		position:absolute;
 		bottom:0;
-        display: none;
 	}
 	.video a.btn_vid {
 		background-color: #86B519;
@@ -117,7 +111,7 @@
 	}
 	.video p.video_black {
 		display: block;
-		color: #000;
+		color: #232323;
 		padding-left: 5%;
 		padding-top: 3%;
 		font-style: italic;
@@ -138,16 +132,10 @@
 	 	*font-size: 12px;
 		font-size: 12px;
 	}
-    .video .video_nota {
-        display:block;
-        font-size:18px;
-        font-family: "Trebuchet MS";
-        color: #232323;
-        border-bottom: 1px dotted #AAAAAA;
-        padding-top:24px;
-        padding-right:24px;
-        padding-bottom:24px;
-    }	
+	.video .video_nota{
+		display:none;
+		width:624px;
+	}	
 	.video .img_stage_01_IMG{
 		width:100%
 	}
@@ -165,7 +153,6 @@
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 12px;
-		min-height: 0;
 	}
 	.video .titulo_video {
 		text-align: center;
@@ -175,6 +162,9 @@
 		font-size: 18px;
 		color: #00a9e0;
 		padding: 0 0 0 0;
+	}
+	.video iframe {
+		background-color: #F00;
 	}
 	.video .videoWrapper {
 		display:block;
@@ -193,16 +183,13 @@
 		height: auto;
 		width:100%;
 	}
-	.video .video_nota {
-		 display:none; 
-	}
 }
  
 /*Estilos Desktop-Tablet*/
 @media screen and (min-width: 624px) {
 	.video {
 		width: 624px;
-		min-height: 519px;
+		height: 555px;
 	}
 	.video img {
 		float: left;
@@ -220,6 +207,7 @@
 		padding: 20px 0 0 0;
 	}
 	.video iframe {
+		background-color: #F00;
 		margin-top: 24px;
 		width: 624px;
 		height: 351px;
@@ -237,7 +225,7 @@
 		float: left;
 		width: 314px;
 		*width:300px;
-		padding: 12px 0 0 14px;
+		padding: 10px 0 0 14px;
 	}
 	.video .menu_video ul {
 		height: 30px;
@@ -246,7 +234,7 @@
 	.video .menu_video ul li {
 		float: left;
 	}
-	.video .menu_video ul li input {
+	.video .menu_video ul li a {
 		float: left;
 	}
 	.video .video_black {
@@ -257,10 +245,10 @@
 		padding-top: 0;
 		padding-left: 0;
 		font-style: italic;
-		font-weight: bold;
-		font-size: 11px;
+		font-weight: bold;		
 	 	*font-size: 12px;
 		font-size: 12px;
+		color: #232323;
 	}
 	.video p.video_gray {
 		display: block;

@@ -1,5 +1,5 @@
 /*
-	Version: 3.1;
+	Version: 3.2;
 		Viveros
 */
 @charset "utf-8";
@@ -9,7 +9,9 @@
 	height: auto;
 	overflow: hidden;
 }
-
+#mailing{
+	width: 300px!important;
+}
 #mailing img{
  	margin: 0!important;
  }
@@ -143,6 +145,10 @@
 	}	
 	.encabezado{
 		margin-bottom: 10px;
+	}
+
+	#mailing{
+		width: 100%!important;
 	}
 }
 
