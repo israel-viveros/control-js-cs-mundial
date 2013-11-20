@@ -1,0 +1,145 @@
+/* Tablet y Desktop only */
+@media screen and (min-width: 624px) {
+    div.content {
+        min-width:624px;
+        max-width:948px;
+    }
+    div.content_large {
+        min-width:1250px;
+        max-width:948px;
+        text-align:left;
+        margin: 0 auto;
+    }
+    div.inner {
+        text-align:left;
+        width: 948px;
+        margin: 0 auto;
+    }
+    /*Oculta elemento en Desktop*/
+	.hide_desktop{
+		display: none;
+	}
+	.hide_mobile{
+		display: block;
+	}
+}
+
+/* Mobile only */
+@media screen and (max-width: 623px) {
+    div.content {width:100%;}
+    div.inner {
+        width: 100%;
+        margin: 0 auto;
+        text-align:left;
+    }
+    /*Oculta elemento en dispositivo movil*/
+	.hide_desktop{
+		display: block;
+	}
+	.hide_mobile{
+		display: none;
+	}
+}
+
+/* Mobile, Tablet y Desktop */
+body {background:#ededed;}
+body.inoficial {background:#FFF;}
+
+div.content {
+    margin:0 auto;
+    text-align:left;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'roboto_slabbold';
+    src: url('../fonts/RobotoSlab-Bold-webfont.eot');
+    src: url('../fonts/RobotoSlab-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoSlab-Bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoSlab-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Bold-webfont.svg#roboto_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Tipografia */
+h1,h2,h3,h4,h5,h6 {
+	font-family:'roboto_slabbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial;
+}
+
+/* Colores */
+.azul {color:#00a9e0;}
+.rojo {color:#ec008c;}
+.carmin {color:#d80228;}
+
+/* Overwrite or Estilos poara Bootstrap */
+
+.nav-tabs {
+	border-bottom:1px solid #dcdcdc;
+}
+.nav-tabs li {float:none;display:inline-block;}
+.nav-tabs > li > a {
+    margin:0;
+    padding:2px 0 0 18px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#dcdcdc;
+}
+.nav-tabs > li > a span {
+    background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical-gris.png) repeat-y 100% 0;
+    padding-right:16px;
+}
+.nav-tabs > li > a:hover {
+	color:#86b519;
+    border-bottom:2px solid #86b519;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #86b519;
+  cursor: default;
+  border-bottom: 2px solid #86b519;
+}
+/* Dotted lines */
+.dotted-left{
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical-gris.png) repeat-y left !important;
+}
+.dotted-right{
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical-gris.png) repeat-y right !important;
+}
+.dotted-top{
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal-gris.png) repeat-x top !important;
+}
+.dotted-bottom{
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal-gris.png) repeat-x  bottom !important;
+}
+.dotted-right-white{
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical.png) repeat-y right !important;
+}
+
+/* Mensaje de actualizaci—n de Navegador */
+
+#noexplore {
+    background-color: #888;
+    z-index: 10000;
+    width: 100%;
+    line-height: 50px;
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+}
+#noexplore #close{
+	display:inline;
+	margin-left:15px;
+	color: #000;
+   	text-decoration: none
+}

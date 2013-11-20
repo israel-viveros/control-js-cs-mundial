@@ -1,0 +1,76 @@
+div.countdown {
+	position:relative;
+	width:300px;
+	height:150px;
+	display:block;
+}
+
+div.countdown span.falta,
+div.countdown span.inicio{
+	color:#d80228;
+	font-family:'Trebuchet MS',Arial;
+	font-size:16px;
+	font-weight:bold;
+	position:absolute;
+}
+div.countdown span.falta {top:20px;left:25px;}
+div.countdown span.inicio {right:8px;bottom:1px;}
+
+div.countdown div.wrapper div.countdown_row {
+	left:9px;
+	top:57px;
+	width:280px;
+	height:60px;
+	position:absolute;
+	display:block;
+	color:#FFF;
+}
+div.countdown div.wrapper div.countdown_row div {
+	float:left;
+	display:block;
+	height:60px;
+	width:68px;
+	position:relative;
+	text-align:center;
+	margin-left:1px;
+}
+div.countdown div.wrapper div span {color:#FFF;}
+div.countdown div.wrapper div.countdown_row div span.time {
+    font-weight:bold;
+    font-size:22px;
+    font-family:'Trebuchet MS',Arial;
+    width:65px;
+    display:inline-block;
+    margin-left:-4px;
+    top:-1px;
+    
+}
+div.countdown_row div:last-child {
+	border:none;
+}
+div.countdown div.wrapper div.countdown_row div span.last {
+	margin-left:6px;
+}
+div.countdown div.wrapper div.countdown_row div span.label  {
+	font-family:'Trebuchet MS Regular',Arial;
+	font-weight:normal;
+	font-size:13px;
+	bottom:9px;
+	left:1px;
+	width:65px;
+	position:absolute;
+}
+div.countdown div.wrapper div.countdown_row div span.label_seg  {
+	
+}
+@media screen and  (min-width:624px) {
+	div.countdown {
+		margin-bottom:36px;
+	}
+}
+
+@media screen and  (max-width:623px) {
+div.countdown {
+		margin:0 auto 12px;
+	}
+}

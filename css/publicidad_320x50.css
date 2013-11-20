@@ -1,0 +1,19 @@
+/* Mobile only */
+@media screen and (max-width: 623px) {
+    div.div_320x50 {
+        width:100%;
+        margin-bottom:36px;
+    }
+    .publicidad_320x50{
+        width:320px;
+        height:50px;
+        margin:auto;
+        display: block;
+    }
+}
+/* Desktop Tablet only */
+@media screen and (min-width: 624px) {
+    div.div_320x50 {
+		display:none;
+    }
+}

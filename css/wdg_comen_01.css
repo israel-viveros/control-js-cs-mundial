@@ -1,0 +1,389 @@
+@media screen { 
+    .wdg_comen_01{
+        padding: 0;
+        max-width:623px;
+        font-size:13px;
+        margin-bottom: 20px;
+        width:100%;
+        margin-right:0px;
+        overflow: hidden;
+        background:#FFF;
+    }  
+    .wdg_comen_01 hr{
+        margin-top:25px;
+        margin-bottom: 0;
+    }
+     /*BEGIN: Estilo de la Pleca*/
+    .wdg_comen_01 .str_pleca_01 {
+        display: block;
+        margin-bottom: 24px;
+        overflow: hidden;
+        width: 100%;                
+    } 
+    .wdg_comen_01 .papa{
+        display:block;
+        width:100%;
+        float:left;
+    }
+    .wdg_comen_01 .hijo1{
+        float:left;
+        width:150px;
+        height:30px;
+        padding-left: 4px;
+    }
+    .wdg_comen_01 .line{
+        float:left;
+        width:auto;
+        height:30px;
+    }
+    .wdg_comen_01 .str_pleca_01 .papa a {
+        text-decoration: none;
+        font-family: 'roboto_slabbold';
+        font-size: 24px;
+    }
+    .wdg_comen_01 .str_pleca_01 .papa div.hijo1 {
+        display: inline;
+        float: left;
+        height: 26px;
+        width: 150px;       
+    }
+    .wdg_comen_01 .str_pleca_01 ul li.line {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        float:left;
+        display:block;      
+    }
+    /*END: Estilo de la Pleca*/
+    .wdg_comen_01 .wdg_comen_01_form{
+        display: none;      
+    }  
+    .wdg_comen_01 .twitter{
+        color:#0676CC;
+    }
+    .wdg_comen_01 .facebook{
+        color:#3B5995;
+    }
+    .wdg_comen_01 .tvsa-success{
+        color:#8AB71E;
+    }
+    .wdg_comen_01 .line_aviso{
+        color:#8AB71E;
+        font-style:italic;
+    }
+    .wdg_comen_01 .nav_paginator_01{
+        display:none;
+    }
+   .wdg_comen_01 label {
+        font-style:italic;
+        padding: 6px;
+        color:#666;
+        font-size:14px;
+        display:block;
+    }
+    .wdg_comen_01 input.text,
+    .wdg_comen_01 textarea {
+        border: 1px solid #CCC;
+        color:#999;
+        display:block;
+        font-size:12px;
+        max-width: 96%;        
+        margin: 0 0 3px 6px;
+        padding:12px;
+        width:90%;
+    }
+    .wdg_comen_01 textarea.comentArea{
+        height: 35px;
+    }    
+    .wdg_comen_01 textarea{
+        font-size: 19px;
+    }
+    .wdg_comen_01 .wdg_comen_aviso{
+        color:#8f8f8f;
+        display:block;
+        font-size: 10px;
+        font-style:italic;
+        line-height:12px;
+        padding: 4px;
+    }
+    .wdg_comen_01 .wdg_comen_line{
+        border-top: 1px solid #CCC;
+        margin-top: 7px;
+        overflow: hidden;
+    }
+    .wdg_comen_01 .wdg_comen_btn {
+        width: 112px !important;
+        margin: 0 0 8px 0;
+        float: right;
+        padding-right:10px;        
+        background-color:#8AB71E;
+        cursor:pointer;
+        color:#FFF !important;
+        font-size:13px !important;
+        font-weight:normal;
+        font-style:italic;
+        border:none !important;
+        height:40px
+    }    
+    .wdg_comen_01 .wdg_comen_fb_tw{        
+        margin-left:6px;
+        margin-bottom:10px;
+        font-style:italic;
+        color:#666;
+        font-size:12px;
+    }
+    .wdg_comen_01 .wdg_comen_fb_tw .socialMedia{
+        float: right;
+        margin-right: 19px;
+    }
+    .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook{
+        display: inline-block;              
+        position:relative; 
+        vertical-align: top;    
+    }
+    .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook .colorIconFacebook{
+        background-color: transparent;
+        border-radius: 6px;
+        height: 13px;       
+        margin-top: 4px;
+        position: absolute; 
+        width: 14px; 
+    }
+    .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook .colorIconFacebook .facebook{
+        margin: -2px;    
+        position: absolute;
+    }
+    .wdg_comen_01 .wdg_comen_radio{
+        display:inline;
+    }    
+    .wdg_comen_01 .wdg_comen_01_comments {
+        display: block;
+        height: 354px;
+        margin: 0 12px;
+        margin-bottom: 10px;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-right: 12px;        
+        position: relative;
+        width: 98%;
+        /*border-top:1px solid #ccc;*/
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li{
+        display:inline-block;
+        height: auto;
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal-gris.png) repeat-x top;
+        float: none;
+        padding-right:12px;
+        padding-top: 10px;
+    }   
+    .wdg_comen_01 .wdg_comen_01_comments ul li:first-child{
+        background: none;       
+        padding-top: 0px;
+    }
+   .wdg_comen_01 .wdg_comen_01_comments li.top {
+         border-top:none;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_img {
+        float: left;
+        width: 50px;
+        height: 77px;
+        margin-left: 8px;
+        margin-top: 15px;
+        margin-right: 10px;
+        clear:both;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .default_social_img {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment {
+        height: auto;
+        margin-right: 10px;
+        margin-top: 13px;
+        margin-bottom: 8px;
+        margin-left: 60px;
+        width: auto;
+        display: block;
+        position: relative;
+    }   
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .media_user {
+        display:block;
+        font-size: 14px;
+        font-style: italic;
+        color: #FED0EE;
+        font-size:16px;
+        font-weight: bold;
+    }       
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .comment_time {
+        font-size: 12px;
+        color: #8f8f8f;
+        text-decoration: none;
+        font-weight: normal;
+        margin-left: 0px;
+        display: inline;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:last-child {
+        font-size: 14px;
+        margin-top: 0px;
+        color:#232323;
+        padding-left: 8px;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment ul {
+        float: left;
+        margin-top: 16px;
+        border: none;
+        height: auto;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment ul li {
+        float: left;
+        font-size: 10px;
+        list-style-type: none;
+        border: none;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments ul li{
+        display:none;
+        padding-top:2px;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments ul li:nth-child(n+1) {
+        display:block;
+    }    
+    .wdg_comen_01 .answericon{
+        float: right;
+        position: absolute;
+        margin-left: 34px;
+        margin-top: 33px;
+    }
+    .wdg_comen_01 .wdg_comen_fb_tw i{
+        font-size:17px;
+        position: relative;
+    }
+    .wdg_comen_01 .degraded{
+        position: relative;
+        bottom: 22px;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+        .wdg_comen_01 input.text, .wdg_comen_01 textarea{
+            max-width: 88%;
+            width:88%;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+        .wdg_comen_01 input.text, .wdg_comen_01 textarea{
+            max-width: 92%;
+            width:92%;
+    }
+}
+
+@media screen and (min-width: 624px){
+    .wdg_comen_01{
+        margin-bottom: 27px;
+        margin-top: -7px;
+    }
+    .wdg_comen_01 .hijo1{       
+        padding-left: 0;
+    } 
+    
+    .wdg_comen_01 label {
+        padding: 6px 6px 9px 0px;
+    }
+    .wdg_comen_01 input.text,
+    .wdg_comen_01 textarea{
+        padding:7px;            
+        margin: 0px 0px 14px 0px;
+        max-width: 97%;
+        width: 97%;
+    }  
+    .wdg_comen_01 .wdg_comen_fb_tw{
+        float: right;
+        margin-top: -23px;
+        width: 240px;
+    } 
+    
+    .wdg_comen_01 .wdg_comen_01_form{
+        display: block;
+        width: 565px;
+    }     
+    .wdg_comen_01 textarea.comentArea{
+        height: 55px;
+        margin: 0;
+    }     
+     .wdg_comen_01 .wdg_comen_aviso{      
+        padding:2px 0 0 0;      
+    }  
+    .wdg_comen_01 .wdg_comen_line{
+        margin-top: 0;
+        padding-top:4px;
+    }
+    .wdg_comen_01 .wdg_comen_btn{
+        height: 32px;
+        margin-bottom:20px;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments{
+        margin: 0;
+        height: auto;
+        width:565px;
+        border-top: none;
+        overflow: hidden;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_img{
+        margin-left: 0;
+    }
+    .wdg_comen_01 .degraded{
+        display: none;
+    }
+    .wdg_comen_01 .nav_paginator_01{
+        display:block;
+        width: 565px;
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .media_user{
+        display: inline-block;      
+    }
+    .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .comment_time{
+        margin-left: 8px;
+    }
+    /*Estilo Internet Explorer*/
+    .ie7 .wdg_comen_01 .wdg_comen_fb_tw{
+        width: 235px;
+    } 
+    .ie7 .wdg_comen_01 .wdg_comen_fb_tw .socialMedia{
+        /*margin-right: 10px*/
+    }
+    .wdg_comen_01 .str_pleca_01 ul li {
+        width: 26%;     
+    }
+    .wdg_comen_01 .str_pleca_01 ul li.line {
+        width: 74%;     
+    }
+}
+
+@media screen and (min-width: 948px){
+
+    .ie7 .wdg_comen_01 .wdg_comen_fb_tw {
+        width: 250px;
+        height: 20px;
+        overflow: hidden;
+    }
+    .ie7 .wdg_comen_01 .wdg_comen_fb_tw .socialMedia{
+        width: 100px;
+        display: inline;
+        margin-top: -20px;
+    }
+    .ie7 .wdg_comen_01 .wdg_comen_fb_tw .socialMedia .iconFacebook{
+        width: 25px;
+        display: inline;
+    }
+    .ie7 .nav_paginator_01 ul{
+        margin-top: 17px;
+    }   
+    .ie7 .nav_paginator_01 ul li a{           
+        line-height: 20px;
+        height: 20px;
+    }   
+}

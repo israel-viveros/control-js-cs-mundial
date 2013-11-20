@@ -1,0 +1,69 @@
+@media screen{
+	
+/*Paginacion*/
+.nav_paginator_01{
+    border-top: none;
+    clear: both;
+	overflow: hidden;
+	text-align:right;
+	width:100%;
+}
+
+.nav_paginator_01 ul{
+	padding-top:5px;
+	margin-right: 15px;
+}
+
+.nav_paginator_01 ul li{
+    border:none;
+    display:inline;
+    font-style:italic;
+}
+.nav_paginator_01 ul li a{
+    font-size: 10pt;
+    font-weight: bold !important;
+    padding: 0 5px 0 10px;
+    line-height: 36px;
+    height: 36px;
+    display: inline-block;
+	text-decoration:none;
+	color:#000;
+}
+.nav_paginator_01 ul li a i {
+	padding:0 8px;
+	
+}
+.ie7 .nav_paginator_01 ul li.nav2{
+    width: 15px;
+}
+.nav_paginator_01 ul li a{
+	color:#FD94D9;
+}
+.nav_paginator_01 ul li.dotted-right a{
+	color:#000;
+}
+.nav_paginator_01 ul li.dotted-left a{
+	color:#000;
+}
+.nav_paginator_01 ul li .selected{
+    color:#00A9E0;
+    font-size: 10pt;
+}
+.nav_paginator_01 ul li.dotted-left{
+	margin-right: 2px;
+}
+.nav_paginator_01 ul li.dotted-left a{
+    padding: 0;
+    font-size: 13pt;
+    margin-right: -15px;
+    padding-left: 6px;
+}
+.nav_paginator_01 ul li.dotted-right a{
+    font-size: 13pt;
+}
+.nav_paginator_01 ul li.suspension_points{
+    margin: -7px;
+}
+
+}
+

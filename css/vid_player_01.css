@@ -1,0 +1,421 @@
+@media screen {
+    /*BEGIN: vid_player_01 (Small)*/
+	.vid_player_01{
+		height: auto;
+		margin-bottom:10px;
+	}	
+	.vid_player_01 .theaterContainer,
+	.vid_player_01 .companionBanner,
+	.vid_player_01 .companionBanner{
+		display:none;
+		margin:0px;
+	}
+	.vid_player_01 .contenedor{
+		margin:0px !important;
+	}
+	.vid_player_01 .izq_vid{
+		float:left;
+	}
+	.vid_player_01 .videoLink{
+		border: 0pt none; 
+		padding: 0pt; 
+		position: absolute; 
+		z-index: 10001; 
+		display:none;
+	}
+	.vid_player_01 a{
+		text-decoration:none;
+	}	
+	 .vid_player_01 .overlay {
+        background-color: rgba(255, 255, 255, .75);
+        display: block;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);
+        margin-bottom: 0px;
+        margin-left: 24px;
+        padding: 7px 15px 20px;
+        position: static;
+    }
+    .vid_player_01 .txt1 h2{
+        font-size:16px;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+    .vid_player_01 .txt1 p{
+        font-size:12px;
+        line-height: 12px;
+    }
+	.vid_player_01 .vid_player_01_txtdetail{
+        color: #a2a2a2;
+        font-style: italic;
+        font-size: 10px;
+    }
+    /*Fondo blanco*/
+    .vid_player_01 .overlay .txt1 .introtxt,
+	.vid_player_01 .overlay .txt2 {
+        display:none;
+    }
+    .vid_player_01 .vid_player_01_image{
+        background-image:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/ajax-loader.gif);
+        background-position:center center;
+        background-repeat:no-repeat;
+    }
+    /* Overlay blanco */
+    .vid_player_01 div.vid_player_01_whtbkg {
+        background-color: rgba(255, 255, 255, .85);
+        display: block;
+        height:70px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#85FFFFFF,endColorstr=#85FFFFFF);
+        margin-left: 24px;
+        margin-top: 0px;
+        padding:1px 15px;
+        position: relative;
+    }	
+	.ie7 .vid_player_01 div.vid_player_01_whtbkg,
+	.ie8 .vid_player_01 div.vid_player_01_whtbkg,
+	.vid_player_01  .videobtn {
+		z-index: 1000 !important;
+	}
+	.ie7 .vid_player_01 .overlay{
+		z-index: 2000 !important;
+	}
+    /* Texto del Overlay */
+    .vid_player_01 .vid_player_01_black {
+       	color: #000;
+       	display: block;
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 40px;
+        margin-top: 16px;
+    }
+    .vid_player_01 div.vid_player_01_image img{
+		max-height:380px;
+        width: 100%;
+    }
+    .vid_player_01 .vid_player_01_gray {
+        color: #666666;
+        font-weight: bold;
+    }
+    /* SPRITES */
+    .vid_player_01  .videobtn {
+        background-color: #86B519;
+        color: #fff;
+        display: block;        
+        height: 28px;
+        left: 24px;
+        line-height: 24px; 
+        margin-right: 40px;
+        margin-top: -98px;
+		opacity:0.70;
+        position: relative;
+        text-align: center;
+        width: 28px;
+		line-height:28px;		
+    }     
+    .vid_player_01 .txt3{
+        float:none;
+		margin-top:10px;
+		overflow: hidden;
+        padding-top:13px;
+        width:auto;		
+    }	
+	.vid_player_01 .wdg_social_01 .social-icons li.social_icon:first-child{
+        width:70px;
+    }
+    .vid_player_01 .wdg_social_01 .social-icons ul{
+        float: left;
+        height: 77px;
+        margin-bottom: 0;
+        padding: 0;
+        width: 290px;
+    }
+    .vid_player_01 .wdg_social_01 .social-icons li.social_icon {
+        background: none !important;
+        display: inline;
+        float: left;        
+        height: 30px;
+        padding-left: 0 !important;
+        text-align: center;
+        width: 50px;
+    }
+	 .vid_player_01 .txt3{
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal.png) repeat-x top;
+    }
+}
+
+@media screen and (min-width: 624px){
+
+	/*Contenedor*/
+    .vid_player_01{
+        background-color: transparent;
+        margin-bottom: 36px;        
+        position: relative;
+        width: 625px;
+    }
+    .vid_player_01 .txt1 h2{
+        font-weight:bold;
+        font-size:22px;
+        margin-bottom:5px;
+    }
+	  .vid_player_01 .txt1 p{        
+        line-height: 15px;
+    }
+    /*Modulo Texto inferior*/
+	.vid_player_01 .overlay .txt1 .introtxt,
+	.vid_player_01 .overlay .txt2 {
+        display:block;
+    }
+    .vid_player_01 .overlay .txt2 {
+    	margin-top:10px;
+    }
+    .vid_player_01 .txt1{
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical.png) repeat-y right;        
+        float: left;
+        height: auto;
+        margin-right: 10px;
+        padding-right: 10px;
+        width: 232px;
+		margin-top: 10px;
+    }
+    .vid_player_01 .txt2 a {
+        color:#999;
+        font-size: 13px;
+		font-style: italic;
+		font-weight: normal;
+    } 
+    .vid_player_01 .txt2{       
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal.png) repeat-x bottom;
+        margin-bottom:10px;
+        color:#999;
+        font-size: 13px;
+		font-style: italic;
+		font-weight: normal;
+		padding-bottom: 27px;
+    }	
+	.vid_player_01 .txt3{
+        background: none;
+		margin-top:0;
+    }
+    .vid_player_01 .overlay {    
+        padding: 7px 16px 9px 35px;
+		position: relative;
+    }
+    .ie8 .vid_player_01 .txt2{
+        margin-bottom: 0px;
+    }
+    .vid_player_01 .txt2,
+    .vid_player_01 .txt3{
+        float:right;
+        padding:-15px;
+        width:280px;
+    }
+    .vid_player_01 .txt2 h3{
+        font-size:14px;
+        font-style:italic;
+        font-weight:bold;
+    }
+	.vid_player_01 .txt2 h4{
+        margin-bottom: 27px;
+    }
+    .vid_player_01 .txt2 h4, 
+    .vid_player_01 .txt3{
+        color:#999;
+        font-size:13px;
+        font-style:italic;
+        font-weight:normal;
+    }
+    .vid_player_01 .txt3 li{
+        margin-left:0px !important;
+    }
+    .vid_player_01 #vid_player_01_txts{
+        display: inline-block;
+        height: auto;
+        padding-top: 2px;
+        position: relative;
+    }    
+    /* Texto del Overlay */
+    .vid_player_01 .vid_player_01_black {
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    .vid_player_01 .vid_player_01_gray {
+        color: #666666;
+        display: block;
+        font-size: 12px;
+        *font-size: 12px;
+        font-style: italic;
+        font-weight: bold;        
+        left: 60px;
+        margin-right: 40px;
+        top: 320px;
+    }	
+    .vid_player_01 div.vid_player_01_image{
+        display: block;
+		height: 358px;
+		position: relative;
+		width: 624px;
+    }
+    .vid_player_01 div.vid_player_01_image img{
+        height:351px;
+        width: 624px;
+    }
+    .vid_player_01 .vid_player_01_txtdetail.topspace{
+        margin-top: 10px;
+    }
+	.vid_player_01 div.vid_player_01_whtbkg {
+		height:44px;	
+        padding:10px 36px;	
+    }
+
+}
+
+@media screen and (min-width: 624px){
+
+	/*Contenedor*/
+    .vid_player_01{
+        background-color: transparent;
+        margin-bottom: 36px;        
+        position: relative;
+        width: 625px;
+    }
+    .vid_player_01 .txt1 h2{
+        font-weight:bold;
+        font-size:22px;
+        margin-bottom:5px;
+    }
+	  .vid_player_01 .txt1 p{        
+        line-height: 15px;
+    }
+    /*Modulo Texto inferior*/
+	.vid_player_01 .overlay .txt1 .introtxt,
+	.vid_player_01 .overlay .txt2 {
+        display:block;
+    }
+    .vid_player_01 .overlay .txt2 {
+    	margin-top:10px;
+    }
+    .vid_player_01 .txt1{
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical.png) repeat-y right;        
+        float: left;
+        height: auto;
+        margin-right: 10px;
+        padding-right: 10px;
+        width: 232px;
+		margin-top: 10px;
+    }
+    .vid_player_01 .txt2 a {
+        color:#999;
+        font-size: 13px;
+		font-style: italic;
+		font-weight: normal;
+    } 
+    .vid_player_01 .txt2{       
+        background: url(../img/dotted-horizontal.png) repeat-x bottom;
+        margin-bottom:10px;
+        color:#999;
+        font-size: 13px;
+		font-style: italic;
+		font-weight: normal;
+		padding-bottom: 27px;
+    }	
+	.vid_player_01 .txt3{
+        background: none;
+		margin-top:0;
+    }
+    .vid_player_01 .overlay {    
+        padding: 7px 16px 9px 35px;
+		position: relative;
+    }
+    .ie8 .vid_player_01 .txt2{
+        margin-bottom: 0px;
+    }
+    .vid_player_01 .txt2,
+    .vid_player_01 .txt3{
+        float:right;
+        padding:-15px;
+        width:280px;
+    }
+    .vid_player_01 .txt2 h3{
+        font-size:14px;
+        font-style:italic;
+        font-weight:bold;
+    }
+	.vid_player_01 .txt2 h4{
+        margin-bottom: 27px;
+    }
+    .vid_player_01 .txt2 h4, 
+    .vid_player_01 .txt3{
+        color:#999;
+        font-size:13px;
+        font-style:italic;
+        font-weight:normal;
+    }
+    .vid_player_01 .txt3 li{
+        margin-left:0px !important;
+    }
+    .vid_player_01 #vid_player_01_txts{
+        display: inline-block;
+        height: auto;
+        padding-top: 2px;
+        position: relative;
+    }    
+    /* Texto del Overlay */
+    .vid_player_01 .vid_player_01_black {
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    .vid_player_01 .vid_player_01_gray {
+        color: #666666;
+        display: block;
+        font-size: 12px;
+        *font-size: 12px;
+        font-style: italic;
+        font-weight: bold;        
+        left: 60px;
+        margin-right: 40px;
+        top: 320px;
+    }	
+    .vid_player_01 div.vid_player_01_image{
+        display: block;
+		height: 358px;
+		position: relative;
+		width: 624px;
+    }
+    .vid_player_01 div.vid_player_01_image img{
+        height:351px;
+        width: 624px;
+    }
+    .vid_player_01 .vid_player_01_txtdetail.topspace{
+        margin-top: 10px;
+    }
+	.vid_player_01 div.vid_player_01_whtbkg {
+		min-height:63px;	
+        padding:10px 36px;
+		*padding-left:24px;
+		*paddin-right:24px;
+		*padding-top:0;
+		*padding-bottom:0;	
+    }
+
+}
+
+@media screen and (min-width: 948px){
+    .vid_player_01 .vid_player_01_whtbkg{
+        z-index: 1500!important;
+    }    
+    .ie8.vid_player_01 .vid_player_01_whtbkg{
+        z-index: 1500!important;
+    }
+    .ie7.vid_player_01 .vid_player_01_whtbkg{
+        z-index: 1500!important;
+    }
+}

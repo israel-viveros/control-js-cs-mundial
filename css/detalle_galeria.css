@@ -1,0 +1,521 @@
+/*  191113 */
+/*BEGIN: img_galry_02 / desktop*/
+@media screen and (min-width: 624px) { /*Version Desktop*/	
+
+	div.img_galry_02 .container-left{
+		float: left;
+	}
+	div.img_galry_02 .container-right{
+		float: right;
+		width: 326px;
+	}
+	div.img_galry_02 {
+		margin-bottom: 24px;
+		position: relative;
+		overflow: hidden;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 5px;
+	}
+	
+	div.img_galry_02 .image-container {
+		position: relative;
+	}
+	div.img_galry_02 .lnk_twitter{
+		margin-left: 24px;
+		visibility: hidden;
+	}
+	div.img_galry_02 .lnk_facebook {
+		margin-left: 53px;
+		visibility: hidden;
+	}
+	div.img_galry_02 .pin-it-button {
+		margin-left: 82px;
+		visibility: hidden;
+	}
+	
+	/*Controles Play/Pause */
+	div.img_galry_02  .image-container .controls .pause_mov,
+	div.img_galry_02  .image-container .controls .camera {
+		visibility: hidden;
+		left: 0px !important;
+	}	
+	
+	div.img_galry_02 .tvsa-double-caret-left {
+		color: #BABABA;
+	}
+		
+	div.img_galry_02 .my {
+		width: 0px;
+	}
+	
+	.img_galry_02 .image-container:hover a.td_bg {
+		display: block;
+	}
+	
+	div.img_galry_02 .overlay {
+		background-color: rgba(255, 255, 255, .75);
+		position: absolute;
+		width: 886px;
+		bottom: 0;
+		left: 24px;
+		filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr= #65FFFFFF, endColorstr =   #75FFFFFF );
+		height: 65px;
+	}
+	
+	div.img_galry_02 .overlay p {
+		padding: 18px 40px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	
+	div.img_galry_02 .overlay2 {
+		background-color: transparent;
+		display: block;
+		position: relative;
+		margin-top: 0px;
+		padding: 0px;
+		margin-left: 0px;
+	}
+	
+	div.img_galry_02 a.td_bg i {
+		color: #FFF;
+		line-height: 24px
+	}
+	
+	div.img_galry_02 a.td_bg {
+		/*background-color: rgb(143, 143, 143) !important;*/
+		background-color:#86b519;
+		opacity: .70;
+		color: #FFF;
+		display: block;
+		height: 26px;
+		line-height: 26px;
+		margin-right: 1px;
+		position: absolute;
+		text-align: center;
+		text-decoration: none;
+		top: 0;
+		width: 28px;
+	}
+	
+	div.img_galry_02 div.overlay div.controls {
+		position: relative;
+		top: -26px;
+	}
+	
+	div.img_galry_02 div.controls a.play {
+		left: 0;
+	}
+
+	/* CARRUSEL  1 */
+	div.img_galry_02 div.carrusel1 {
+		text-align: center;
+		margin: 0 20px;
+		padding-bottom: 10px;
+	}
+	div.img_galry_02 ul.ulcarrusel li {
+		float: left;
+		margin: 0 0 0 14px;
+		position: relative;
+	}
+	div.img_galry_02 ul.ulcarrusel li a.active span.border,div.img_galry_02 ul.ulcarrusel li a:hover span.border
+		{
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: inline-block;
+		width: 66px;
+		height: 37px;
+		border: 3px solid #86b519;
+	}
+	/* Flechas de navegacion de carruseles */
+	div.img_galry_02 div.gallery-controls {
+		position: relative;
+		padding-top: 10px;
+		margin-left: 25px;
+		width: 884px;
+	}
+	div.img_galry_02 .carrusel1 .arrowLeft,div.img_galry_02 .carrusel1 .arrowRight
+		{
+		font-size: 16px;
+		position: absolute;
+		top: 0;
+		width: 76px;
+		height: 60px;
+		display: block;
+		text-align: center;
+		vertical-align: middle;
+	}
+	div.img_galry_02 .carrusel1 .arrowLeft a,div.img_galry_02 .carrusel1 .arrowRight a
+		{
+		width: 76px;
+		height: 60px;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		vertical-align: middle;
+		line-height: 53px;
+		padding-left: 10px;
+	}
+	div.img_galry_02 .carrusel1 .arrowLeft {
+		left: 0;
+	}
+	div.img_galry_02 .carrusel1 .arrowRight {
+		right: 0;
+	}
+	div.img_galry_02 .carrusel1 {
+		padding: 0 45px;
+	}
+
+	div.img_galry_02 .type1a .carruselcontainer .ulcarrusel {
+		float: none;
+		margin: auto;		
+	}
+	
+	div.img_galry_02 .type1a .arrows,div.img_galry_02 .type1a .arrowRight {
+		display: inline;
+	}
+	
+	div.img_galry_02 a.image span.icon {
+		display: none;
+	}
+	
+	div.img_galry_02 .type1a .ulcarrusel li {
+		overflow: hidden;
+		padding: 0px;
+	}
+	
+	div.img_galry_02 .type1a .carruselcontainer {
+		margin: 0 auto;		
+		width: 775px;
+		overflow: hidden;
+		*position:relative;
+	}
+	div.img_galry_02 .type1a .arrowLeft,
+	div.img_galry_02 .type1a .arrowRight{
+		display: inline;
+	}
+	div.img_galry_02 .type1a #carrusel2_ul li a img {
+		background-color: #666666;
+		margin-bottom: 13px !important;
+	}
+	div.img_galry_02 .type1a .carruselcontainer ul li .gal_desc {
+		font-size: 13px;
+		margin-top: 0;
+		width: 100%;
+		float: left;
+		font-size: 13px;
+		width: 100%;
+		min-height: 57px;
+		border-left: none;
+		padding: 0px;
+	}
+	div.img_galry_02 .type1a .carruselcontainer ul:after {
+		clear: both;
+	}
+	div.img_galry_02 .type1a .carruselcontainer ul:before,
+	div.img_galry_02 .type1a .carruselcontainer ul:after{
+		content: "";
+		display: table;
+	}
+	div.img_galry_02 .type1a div.title ul li a {
+		display: block;
+	}
+	div.img_galry_02 .type1a ul {
+		margin: 25px 0 auto;
+	}
+	.img_galry_02 .carrusel2 .arrowLeft a,
+	.img_galry_02 .carrusel2 .arrowRight a {
+		width: 76px;
+		height: 60px;
+		display: block;
+		text-align: center;
+		vertical-align: top;
+	}
+	div.img_galry_02 .carrusel1 ul li {
+		display: inline-block;
+		margin: 0 12px 0 0;
+		padding: 0;
+		float: left;
+		position: relative;
+	}
+	div.img_galry_02 .carrusel2 ul li {
+		display: inline-block;
+		margin: 0 22px 0 0;
+		padding: 0;
+		float: left;
+		position: relative;
+		width: 137px;
+	}
+	div.img_galry_02 a.album {
+		position: relative;
+		float: left;
+	}
+	div.img_galry_02 a.image span.title {
+		display: none;
+	}
+	div.img_galry_02 a.album:focus span.overlay,
+	div.img_galry_02 a.album.active span.overlay {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgba(167, 10, 11, .6);
+		border: 0;
+		width: 137px;
+		height: 105px;
+		display: block;
+		text-align: center;
+		vertical-align: -10px;
+		color: #FFF;
+	}
+	div.img_galry_02 a.album span.overlay {
+		display: none;
+	}
+	div.img_galry_02 a.album span.description {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	div.img_galry_02 a.album span.description span {
+		display: block;
+	}
+	div.img_galry_02 a.album span.description span.title {
+		padding-bottom: 24px;
+	}
+	div.img_galry_02 span.loading {
+		color: #FFF;
+		background: rgba(0, 0, 0, 0.6);
+		position: absolute;
+		top: 50%;
+		border-radius: 10px;
+		width: 75px;
+		height: 75px;
+		margin-left: -37px;
+		margin-top: -45px;
+		display: block;
+		text-align: center;
+		left: 50%;
+	}
+	/* vertical center */
+	div.img_galry_02 span.loading i {
+		line-height: 65px;
+	}
+	div.img_galry_02  a.album:hover span.overlay {
+		width: 131px;
+		height: 99px;
+		background: transparent none;
+		border: 3px solid #A70A0B;
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	div.img_galry_02  a.album:hover span.overlay i {
+		display: none;
+	}
+	div.img_galry_02 a.image {
+		display: block;
+		height: 37px;
+		position: relative;
+		width: 66px;
+	}
+	div.img_galry_02 a.image img {
+		display: block;
+		height: auto;
+		position: absolute;
+		top: -7px;
+		width: 66px;
+	}
+	div.img_galry_02 .mainimage {
+		width: 910px !important;
+		height: 656px !important ;
+	}
+	div.img_galry_02 div.image-container {
+		position: relative;
+	}
+	div.img_galry_02 div.image-container .controls {
+		position: absolute;
+		left: 24px;
+		bottom: 91px !important;
+	}
+	
+/************************************************************/	
+/***** Estilos para los navegadores: ie7 / ie8 *****/
+/************************************************************/	
+	.ie7 div.img_galry_02 .overlay2,.ie8 div.img_galry_02 .overlay2 {
+		background-color: rgba(255, 255, 255, 0);		
+		display: block;		
+		margin-left: 0px;
+		margin-top: -72px;
+		padding: 0px;
+		margin-bottom: 24px;
+		position: relative;
+		filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr= #00FFFFFF, endColorstr =   #00FFFFFF );
+	}
+	
+	.ie7 div.img_galry_02 .overlay {
+		background-color: #FFFFFF;
+		margin-top: -75px;
+		position: relative;
+		filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr =   #65FFFFFF, endColorstr =   #75FFFFFF );
+	}
+	
+	.ie8 div.img_galry_02 .overlay {
+		z-index: 2000 !important;
+		margin-top: -75px;
+		padding: 20px 35px 0 35px;
+	}
+	
+	.ie8 .img_galry_02 .type1a .carruselcontainer .ulcarrusel {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+		
+	.ie8 div.img_galry_02 div.image-container {
+		position: relative;
+	}
+	
+	.ie8 div.img_galry_02 div.image-container .overlay {
+		left: 24px !important;
+		height: 50px;
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+	
+	.ie8 div.img_galry_02 div.image-container .controls {
+		position: absolute;
+		left: 24px;
+		bottom: 90px !important;
+	}
+	
+	.ie8 div.img_galry_01 div.image-container .overlay p {
+		padding-top: 0px !important;
+		padding-left: 0px !important;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt1 h3 {
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt1 {
+		height: 350px;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt1 p {
+		display: block;
+		font-size: 12px;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt1, .right_p #img_fotogalfull_01_sideBar .txt2, .right_p #img_fotogalfull_01_sideBar .txt3 {
+		float: none;
+		width: 300px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt2 {
+		margin-bottom: 20px;
+		padding-bottom: 40px;
+		display: block;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt2 h3 {
+		color: #00a9e0;
+		font-size: 13px;
+		font-style: italic;
+		font-weight: bold;
+		margin-top: 0;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt2 h4, .img_fotogalfull_01 #img_fotogalfull_01_sideBar .txt3 {
+		color: #ec008c;
+		font-size: 13px;
+		font-style: italic;
+		font-weight: normal;
+		border-bottom: 0;
+	}
+
+
+}
+/*END:img_galry_02 / desktop*/
+
+/*BEGIN: img_galry_02 / mobile*/
+@media screen and (max-width:623px) {
+	div.img_galry_02,div.img_galry_02 .mainimage {
+		width: 100%;
+		height: auto;
+	}
+	div.img_galry_02 {
+		margin-bottom: 12px;
+	}
+	div.img_galry_02 div.gallery-controls {
+		display: none;
+	}
+	div.img_galry_02  .image-container .controls .pause_mov,div.img_galry_02  .image-container .controls .play
+		{
+		display: none;
+		visibility: hidden;
+		left: 0px !important;
+	}
+	div.img_galry_02  .image-container .controls .camera {
+		display: block;
+		visibility: visible;
+		left: 0px !important;
+	}
+	div.img_galry_02  .image-container{
+		clear: both;
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+	}
+	div.img_galry_02 .overlay {
+		background-color: rgba(255, 255, 255, .75);
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		left: 24px;		
+		filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr= #65FFFFFF, endColorstr =   #75FFFFFF );
+		height: 65px;		
+	}	
+	div.img_galry_02 .overlay p {
+		padding: 18px 40px;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	div.img_galry_02 div.image-container .controls {
+		position: relative;
+		left: 24px;
+		bottom: 91px;
+	}
+	.img_galry_02 .image-container:hover a.td_bg {
+		display: block;
+	}
+	div.img_galry_02 a.td_bg i {
+		color: #FFF;
+		line-height: 24px
+	}
+	div.img_galry_02 a.td_bg {
+		background-color: rgb(143, 143, 143) !important;
+		color: #FFF;
+		display: block;
+		height: 26px;
+		line-height: 26px;
+		margin-right: 1px;
+		position: absolute;
+		text-align: center;
+		text-decoration: none;		
+		width: 28px;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt2 {
+		display: none;
+	}
+
+	.container-right #img_fotogalfull_01_sideBar .txt1 {
+		width: 90%;
+		margin: auto;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt1 h3{
+		font-size: 18px;
+		margin: 12px 0px;
+	}
+	.container-right #img_fotogalfull_01_sideBar .txt1 p{
+		font-size: 12px;
+		margin-bottom: 12px;
+		padding-bottom: 12px;
+	}
+}
+/*END:img_galry_02 / mobile*/

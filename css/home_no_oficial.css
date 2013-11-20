@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+/* Estilos generales */
+.inoficial .right{
+	float: right;
+	text-align: right;
+}
+.inoficial .encuesta_sorteo{
+	clear:both;
+	float:right;
+}
+.inoficial .newsletter{
+	clear:both;
+}
+@media screen and  (min-width:624px) {
+	header {
+	margin-bottom: 7px;
+	}
+	.inoficial .row{
+		margin-bottom: 36px;
+	}
+}
+
+@media screen and  (max-width:623px) {
+	.inoficial .row{
+		margin-bottom: 12px;
+	}
+}

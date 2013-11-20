@@ -1,0 +1,162 @@
+/* All devices */
+.footer{
+	background-color: #E2E2E2;
+}
+.footer{
+	position:absolute;
+	color:#818181;
+	background-color: #E2E2E2;
+	margin:0 auto;
+	width:100%;
+}
+.footer .inoficial{
+	color:#E2E2E2;
+}
+/** Tablet & Desktop **/
+@media screen and (min-width: 624px) {
+	.footer{
+		min-width: 1050px;
+	}
+	.footer_content{
+		height:72px;
+		width:948px;
+		margin:0 auto;
+	}
+
+	.contenido_responsive{
+		padding-left: 15px;
+	}
+	.contenido_responsive span{
+		font-size: 9px;
+		color: #8b8b8b;
+	}
+	
+	.televisa{
+		font-size: 7.5pt;
+	}
+
+	.mobile_hidden{
+		display:none;
+		font-style: normal;	
+	}
+	.footer .televisa img.img-mobile{
+		display:none;
+	}
+	.footer .televisa img.img-web{
+		display:block;
+	}
+	.footer .televisa-menu p{
+		font-size: 1em;
+		display: block;
+		line-height: 15px;   
+		float: right;
+		margin-top: 15px;
+		font-style: italic;
+		padding: 0;
+		margin: 0;
+		*margin-right: 120px;
+	}
+}
+/** Mobile only **/
+@media screen and (max-width: 623px) {
+
+	.footer{
+		height:60px;
+		width:100%;
+	}
+	
+	.contenido_responsive{
+		padding-left: 8px;
+	}
+	.televisa{
+		font-size: .6em;
+	}
+
+	.mobile_hidden{
+		display:block;
+		font-style: normal;	
+	}
+	
+	.televisa-menu{
+		display:none;
+	}
+	
+	.footer .televisa img.img-mobile{
+		margin-top:20px;
+		display:block;	
+	}
+	
+	.footer .televisa img.img-web{
+		display:none;
+	}
+
+}
+
+/*Titulos a la izquierda*/
+
+.televisa{
+	float:left;
+	width: auto;
+	font-style: italic;	
+	margin-left:0;
+}
+
+.footer .televisa div{
+	position: relative;
+	top: 17px;
+	height: 33px;
+	border-left:1px solid #ccc;	
+	margin-left: 14px;
+	float: left;
+}
+
+.img-mobile{
+	float:left;
+	margin-top:14px;
+	margin-left: 12px;
+}
+
+.img-web{
+	float:left;
+	margin-top:13px;	
+	margin-left: -18px;
+}
+
+/*Menu a la derecha*/
+
+.footer .televisa-menu{
+	float:right;
+	width: 500px;
+	font-style: normal;
+	font-size: 7.5pt;
+	margin-left:0;
+}
+
+.footer .televisa-menu div{
+	float:right;	
+	position: relative;
+	top: 16px;
+}
+.footer .televisa-menu span{
+	position: relative;
+	top: 17px;
+	float:right;
+	font-size: 9px;
+	font-style: italic;	
+}
+
+.footer .televisa-menu div ul li{
+	display:inline;
+}
+
+.footer .televisa-menu div ul li a{
+	margin-right: 3px;
+	color: #818181;
+	padding-right: 12px;
+	border-right: 1px solid #818181;
+}
+
+.footer .televisa-menu div ul li a.final-li{
+	border:0;
+	padding:0;
+}

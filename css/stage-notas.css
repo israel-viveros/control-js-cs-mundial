@@ -1,0 +1,263 @@
+/* v 1.3 */
+.StageSliderMundial{
+    display:block;
+    width:100%;
+    height:auto;
+    max-width:624px;
+    position:relative;
+    left:4px;
+    overflow:hidden;
+}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge a{
+    color:#febf00;
+    font-family:'Trebuchet MS',Arial;
+    font-weight:normal;
+    font-size:22px;
+    letter-spacing:.026cm;
+    line-height:1em;
+    padding: 12px 0 0 0;
+}
+.StageSliderMundial .TitleSectionStageSliderMundial{width:100%;display:block;height:auto;}
+.StageSliderMundial .StageContainterLarge,
+.ContainerSliderThumbs .StageContainerThumbs{
+    display:block;
+    padding:0;
+    margin:0;
+}
+.StageSliderMundial .StageContainterLarge li,.ContainerSliderThumbs .StageContainerThumbs li{
+    display:inline-block;
+    list-style:none;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+.ContainerSliderThumbs .StageContainerThumbs li.active img{border:4px solid #84b617;}
+.StageSliderMundial .StageContainterLarge li{max-width:624px;}
+.StageSliderMundial .StageContainterLarge li img{display:block;width:100%;height:auto;position:relative;transition:all 0.4s ease 0s;-webkit-transition:all 0.4s ease 0s;}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{
+    display:block;
+    width:192px;
+    position:absolute;
+    z-index:10;
+    background:#000;
+    opacity:0.8;
+    top:24px;
+    right:0;
+    height:444px
+}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge a,.descriptionOutMundial .TitleEdiStageContainerLarge a,
+.buttonViewMoreNts a{
+    text-decoration:none;
+    color:#fff;
+    font-family:'Trebuchet MS',Arial;
+    font-weight:normal;
+    font-size:14px;
+    
+}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleStageContainerLarge,.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge
+,.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge{
+    width:100%;
+    color:gray;
+    max-height:3.2em;
+    overflow:hidden;
+    padding:9px 13px 0 13px;
+    font-size:14px;    
+}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge{
+    margin-top:13px; 
+}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge{
+/*    max-height:70px;*/
+    max-height:153px;
+    font-size:14px;
+    line-height:30px;
+}
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge
+{
+    font-weight:bold;
+    font-size:14px;
+    max-height:25em;
+    line-height:1.2em;
+    font-family:'Trebuchet MS Regular';
+}
+.StageSliderMundial div.ContainerSliderThumbs{
+    display:block;
+    position:relative;
+    width:70%;
+    margin-top:-5%;
+    z-index:20;
+    }
+.contthumbslider{width:85%;height:auto;display:inline-block;vertical-align:top;}
+.ContainerSliderThumbs .StageContainerThumbs li{
+    width:87px;
+    overflow:hidden;
+    height:65px;
+    max-width:87px;
+    margin:0 0 0 12px;
+    cursor:pointer;float:left;
+}
+.ContainerSliderThumbs .StageContainerThumbs li.first{
+    margin:0 0 0 12px;
+}
+.ContainerSliderThumbs .StageContainerThumbs li img{width:87px;height:65px;display:block;}
+.ContainerSliderThumbs .PrevCarouselMundial,.ContainerSliderThumbs .NextCarouselMundial{
+        width:20px;
+        display:inline-block !important;
+        height:20px;
+        cursor:pointer;
+        vertical-align:top;
+        margin-top:34px!important;
+    }
+    .ContainerSliderThumbs .PrevCarouselMundial i{
+        margin-left:8px;
+    }
+    .ContainerSliderThumbs .NextCarouselMundial {
+        *margin-left:385px!important;
+        *margin-top:-78px!important;        
+    }
+    .ContainerSliderThumbs .NextCarouselMundial i{
+        margin-left:6px;
+        
+    }
+.ContainerSliderThumbs .NextCarouselMundial{
+    margin-left:12px;
+}
+.StageSliderMundial .TitleSectionStageSliderMundial div{width:49%;display:inline-block;vertical-align:top;color:#A41D21;max-height:55px;overflow:hidden;font-weight:700;padding:10px 0;font-size:22px;}
+.StageSliderMundial .TitleSectionStageSliderMundial div:nth-child(1){padding-top:1em;}
+.descriptionOutMundial,.descriptionOutMundial .TitleEdiStageContainerLarge{display:none;}
+.buttonViewMoreNts{position:absolute;max-width:30%;height:2em;background:gray;right:0;text-align:right;width:auto;line-height:1.5em;padding:0 0.3em;}
+
+@media screen and (max-width:623px){
+    section.StageSliderMundial{
+        margin-bottom:12px;
+    }
+    .StageSliderMundial .TitleSectionStageSliderMundial div{display:block;width:100%;} 
+    .ContainerSliderThumbs .PrevCarouselMundial,.ContainerSliderThumbs .NextCarouselMundial{
+    display:none!important;
+    } 
+    .ContainerSliderThumbs,.contthumbslider{width:100%;margin-top:5%;} 
+    .contthumbslider{width:50%;margin-top:6%;margin-left:6%;} 
+    .ContainerSliderThumbs .StageContainerThumbs li img{display:none!important;}
+    .ContainerSliderThumbs .StageContainerThumbs li.first, 
+    .ContainerSliderThumbs .StageContainerThumbs li{
+    width:15px!important;
+    height:15px!important;
+    background:gray;
+    margin-top:16px;
+    } 
+    .ContainerSliderThumbs .StageContainerThumbs li.active{background:#84b617;margin-top:16px!important;} 
+    .ContainerSliderThumbs .StageContainerThumbs li.active img{border:none;} 
+    .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{
+     /*width:100%!important;
+     height:20%;
+     top:83%;     
+     background-color:blue!important;*/
+     overflow:hidden;position:relative;
+     }
+     
+    .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge{
+    left:12px;
+    width:100%!important;
+    top:-80px;
+    } 
+    .descriptionOutMundial{display:block;position:relative;} 
+    .descriptionOutMundial .TitleEdiStageContainerLarge{
+        position:absolute;
+        display:none!important;
+        background:#000;
+        opacity:0.8;
+        color:#FFF;
+        margin-top:-99px;
+        width:80%;
+        right:0;
+        max-height:175px;
+        font-size:13px;
+        line-height:1.4em;
+        overflow:hidden;
+        padding:0.8em;
+    } 
+    .buttonViewMoreNts{
+        margin-top:2em;
+    }
+    .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .SummaryStageContainerLarge a{
+    display:none;
+    }
+    .StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge{        
+    width:100%;    
+    height:200px!important;    
+    top:0px!important;
+    padding: 18px 0 0 12px;
+    }
+    .StageSliderMundial{
+    overflow:hidden;
+}
+.TitleEdiStageContainerLarge{
+    width:80%!important;
+    margin-left:10px;position:absolute;left:0px;bottom:0;
+}
+.caroufredsel_wrapper
+{
+    width:100%!important;
+    height:100%;
+}
+.StageContainterLarge
+{
+    width:100%!important;
+    position:relative;
+}
+.StageContainterLarge li
+{
+    width:100%!important;
+}
+.StageSliderMundial{
+    left:0px;
+}
+
+.caroufredsel_wrapper
+{
+    padding-top: 74%!important;
+    height:auto!important;
+}
+
+.StageSliderMundial .StageContainterLarge li .descriptionStageContainerLarge .TitleEdiStageContainerLarge a{
+    color:#febf00;
+    font-family:'Trebuchet MS',Arial;
+    font-weight:normal;
+    font-size:19px;
+    letter-spacing:.026cm;
+    line-height:1em;
+    padding: 12px 0 0 0;
+}
+section.StageSliderMundial div.ContainerSliderThumbs .contthumbslider
+{
+    height:40px;
+}
+
+}
+@media screen and (min-width:624px){
+    .StageSliderMundial .StageContainterLarge li img{
+        min-height: 469px;
+    }
+.StageSliderMundial .StageContainerThumbs{
+    margin-left:-12px !important;
+}
+.StageSliderMundial .StageContainerThumbs{
+   *margin-left:10px !important;
+   *margin-top:-10px !important;
+   *padding-top:0px !important;
+}
+.StageSliderMundial .caroufredsel_wrapper{
+    margin-left:0 !important;
+}
+section.StageSliderMundial{
+    margin-bottom:36px;
+}
+}
+section.StageSliderMundial div.contthumbslider div.caroufredsel_wrapper
+{
+    width:384px!important;
+}
+
+section.StageSliderMundial div.ContainerSliderThumbs{
+    margin-top:-24px; 
+}

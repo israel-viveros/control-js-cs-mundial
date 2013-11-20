@@ -1,0 +1,57 @@
+/*BEGIN: mix_3arts_04 / desktop*/
+@media screen and (min-width: 624px) {
+	.mix_3arts_04{
+        width: 624px;
+        overflow: hidden;
+        margin-bottom: 46px;
+    }
+    /*BEGIN: Estilo de la Pleca*/
+    .str_pleca_01 {
+    	display: block;
+    	margin-bottom: 24px;
+    	overflow: hidden;
+    	width: 100%;    	    	
+    } 
+   	.str_pleca_01 ul li a {
+    	text-decoration: none;
+    	font-family: 'roboto_slabbold';
+    	font-size: 24px;
+    }
+    .str_pleca_01 ul li {
+    	display: inline;
+    	float: left;
+    	height: 26px;
+    	width: 26%;    	
+    }
+    .str_pleca_01 ul li.line {
+    	border-bottom: 1px solid #ccc;
+    	width: 70%;    	
+    }
+    /*END: Estilo de la Pleca*/ 
+}  
+
+/*BEGIN: mix_3arts_04 / mobile*/
+@media screen and (max-width:623px){
+    /*BEGIN: Estilo de la Pleca*/
+    .str_pleca_01 {
+    	display: block;
+    	margin-bottom: 7px;
+    	overflow: hidden;
+    	width: 100%;    	    	
+    } 
+   	.str_pleca_01 ul li a {
+    	text-decoration: none;
+    	font-family: 'roboto_slabbold';
+    	font-size: 21px;
+    	padding-left: 12px;
+    }
+    .str_pleca_01 ul li {
+    	display: inline;
+    	float: left;
+    	height: 26px;
+    	width: 26%;    	
+    }
+    .str_pleca_01 ul li.line {
+    	display: none;        	
+    }
+}

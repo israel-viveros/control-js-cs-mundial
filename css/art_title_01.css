@@ -1,0 +1,65 @@
+/*BEGIN: art_title_01 / desktop*/
+@media screen and (min-width: 624px) {
+	.art_title_01 {
+		/*cambiar esta URL cuando para que funcione en el template a:  url("../../images/dotted-horizontal-gris.png") repeat-x  bottom !important;*/			
+		background: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal-gris.png") repeat-x  bottom !important;	 			
+		margin-bottom: 6px;		
+		padding-bottom: 13px;		
+		width: 624px;
+	}	
+	.art_title_01 div p{
+		margin: 0;
+	}
+	.art_title_01 div p a {
+		color: #8f8f8f;
+		font-family: 'Trebuchet MS';
+		font-size: 0.8em;
+		font-style: italic;
+		font-weight: normal;			
+		text-decoration: none;
+	}
+	.art_title_01 div p a span{
+		margin-right: 11px;
+	}	
+	.art_title_01 div div a{
+		color: #232323;
+		font-family: 'roboto_slabbold';
+		font-weight: bold;
+		font-size: 1.9em;
+		letter-spacing: -2px;
+		text-decoration: none;
+		word-spacing: 3px;		
+	}	
+}
+/*END: art_title_01 / desktop*/
+/*BEGIN: art_title_01 / mobile*/
+@media screen and (max-width:623px){
+	.art_title_01 {			
+		background: none;				
+		padding-bottom: 12px;		
+		width: 100%;		
+	}	
+	.art_title_01 div p{
+		margin: 0;
+	}
+	.art_title_01 div p a {
+		color: #8f8f8f;
+		font-family: 'Trebuchet MS';
+		font-size: 0.7em;
+		font-style: italic;
+		font-weight: normal;			
+		text-decoration: none;
+	}
+	.art_title_01 div p a span{
+		margin-right: 6px;
+	}	
+	.art_title_01 div div a{
+		color: #232323;
+		font-family: 'Roboto Slab Bold';
+		font-weight: bold;
+		font-size: 1.4em;
+		line-height: 24px;
+		text-decoration: none;		
+	}		
+}
+/*END: art_title_01 / mobile*/

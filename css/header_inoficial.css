@@ -1,0 +1,200 @@
+/* Desktop only */
+@media screen and (min-width: 624px) {
+    header.header_inoficial {
+       text-align:center;
+       min-width: 1050px;
+       /*width: 100%;*/
+       /*overflow:hidden;*/
+    }
+    header.header_inoficial nav {
+        height:26px;
+        line-height:26px;
+        background:#520c0a;
+        background: -moz-linear-gradient(top,  #3b0900 0%, #520c0a 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b0900), color-stop(100%,#520c0a)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #3b0900 0%,#520c0a 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #3b0900 0%,#520c0a 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #3b0900 0%,#520c0a 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #3b0900 0%,#520c0a 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b0900', endColorstr='#520c0a',GradientType=0 ); /* IE6-9 */
+    }
+    header.header_inoficial nav ul {height:28px;}
+    header.header_inoficial nav ul li {display:inline;}
+    header.header_inoficial nav ul li a {
+       text-decoration:none;
+       color:#FFF;
+       padding:1px 0px 0px 0px;
+       border:0;
+       height:24px;
+       line-height:24px;
+       display:inline-block;
+       font-family:'Trebuchet MS',Arial;
+       font-weight:normal;
+       font-size:13px;
+    }
+    header.header_inoficial i{
+      display: none;
+    }
+    header.header_inoficial nav ul li a span {
+        padding:0px 11px;
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-vertical.png) repeat-y 100% 0;
+    }
+    header.header_inoficial nav ul li.last a span {
+       background:none;
+    }
+    header.header_inoficial nav ul li.active a,
+    header.header_inoficial nav ul li a:hover {
+       background:#ff6600;
+       color:#FFF;
+       font-family:'Trebuchet MS',Arial;
+       font-weight:normal;
+       font-size:13px;
+       text-align:center;
+       font-style:normal;
+	   margin-left:-4px;
+    }
+    header.header_inoficial div.inner {
+       max-width:948px;
+       width: 100%;
+       margin:0 auto;
+       text-align:left;
+       position:relative;
+       height:210px;
+    }
+    header.header_inoficial div.inner img.logo_brasil{
+        position:absolute;
+        left: 3px;
+        top: 0px;
+        width: auto;
+        height: auto;
+    }
+    header.header_inoficial div.inner img.banner_no_oficial{
+        position: absolute;
+        left: 148px;
+        width: auto;
+        height: auto;
+    }
+    header.header_inoficial div.inner img.logo_td{
+        position: absolute;
+        right: -20px;
+        width: 150px;
+        height: 75px;
+    }
+    header .header_sub_menu{
+		 display:none;
+	 }
+}
+/* Estilos movil */
+@media screen and (max-width:623px){
+    header.header_inoficial {
+       text-align:center;
+       overflow: hidden;
+       width: 100%;
+    }
+    header.header_inoficial nav {
+        height:78px;
+        line-height:28px;
+        height:auto;
+        line-height:45px;
+        background:#520c0a;
+        background: -moz-linear-gradient(top,  #3b0900 0%, #520c0a 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b0900), color-stop(100%,#520c0a)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #3b0900 0%,#520c0a 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #3b0900 0%,#520c0a 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #3b0900 0%,#520c0a 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #3b0900 0%,#520c0a 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b0900', endColorstr='#520c0a',GradientType=0 ); /* IE6-9 */
+    }
+    header.header_inoficial li{
+        text-align: left;
+        margin-left: 12px;
+        display: none;
+    }
+    header.header_inoficial li.first{
+        display: block;
+    }
+    header.header_inoficial a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform:uppercase;
+    }
+    header.header_inoficial i{
+        float: right;
+        line-height: 42px;
+        margin-right: 6%;
+        font-size: 32px;
+        color: #fff;
+        cursor: pointer;
+    }
+    header.header_inoficial .container_img{
+        position: relative;
+    }
+    header.header_inoficial .inner img.banner_no_oficial{
+        height: auto;
+        margin-left: 26%;
+        width: 155%;
+    }
+    header.header_inoficial .inner img.logo_td{
+        height: auto;
+        position: absolute;
+        right: 13%;
+        top: -1px;
+        width: 42%;
+    }
+    header.header_inoficial .inner img.logo_brasil{
+        height: auto;
+        left: 0;
+        position: absolute;
+        top: 0px;
+        width: 54%;
+    }
+	header .header_sub_menu{
+		background:#FFF;
+		display:none;
+		width:100%;
+		position:absolute;
+		z-index:2;
+		margin-top:0px;
+		height:140px;
+	}
+	header .header_sub_menu ul.ul_menu{
+		width:100%;
+	}
+ 	header .header_sub_menu ul li{
+		 display:inline-block;
+		 float:left;
+		 width:50%;
+		 border-bottom:1px solid #CCC;
+		 margin-left:0;
+		 min-height:47px;
+	}
+	header .header_sub_menu ul li a{
+		padding-left:12px;
+		font-size:15px;
+		font-weight:bold;
+		font-style:italic;
+		color:#3D3D3D;
+		height:100%;
+		width:100%;
+		display:inline-block;
+		text-transform:none;
+	}
+	header .header_sub_menu ul li a:focus {
+        -moz-box-shadow: inset 0 4px 5px #afafaf;
+        -webkit-box-shadow: inset 0 4px 5px #afafaf;
+        box-shadow: inset 0 4px 5px #afafaf;
+        background:#d2d2d2;
+		color:#5D5D5D;
+		outline-style:none;
+    }
+	header .header_sub_menu ul li.sm_left{
+		border-right:1px solid #CCC;
+	}
+}
+/* All devices */
+.header_inoficial {margin-bottom:24px;}
+header .inner{
+	height:auto;
+}

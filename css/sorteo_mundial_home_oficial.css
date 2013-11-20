@@ -1,0 +1,37 @@
+.oficial{
+	background:#FFF;
+}
+.oficial .right{
+	float: right;
+	text-align: right;
+}
+.oficial .countdown{
+	float: right;
+	margin: -5px 0 36px;
+}
+
+.oficial .row{
+	margin-bottom: 36px;
+}
+.oficial .pleca{
+	width:360px;
+	float:left;
+}
+.oficial .div_192x40{
+	float:left;
+}
+.oficial img.publicidad_948x90{
+	margin-bottom:36px;
+}
+.oficial img.publicidad_948x50
+{
+	margin-top:0;
+}
+.oficial .encuesta_sorteo{
+	margin-bottom:36px;
+	padding-top:1px;
+	clear:both;
+}
+.oficial .twitter_sorteo{
+	margin-bottom:28px;
+}

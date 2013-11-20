@@ -1,0 +1,145 @@
+ /*
+ 	Developer: Viveros 1.3
+ */
+ .img_stage_01 div.img_stage_01_image img {
+ 	z-index: 0;
+ }
+ .img_stage_01_image iframe{
+	overflow:hidden;
+	height:100%;
+	width:100%;
+	margin: 0px;
+	padding:0px;
+	display: block;
+	max-width: 624px;	
+}
+.Mundial-clickToPlayVideoOnStage{
+	cursor: pointer;
+	}
+ #tim_social_frame_container{
+ 	display: none!important;
+ }
+   .textboxComm {
+        border: 1px solid #CCC!important;
+        color:#999!important;
+        display:block!important;
+        font-size:12px!important;
+        max-width: 96%!important;        
+        margin: 0 0 3px 6px!important;
+        padding:12px!important;
+        width:90%!important;
+    } 
+    img#comm_rss_image,
+    div#ans_0>h4,
+    .comment_tools{
+    	display: none!important;
+    }
+    li.commentData p{
+        font-style:italic!important;
+        padding: 6px!important;
+        color:#666!important;
+        font-size:14px!important;
+        display:block!important;
+        margin-bottom: 5px;
+		font-weight: bold;
+    } 
+    .answer_l0{
+    	padding: 0!important;
+    	border-top: none!important;
+    	margin: 0!important;
+    }   
+
+	.answer_l0 .submitButtom{
+	width: 112px !important;
+	margin: 0 0 8px 0!important;
+	float: right!important;
+	padding-right: 10px!important;
+	background-color: #8AB71E!important;
+	cursor: pointer!important;
+	color: #FFF !important;
+	font-size: 13px !important;
+	font-weight: normal!important;
+	font-style: italic!important;
+	border: none !important;
+	height: 40px!important;
+	background-image: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/txt_coment_nt.png)!important;
+	background-position: center center!important;
+	}
+	
+.commentsLst_0{
+	clear: both!important;
+	float: none!important;	
+}
+
+.usrDataLI .fitPhot{
+	float: left!important;
+	width: 50px!important;
+	height: 77px!important;
+	margin-left: 8px!important;	
+	margin-right: 10px!important;
+	clear: both!important;
+}
+.l0{
+	height: auto!important;
+	margin-right: 10px!important;	
+	margin-bottom: 8px!important;
+	margin-left: 60px!important;
+	width: auto!important;
+	display: block!important;
+	position: relative!important;
+}
+
+p.l0 b{
+	display: block!important;
+	font-size: 14px!important;
+	font-style: italic!important;
+	color: #FED0EE!important;
+	font-size: 16px!important;
+	font-weight: bold!important;
+	margin-bottom: -1.2em!important;
+}
+p.l0 b .comment_grey{
+	font-size: 12px!important;
+	color: #8f8f8f!important;
+	text-decoration: none!important;
+	font-weight: normal!important;
+	margin-left: 0px!important;
+	display: inline!important;
+}
+
+.l0 {
+	font-size: 14px!important;
+	margin-top: 0px!important;
+	color: #232323!important;
+	padding-left: 8px!important;
+}
+
+.comm_pagging a{
+	color: #FD94D9!important;
+	font-weight: bold!important;
+}
+@media screen and (min-width: 624px){
+	 .textboxComm{
+        padding:7px!important;            
+        margin: 0px 0px 14px 0px!important;
+        max-width: 97%!important;
+        width: 97%!important;
+    }
+    li.commentData p{
+	padding: 6px 6px 9px 0px!important;
+	}
+
+	.answer_l0 .submitButtom{
+	height: 32px!important;
+	margin-bottom: 20px!important;
+	}
+	
+	p.l0 b{
+	display: inline-block;
+	}
+	p.l0 b .comment_grey{
+		margin-left: 8px;
+	}
+	
+
+}

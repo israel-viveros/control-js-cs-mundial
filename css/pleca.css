@@ -1,0 +1,17 @@
+/* Mobile only */
+@media screen and (max-width: 623px) {
+    h2.pleca a {
+        margin-left:25px;
+    }
+}
+/* Tablet y Desktop only */
+@media screen and (min-width: 624px) {
+    h2.pleca a {
+        font-size:24px;
+    }
+}
+
+/* Mobile, Tablet y Desktop */
+h2.pleca a {
+	text-decoration:none;
+}

@@ -1,0 +1,776 @@
+@charset "utf-8";
+/* Estilos generales */
+.grupos_inoficial .borderright {
+	border-right:dotted 1px #9E9E9E;
+}
+.grupos_inoficial .marginright {
+	margin-right: 3%;
+}
+.grupos_inoficial .borderleft {
+	border-left:dotted 1px #9E9E9E;
+}
+.grupos_inoficial .marginleft {
+	margin-left: 3%;
+}
+.grupos_inoficial .bordertop {
+	border-top:dotted 1px #9E9E9E;
+}
+.grupos_inoficial .bordermiddle {
+	border-top:dotted 1px #9E9E9E;
+	border-bottom:dotted 1px #9E9E9E;
+}
+.grupos_inoficial .borderbottom {
+	border-bottom:dotted 1px #9E9E9E;
+}
+/* Estilos sorteo */
+.grupos_inoficial .viewDesktop {
+	display: inline-block;
+	height: 34px;
+	float: right;
+	background-image:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/sorteoReload.png);
+	background-repeat:no-repeat;
+	background-position:15% 50%;
+	background-color: #D80228;
+	color: #FFF;
+	font-style: italic;
+	width: 232px;
+	padding:0 0 0 34px;
+	border:none;
+}
+.grupos_inoficial .viewMobile {
+	display:none;
+	height: 34px;
+	float: right;
+	background-image:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/sorteoReload.png);
+	background-repeat:no-repeat;
+	background-position:15% 50%;
+	background-color: #D80228;
+	color: #FFF;
+	font-style: italic;
+	width: 232px;
+	padding:0 0 0 34px;
+	border:none;
+}
+/* Widget */
+.grupos_inoficial {
+	display:none;
+	position:relative;
+	width:100%;
+	text-align:center;
+	font-size: 100%; 
+	margin: 0 auto;
+}
+/* Contenido del widget */
+.grupos_inoficial .grupos_content{
+	position:relative;
+	overflow:hidden;
+	top:0;
+	margin: 0 auto;
+}
+
+/* Titulos*/
+.grupos_inoficial .titulo_pots{
+	margin-bottom: 12px;
+	line-height: 28px;
+	position: relative;
+	clear:both;
+	padding: 0px 0 0px 0;
+	text-align: left;
+	font-weight: normal;
+	font-size: 24px;
+	font-family: "roboto_slabbold";
+	color: #00A9E0;
+
+}
+
+/* Titulos del widget */
+.grupos_inoficial .grupos_content> .title {
+	width:100%;
+	overflow:hidden;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	font-family:arial;
+	font-weight:bold;
+	font-size:22px;
+	height: 26px;
+}
+
+/* Contenedor de Pots y Grupos*/
+.grupos_inoficial .grupos_content .infinitePots{
+	
+}
+/* Texto del titulo */
+.grupos_inoficial .grupos_content> .title div {
+	background-color:transparent;
+	color:#00A9E0;
+	padding: 0;
+	position: absolute;
+}
+
+/* POTS */
+/* Contenedor de los pots */
+
+.grupos_inoficial .pots ul {	
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: relative;
+	top: 0;
+}
+
+.grupos_inoficial .pots .pot {
+	display:block;
+	float:left;	
+	background-color:#F2F2F2;
+}
+
+.grupos_inoficial .pots .pot:last-child{
+	margin-right: 0px;
+}
+
+.grupos_inoficial .pots .title {	
+	vertical-align: middle;
+	text-align:center;
+	padding:12px;
+	font-family: "trebuchet MS";
+	font-size: 18px;
+	font-weight:bold;
+	background-color:#00A9E0;
+	color:#FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+	
+}
+.grupos_inoficial .pots .team {
+	display:inline-block;
+	float:left;
+	padding: 0px 0px 0px 0px;
+	width: 50%;
+	height:54px;
+	font-family:"trebuchet MS";
+	text-align:center;
+	font-style:normal;
+	font-size:12px;
+	color:#232323;
+}
+.grupos_inoficial .pots .info {
+	display:table;
+	text-align:center;
+	float:left;
+	width:97%;
+	/*height:4.167em;*/
+}
+.grupos_inoficial .pots .flag {
+	display:inline-block;
+	float:left;
+	width: 45%;
+	height: 54px;
+}
+.grupos_inoficial .pots .flag img {
+	position:relative;
+	margin: 15px 6px 15px 10px;
+	height: 24px;
+	width: 32px;
+}
+.grupos_inoficial .pots .name{
+	display:table-cell;
+	vertical-align:middle;
+	/*float:left;*/
+	width: 100%;
+	height: 54px;
+}
+.grupos_inoficial .pots .name span {
+	position:relative;
+	/*top:22%;*/
+}
+.grupos_inoficial .pots .tono1 {
+	background-color:#CCC;
+}
+.grupos_inoficial .pots .tono2 {
+	background-color:#EEE;
+}
+.grupos_inoficial .pots .tono3 {
+	background-color:#FFF;
+}
+/* GRUPOS */
+.grupos_inoficial .groups {
+	width: 948px;	
+	height: 305px;
+	overflow:hidden;
+	margin: 10px auto;
+	position: relative;
+	top: 0;
+}
+.grupos_inoficial .groups ul {
+	width: 948px;
+	overflow:visible;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	position: relative;
+	top: 0;
+}
+
+.grupos_inoficial #gD, 
+.grupos_inoficial #gH{
+	margin-right:0px;
+}
+
+.grupos_inoficial .groups .title {	
+	vertical-align: middle;
+	text-align:center;
+	padding:0.333em;	
+	font-family:"trebuchet MS";
+	font-size:18px;
+	font-weight:bold;
+	background-color:#FEBF00;
+	color:#FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+}
+.grupos_inoficial .groups .team {
+	display:inline-block;
+	float:left;
+	width: 50%;
+	height:54px;
+	font-family:"trebuchet MS";
+	font-size:12px;
+	font-style:normal;
+	color:#232323;
+	/*padding: 0px 0px 0px 10px;*/
+}
+
+.grupos_inoficial .groups .info {
+	display:table;
+	text-align:center;
+	float:left;
+	width:97%;
+	/*height:4.167em;*/
+}
+
+.grupos_inoficial .groups .info .flag {
+	display:inline-block;
+	float:left;
+	width: 100%;
+	height: 54px;
+}
+.grupos_inoficial .groups .info .flag img {
+	position:relative;
+	/*top:25%;*/
+	margin: 15px 6px 15px 10px;
+	height: 24px;
+	width: 32px;
+}
+.grupos_inoficial .groups .info .name {
+	display:table-cell;
+	vertical-align:middle;
+	/*float:left;*/
+	width: 100%;
+	height: 54px;
+}
+.grupos_inoficial .groups .info .name span {
+	position:relative;
+	/*top:22%;*/
+}
+.grupos_inoficial .groups .statistics {
+	background-color:#749B1C;
+	position:absolute;
+	display:none;
+	width:230px;
+	height: 146px;
+	margin:0;
+	min-height: 146px;
+	z-index:100;
+}
+.grupos_inoficial .groups .statistics .country {
+	padding-top: 5px;
+	text-align: center;
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	font-size:1.500em;
+	width: 210px;
+	margin-left:10px;
+	margin-right:10px;
+	height:36px;
+	max-height:36px;
+	border-bottom: dotted 1px #CECECE;
+}
+.grupos_inoficial .groups .statistics .stats {
+	font-family:"trebuchet MS";
+	font-style: italic;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	float: left;
+	font-size: 1.125em;
+	font-size: 11px;
+	padding: 8px 0 0 0;
+	width: 210px;
+	height:30px;
+	margin-left:10px;
+	margin-right:10px;
+	max-height:30px;
+	border-bottom: dotted 1px #CECECE;
+}
+.grupos_inoficial .groups .statistics .data {
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	width:230px;
+	height:78px;
+}
+.grupos_inoficial .groups .statistics .data ul {
+	width:auto;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: relative;
+	top: 0;
+}
+
+.grupos_inoficial .groups .statistic {
+	text-align:center;
+	display:block;
+	float:left;
+	width:3.1945em;
+	min-height:4.667em;
+	padding: 10px 0px 0px 0px;
+}
+.grupos_inoficial .groups .statistic .parameter {
+	min-height:1.667em;
+}
+.grupos_inoficial .groups .statistic .value {
+	padding-top: 5px;
+	border-right:dotted 1px #CECECE;
+	min-height:35px;
+	font-family:"Trebuchet MS";
+	font-size:20px;
+	font-weight:normal;
+}
+.grupos_inoficial .groups .statistic .last {
+	padding-top:5px;
+	min-height:35px;
+	font-family:"Trebuchet MS";
+	font-size:20px;
+	font-weight:bold;
+}
+.grupos_inoficial .groups .cerrar {
+	position:absolute;
+	display:none;
+	background-color:#86B519;
+	text-align:center;
+	vertical-align:central;
+	color:#FFFFFF;
+	height:36px;
+	width:36px;
+	padding-top:10px;
+}
+.grupos_inoficial .groups .tono1 {
+	background-color:#CCC;
+}
+.grupos_inoficial.groups .tono2 {
+	background-color:#EEE;
+}
+.grupos_inoficial .groups .tono3 {
+	background-color:#FFF;
+}
+
+.grupos_inoficial .infiniteSelected{
+	width:948px;
+}
+
+.grupos_inoficial .infiniteSelected .selected {
+	width:468px;
+	margin: 0px auto;
+	height:54px;
+}
+.grupos_inoficial .infiniteSelected .country_selected {
+	visibility: hidden;
+	font-family:"trebuchet MS";
+	font-size:18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/bg_paises_grupos.jpg);
+	display:inline-block;
+	position:relative;
+	width:230px;
+	height:54px;
+}
+.grupos_inoficial .infiniteSelected .country_selected .info {
+	display:table;
+	text-align:center;
+	float:left;
+	width:100%;
+	/*height:4.167em;*/
+}
+.grupos_inoficial .infiniteSelected .country_selected .flag {
+	display:inline-block;
+	width: 35%;
+}
+.grupos_inoficial .infiniteSelected .country_selected .flag img {
+	position:relative;
+	margin: 15px 6px 15px 10px;
+	height: 24px;
+	width: 32px;
+}
+.grupos_inoficial .infiniteSelected .country_selected .name {
+	display:table-cell;
+	width: 65%;
+	vertical-align:middle;
+}
+.grupos_inoficial .infiniteSelected .country_selected .name span {
+	position:relative;
+	/*top:22%;*/
+}
+.grupos_inoficial .infiniteSelected .group_selected {
+	visibility: hidden;
+	font-family:"trebuchet MS";
+	font-size:18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/bg_paises_grupos.jpg);
+	display:inline-block;
+	position:relative;
+	width:230px;
+	height:54px;
+}
+.grupos_inoficial .infiniteSelected .group_selected .info {
+	display:table;
+	text-align:center;
+	float:left;
+	width:100%;
+	height:54px;
+	/*height:4.167em;*/
+}
+.grupos_inoficial .infiniteSelected .group_selected .name {
+	display:table-cell;
+	vertical-align:middle;
+	width: 100%;
+}
+@media screen and  (min-width:624px) {
+	.grupos_inoficial{
+		margin-bottom:24px;
+	}
+	.grupos_inoficial h2.pleca_sorteo{
+        display:none;
+    }
+	
+	.grupos_inoficial .infinitePots{
+		width:948px;
+		margin: 0 0 26px;
+		padding:0px;
+	}
+
+	.grupos_inoficial .pots .pot {
+		width: 230px;	
+		height: 270px;
+		margin-right: 9px;
+	}
+	.grupos_inoficial .pots .title {
+		width: 230px;
+		display: table-cell;
+	}
+
+	.grupos_inoficial .pots .team {
+		width: 50%;
+	}
+
+	.grupos_inoficial .grupos_content{
+		width: 948px;
+	}
+ 
+	.grupos_inoficial .viewDesktop {
+		display:inline-block;
+	}
+	.grupos_inoficial .viewMobile {
+		display:none;
+	}
+	
+	.grupos_inoficial .pots ul {
+		width:948px;
+	}
+
+	.grupos_inoficial .pots {
+		width: 948px;
+		height: 270px;
+		overflow:hidden;
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+	}
+	.grupos_inoficial #p2{
+		margin-right: 5px;	
+	}
+	.grupos_inoficial #p3{
+		margin-left: 5px;	
+	}
+	.grupos_inoficial .footer-pots{
+		width:948px;
+		margin: 0;
+		padding:0;
+	}	
+	/*.grupos_inoficial .footer-pots .brand2{
+		display:none;
+	}*/
+	.grupos_inoficial .footer-pots .brand1{
+		position:absolute;
+		width:240px;
+		height:60px;
+		margin-left: 23px;
+	}
+	
+	.grupos_inoficial .footer-pots .invita{
+		float: left;
+		text-align: center;
+		display: inline-table;
+		font-family: "roboto_slabbold";
+		font-weight:normal;
+		font-size: 18px;
+		color:#D80228;
+		width:auto;
+		height:60px;
+		margin-left:300px;
+	}
+	
+	/* Control del widget */
+	.grupos_inoficial .grupos_content> .footer-pots .control {
+		display:inline;
+		text-align:center;
+		width:400px;
+		height:60px;
+		overflow:hidden;
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+	}
+	.grupos_inoficial .infiniteGroups{
+		width:948px;
+		padding: 0; 
+		margin: 0 0 24px;		
+	}
+
+	.grupos_inoficial .groups .title {
+		width:230px;
+		display: table-cell;
+	}
+
+	.grupos_inoficial .groups {
+		width: 948px;
+		overflow:visible;
+		margin: 10px 0 0;
+		position: relative;
+		top: 0;
+	}
+	
+	.grupos_inoficial .groups .group {
+		display:block;
+		float:left;
+		width:230px;
+		height:146px;
+		margin: 0px 9px 12px 0px;
+		min-height:10px;
+		background-color:#F2F2F2;
+	}
+
+	.grupos_inoficial .titulo_grupos{
+		position: absolute;
+		padding: 0;
+		margin: 8px 0 12px;
+		text-align: left;
+		font-weight: normal;
+		font-size: 24px;
+		font-family: "roboto_slabbold";
+		color: #00A9E0;
+	}
+	
+	.grupos_inoficial #gB,
+	.grupos_inoficial #gF{
+		margin-right:9px;
+	}
+
+	.grupos_inoficial #gC,
+	.grupos_inoficial #gG{
+		/*margin-left:5px;*/
+	}
+	
+
+}
+/*   -------- Movil---------------*/
+@media screen and  (max-width:623px) {    
+	.grupos_inoficial{
+		margin-bottom:12px;
+	}
+	.grupos_inoficial .infinitePots{
+		width:100%;
+		margin: 0 0 12px;
+		padding:0 12px 0 12px;
+	}
+	.grupos_inoficial .pots .pot {
+		width:25%;	
+		height: 270px;	
+	}
+	.grupos_inoficial .pots .title {
+		width:100%;
+	}
+	.grupos_inoficial .pots .team {
+		width: 50%;
+	}	
+	.grupos_inoficial .grupos_content{
+		width:100%;
+	}
+	.grupos_inoficial .viewDesktop {
+		display:none;
+	}
+	.grupos_inoficial .viewMobile {
+		display:inline-block;
+		float:none;
+	}
+	.grupos_inoficial .pots {
+		width:100%;
+		height: 270px;
+		overflow:hidden;
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+	}
+	.grupos_inoficial .pots ul {
+		width:400%;
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		position: relative;
+		top: 0;
+	}
+	
+	.grupos_inoficial .footer-pots .brand1{
+		position:relative;
+		width:240px;
+		height:60px;
+		margin: 23px auto 0;
+	}
+	
+	.grupos_inoficial .footer-pots .invita{
+		text-align: center;
+		display: inline-table;
+		font-family: "roboto_slabbold";
+		font-weight:normal;
+		font-size: 18px;
+		color:#D80228;
+		width: 100%;
+		margin:10px auto 0;
+	}
+	
+	/* Control del widget */
+	.grupos_inoficial .grupos_content> .footer-pots .control {
+		display:inline;
+		text-align:center;
+		width:100%;
+		height:60px;
+		overflow:hidden;
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+	}
+	
+	.grupos_inoficial .infiniteGroups{
+		width:100%;
+		margin:0;		
+		padding:0 12px 0 12px;
+	}
+
+	.grupos_inoficial .groups .title {
+		width:100%;
+	}
+	.grupos_inoficial .groups {
+		width:100%;
+		height:182px;
+		overflow:hidden;
+		margin: 0;
+		position: relative;
+		top: 0;
+		padding:36px 0 0;
+	}
+	.grupos_inoficial .groups ul {
+		width:800%;
+		list-style-image:none;
+		list-style-position:outside;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		position: relative;
+		top: 0;
+	}
+	.grupos_inoficial .groups .group {
+		display:block;
+		float:left;
+		width:12.5%;
+		height:146px;
+		margin: 0 auto;
+		min-height:10px;
+		background-color:#F2F2F2;
+	}
+	
+	.grupos_inoficial .titulo_grupos{
+		position: absolute;
+		padding: 0;
+		margin: 8px 0 12px;
+		text-align: left;
+		font-weight: normal;
+		font-size: 24px;
+		font-family: "roboto_slabbold";
+		color: #00A9E0;
+	}
+	.grupos_inoficial #gD{
+		/*margin-right:9px;*/
+	}
+	.grupos_inoficial .invita{
+		display:none;
+	}
+	.grupos_inoficial .control{
+		display:none;
+	}
+	.grupos_inoficial .pleca_sorteo{
+		text-align:center;
+	}
+	.grupos_inoficial .pleca_sorteo a{
+		text-decoration:none;
+	}
+	.grupos_inoficial .groups .statistics {
+		width:12.5%;
+	}
+	.grupos_inoficial .groups .statistics .country {
+		width:100%;
+	}
+	.grupos_inoficial .groups .statistics .stats {
+		width:100%;
+	}
+	.grupos_inoficial .groups .statistics .data {
+		width:100%;
+	}
+	.grupos_inoficial .groups .statistic {
+		width:16.6%;
+	}
+	.grupos_inoficial .infiniteSelected {
+		width:100%;
+	}
+	
+	.grupos_inoficial .infiniteSelected .selected {
+		width:100%;
+		height:88px;
+		overflow:visible;
+	}
+	.grupos_inoficial .infiniteSelected .country_selected {
+		width:100%;
+	}
+	.grupos_inoficial .infiniteSelected .group_selected {
+		width:100%;
+	}
+}

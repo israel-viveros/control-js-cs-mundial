@@ -1,0 +1,360 @@
+/*Movil
+	Developer: Viveros 171113
+*/
+@media screen {
+    .twitter_sorteo {
+        display: none;
+        overflow:hidden;
+    }
+    .twitter_sorteo a{
+        text-decoration: none;
+    }
+    .twitter_sorteo_title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+    }
+    .twitter_sorteo .twitter_sorteo_title a.azul{
+        float: left;
+        position: absolute;
+        font-size: 24px;
+        padding-right: 10px;
+        left: -113px;
+        font-family:"roboto_slabbold";
+	background:#FFF;
+
+    }
+    .twitter_sorteo_title:before,  .twitter_sorteo_title:after {
+        content: "";
+        display: table;
+    }
+    .twitter_sorteo_title:after {
+        clear: both;
+    }
+    .twitter_sorteo_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+        width: 100%;
+    }
+    .twitter_sorteo_title strong {
+        background-color: #A70A0B;
+        width: 100%;
+        font-size: 14px;
+        float: left;
+        text-align: left;
+    }
+    .twitter_sorteo_title strong a {
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/mobile-arrow-sprites.png) no-repeat 98% 6px;
+        background-size: 12px 20px;
+        background-position: right 2px;
+     *background-position: right 2px;
+        color: #fff;
+        display: block;
+        height: 32px;
+        line-height: 31px;
+        padding-left: 20px;
+        
+    }
+    .twitter_sorteo .wdg_carousa .twitter_sorteo_carousel {
+        overflow:hidden;
+        width: 300px;
+    }
+    .twitter_sorteo .wdg_carousa div {
+        width: 100%;
+        height: auto;
+    }
+    .twitter_sorteo .wdg_carousa div ul {
+        width: 60px;
+        margin: 0px 0 1px;
+        float: right;
+    }
+    .ie7 .twitter_sorteo .wdg_carousa div ul {
+        width: 63px;
+    }
+    .ie8 .twitter_sorteo .wdg_carousa div ul {
+        width: 63px;
+    }
+    .twitter_sorteo .wdg_carousa div ul li {
+        width: auto;
+        height: 17px;
+        float: left;
+        margin: 0;
+        margin-top: 8px;
+    }
+    .twitter_sorteo .wdg_carousa div ul li#right {
+        margin-top: 10px;
+    }
+    .twitter_sorteo .wdg_carousa div ul li a {
+        width: 15px;
+        height: 9px;
+        display: none;
+        padding: 0;
+        text-decoration:none;
+        color:#232323;
+        margin-top: 0px;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child ul {
+        float: none;
+        margin: 0;
+        margin-top: 10px;
+        width: 949px;
+		*width: 958px;
+    }
+    .twitter_sorteo .wdg_carousa ul li p {
+        font-style: italic;
+        font-size: 12px;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: inline;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child.iOS {
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child.iOS ul {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .twitter_sorteo .wdg_carousa div ul li:last-child {
+        border-left: 1px dotted #666;
+        padding-left: 12px;
+    }
+    .twitter_sorteo .wdg_carousa {
+        height: auto;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child ul li {
+        width: 128px;
+        height: auto;
+        padding: 0 2px 0px 2px;
+        width: 300px;
+        margin: 0 0 0 24px;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child ul li:first-child {
+        margin: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .twitter_sorteo .wdg_carousa ul li:first-child {
+        margin: 8px 16px 0 0;
+    }
+    .twitter_sorteo .wdg_carousa ul li div.one{
+        margin-bottom: 15px;
+    } 
+    .twitter_sorteo .wdg_carousa ul li div.twitter_sorteo_block {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 19px;
+    }
+    .twitter_sorteo .wdg_carousa ul li div.twitter_sorteo_block:nth-child(n+2){
+        border-bottom: none;
+    }
+    .twitter_sorteo .wdg_carousa ul li a img {
+        width: 36px;
+        height: 36px;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child ul li:last-child {
+        border: none;
+    }
+    .twitter_sorteo .wdg_carousa ul li div a span.title {
+        color: #F142AC;
+        font-size: 10pt;
+        font-style: italic;
+        font-weight: 800;
+        padding: 4px 0 5px 0;
+    }
+    .twitter_sorteo .wdg_carousa .twitter_sorteo_carousel ul li .twitter_sorteo_block {
+        display: inline-block;
+    }
+    .twitter_sorteo .wdg_carousa ul li div a p {      
+        line-height: 16px;
+        font-size: 14px;
+        font-style: normal;     
+        font-weight: bold;
+        margin-bottom: 3px;
+        word-spacing: -1px;
+    }
+    .twitter_sorteo .wdg_carousa ul li div .twitter_sorteo_blue {
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .twitter_sorteo .wdg_carousa ul li div .twitter_sorteo_black {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /* END: carouseltype1c (Small) */
+    .twitter_sorteo .twitter_sorteo_img {
+        float: left;
+        width: 37px !important;
+        padding:6px 22px 0 23px;        
+    }
+    .twitter_sorteo .twitter_sorteo_txt {
+        float: right;
+        width: 216px !important;
+    }
+    .twitter_sorteo .cta_twitter {
+        color: #3a3b8d;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .twitter_sorteo .textcolor-title4 {
+        color: #B1B1B1 !important;
+    }
+    .twitter_sorteo .wdg_carousa_right {
+        margin-top: -4px;
+    }
+    .twitter_sorteo .bullets{
+        padding-left: 85%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: 0;
+        padding-top: 7px;
+        margin-bottom: 7px;
+    }
+    .twitter_sorteo .bullets div{
+        float: left;
+        width: 11px;
+        /*height: 11px;*/
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+    .twitter_sorteo .inactive{
+        color: #BABABA;
+    }
+}
+/*End movil*/
+/*Tablet*/
+@media screen and (min-width: 624px){
+    .twitter_sorteo{
+        width:300px;
+        margin-bottom: 28px;
+        display:block;
+    }
+    .twitter_sorteo .wdg_carousa .twitter_sorteo_title{
+        width: 183px;
+        float: right;
+        position: relative;
+    }
+    .twitter_sorteo .wdg_carousa {
+        overflow: hidden;
+    }
+    div.twitter_sorteo_title {
+        margin-bottom: 17px;
+    }
+    div.twitter_sorteo_title:before,
+    div.twitter_sorteo_title:after {
+        content: "";
+        display: table;
+    }
+    div.twitter_sorteo_title:after {
+        clear: both;
+    }
+    div.twitter_sorteo_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    div.twitter_sorteo_title strong {
+        width: 55%;
+        max-width: 300px;
+        float: left;
+    }
+    div.twitter_sorteo_title strong a {
+        background-image: none;
+        background-position: right 2px;
+        *background-position: right 2px;   
+    }
+    div.twitter_sorteo_title strong a span.icon {
+        display: none;
+    }
+    .twitter_sorteo .wdg_carousa {
+        padding-left: 0;
+    }
+    .twitter_sorteo .wdg_carousa div.twitter_sorteo_title ul li a {
+        display: block;
+    }
+    .twitter_sorteo .wdg_carousa ul {
+        margin: 24px 0 auto;
+    }
+    .twitter_sorteo .wdg_carousa.showArrows div:first-child h1 {
+        width: 300px;
+    }
+    .twitter_sorteo .wdg_carousa div:last-child ul {
+        margin-top: 0;
+    }
+    .twitter_sorteo .twitter_sorteo_title h3 {
+        float: left;
+        height: 32px;
+        max-width: 300px;
+        min-width: 165px;
+    }
+     .twitter_sorteo .bullets{
+        padding-left: 85%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: -5px;
+        padding-top: 7px;
+        margin-bottom: 0;
+    }
+    .twitter_sorteo .bullets div{
+        float: left;
+        width: 11px;
+        /*height: 11px;*/
+        background-color: #CCC;
+        margin-right: 5px;
+    }
+    .twitter_sorteo .bullets div:last-child{
+        margin-right: 0;
+    }
+   /* .twitter_sorteo .wt2_arrows{
+         display:block;      
+    }*/
+}
+/*End tablet*/
+/*Desktop*/
+@media screen and (min-width: 948px){
+    /* BEGIN: Global (Large) */
+    .twitter_sorteo{
+        margin-bottom: 33px;
+        max-width: 350px;
+        overflow:hidden;
+    }
+    
+    .ie8 .twitter_sorteo{
+        height: 360px;
+    }
+    .twitter_sorteo .wdg_carousa .twitter_sorteo_title{
+        width: 183px;
+        float: right;
+    }
+    .twitter_sorteo .bullets{
+        display: none;
+    }
+    .twitter_sorteo .wt2_arrows{
+         display:block;     
+    }
+    .twitter_sorteo .wdg_carousa ul li div.twitter_sorteo_block:nth-child(n+2){
+        border-bottom: 1px solid #ccc;
+    }
+    .ie8 .twitter_sorteo{
+        max-height: 350px !important;
+        overflow:hidden;
+    }
+    
+    .ie9 .twitter_sorteo .twitter_sorteo_carousel{
+        max-height: 300px !important;
+        overflow: hidden;
+    }
+    .ie7 .twitter_sorteo .twitter_sorteo_carousel,
+    .ie8 .twitter_sorteo .twitter_sorteo_carousel{
+        max-height: 310px !important;
+        overflow: hidden;
+    }
+}
+/*End Desktop*/

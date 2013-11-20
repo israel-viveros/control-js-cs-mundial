@@ -1,0 +1,19 @@
+/* Mobile only */
+@media screen and (max-width: 623px) {
+    .div_300x250 {
+        width:100%;
+        height:auto;
+		margin-bottom:12px;
+		text-align:center;
+		display:none;
+    }
+}
+/* Desktop Tablet only */
+@media screen and (min-width: 624px) {
+    .div_300x250 {
+		margin-bottom:36px;
+		display:block;
+		width: 300px;
+		height: 250px;
+    }
+}

@@ -1,0 +1,45 @@
+/* Mobile only */
+@media screen and (max-width: 623px) {
+   .pp_content{
+		width:100%;
+		text-align:center;
+		margin-bottom:12px;
+   }
+    h2.pleca_publicidad a {
+		font-size:18px;
+    }
+	h2.pleca_publicidad{
+		float:none;
+	}
+	.pleca_p_img{
+		float:none;
+		margin:0 auto;
+	}
+}
+/* Tablet y Desktop only */
+@media screen and (min-width: 624px) {
+	.pp_content{
+		width:624px;
+		margin-bottom:42px;
+	}
+	h2.pleca_publicidad{
+		float:left;
+	    display:inline;
+		width:430px;
+	}
+	.pleca_p_img{
+		display:inline;
+		width: 192px;
+		height: 40px;
+		/*margin-left: 50px;*/
+        margin-top: -12px;
+	}
+    h2.pleca_publicidad a {
+        font-size:24px;
+    }
+}
+
+/* Mobile, Tablet y Desktop */
+h2.pleca_publicidad a {
+	text-decoration:none;
+}

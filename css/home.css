@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* Estilos generales */
+.viewMobile {
+	display:none;
+}
+.wrapper {
+	position:relative;
+	overflow:auto;
+	width:948px;
+	background-color:#FFF;
+	margin:auto;
+}
+.banner {
+	position:relative;
+	float:left;
+	width:624px;
+	min-height:40px;
+	background-color:#CCC;
+	margin-top:24px;
+	margin-bottom:24px;
+	margin-right:324px;
+}
+.banner .titlebanner {
+	position:relative;
+	float:left;
+	width:432px;
+	min-height:40px;
+	background-color:#FFF;
+	color:#00A9E0;
+	text-align:justify;
+	font-size:24pt;
+}
+.banner .imgbanner {
+	position:relative;
+	float:left;
+	width:192px;
+	min-height:40px;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/testAdServer/imgbanner.jpg);
+}
+.slider {
+	position:relative;
+	float:left;
+	width:624px;
+	min-height:509px;
+	background-color:#CCC;
+	margin-right:24px;
+}
+.slider .videoplayer {
+	position:relative;
+	width:624px;
+	height:351px;
+	float:left;
+	top:50px;
+}
+.slider .videoplayer object {
+	width:624px;
+	height:351px;
+}
+.slider .videoplayer iframe {
+	width:624px;
+	height:351px;
+	border:0;
+}
+.countdown {
+	position:relative;
+	float:left;
+	width:300px;
+	min-height:150px;
+	background-color:#CCC;
+	margin-bottom:36px;
+}
+.boxbanner {
+	position:relative;
+	float:left;
+	width:300px;
+	min-height:250px;
+	background-color:#CCC;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/testAdServer/boxbanner.jpg)
+}
+.promo {
+	position:relative;
+	float:left;
+	width:100%;
+	min-height:60px;
+	background-color:#CCC;
+	margin-top:36px;
+	margin-bottom:36px;
+}
+.sorteo {
+	position:relative;
+	float:left;
+	width:100%;
+	min-height:740px;
+	background-color:#CCC;
+}
+.sorteo .titlebanner {
+	position:relative;
+	float:left;
+	width:630px;
+	min-height:60px;
+	background-color:#FFF;
+	color:#D80228;
+	text-align:justify;
+	font-size:24pt;
+	margin-left:15px;
+	margin-top:10px;
+	margin-right:24px;
+	margin-bottom:4px;
+	top:666px;
+}
+.sorteo .imgbanner {
+	position:relative;
+	float:left;
+	width:240px;
+	min-height:60px;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/testAdServer/sorteobanner.jpg);
+	margin-left:24px;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:4px;
+	top:666px;
+}
+.calendario {
+	position:relative;
+	float:left;
+	width:100%;
+	min-height:745px;
+	background-color:#CCC;
+	margin-top:36px;
+}
+.calendario .imgbanner {
+	position:relative;
+	float:left;
+	width:270px;
+	min-height:178px;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/testAdServer/calendariobanner.jpg);
+	top:567px;
+	left:678px;
+}
+.superbanner {
+	position:relative;
+	float:left;
+	width:728px;
+	min-height:90px;
+	background-color:#CCC;
+	margin-top:36px;
+	margin-right:20px;
+	margin-bottom:36px;
+}
+.boton {
+	position:relative;
+	float:left;
+	width:200px;
+	min-height:90px;
+	background-color:#CCC;
+	margin-top:36px;
+	margin-bottom:36px;
+	background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/testAdServer/botonbanner.jpg);
+}
+.mxm {
+	position:relative;
+	float:left;
+	width:100%;
+	width:624px;
+	min-height:900px;
+	background-color:#CCC;
+	margin-right:24px;
+}
+.twitter {
+	position:relative;
+	float:left;
+	width:300px;
+	min-height:340px;
+
+	margin-bottom:36px;
+}
+.encuesta {
+	position:relative;
+	float:left;
+	width:300px;
+	min-height:280px;
+
+	margin-bottom:36px;
+}
+.contacto {
+	position:relative;
+	float:left;
+	width:300px;
+	min-height:240px;
+
+	margin-bottom:36px;
+}
+.footer {
+	position:relative;
+	width:948px;
+	min-height:72px;
+	background-color:#CCC;
+	margin:auto;
+}
+@media screen and (max-width: 625px){
+	.viewMobile {
+		display:inline-block;
+	}
+	.wrapper {
+		width:100%;
+	}
+	.banner {
+		width:100%;
+		margin-top:16px;
+		margin-bottom:12px;
+		text-align:center;
+	}
+	.banner .titlebanner {
+		width:100%;
+		font-size:18px;
+	}
+	.banner .imgbanner {
+		width:92px;
+		min-height:40px;
+		margin: 0 40% 6px;
+	}
+	.slider {
+		width:100%;
+		min-height:240px;
+		margin-bottom:24px;
+	}
+	.slider .videoplayer {
+		width:100%;
+		top:0;
+	}
+	.slider .videoplayer object {
+		width:100%;
+	}
+	.slider .videoplayer iframe {
+		width:100%;
+		border:0;
+	}
+	.countdown {
+		width:100%;
+		min-height:128px;
+		margin-bottom:0;
+	}
+	.boxbanner {
+		width:100%;
+		display:none;
+	}
+	.promo {
+		width:100%;
+		min-height:50px;
+		margin-top:22px;
+		margin-bottom:12px;
+	}
+	.sorteo {
+		width:100%;
+		min-height:660px;
+	}
+	.sorteo .titlebanner {
+		width:266px;
+		min-height:42px;
+		font-size:20px;
+		top:507px;
+		text-align:center;
+		margin:0 20% 12px;
+	}
+	.sorteo .imgbanner {
+		width:266px;
+		min-height:60px;
+		top:507px;
+		margin:12px 20% 6px;
+	}
+	.calendario {
+		width:100%;
+		min-height:910px;
+	}
+	.calendario .imgbanner {
+		width:270px;
+		min-height:50px;
+		left:0;
+		top:804px;
+		margin:0 20%;
+	}
+	.superbanner {
+		width:100%;
+		min-height:50px;
+		margin-top:12px;
+		margin-bottom:18px;
+	}
+	.boton {
+		width:100%;
+		display:none;
+	}
+	.mxm {
+		width:100%;
+		margin-bottom:18px;
+	}
+	.twitter {
+		width:100%;
+		display:none;
+	}
+	.encuesta {
+		width:100%;
+		margin-bottom:18px;
+	}
+	.contacto {
+		width:100%;
+		margin-bottom:12px;
+	}
+	.footer {
+		width:100%;
+	}
+
+}

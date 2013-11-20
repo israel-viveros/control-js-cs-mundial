@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* Estilos generales
+Modified: viveros 171113
+ */
+
+@media screen and (min-width: 624px) {
+	.encuesta_sorteo{
+		width:300px;
+		overflow: hidden;	
+		margin-bottom: 28px;
+	}
+
+.ts_poll_cont {
+background: #FFF!important;
+}
+.esmas_safe_simple_poll_box ul.share_poll_tim_social li.poll_text_share div{
+	font-family:Trebuchet MS!important;
+	font-size:14px!important;
+	color:#8f8f8f!important;	
+}
+.encuesta_sorteo ul li{
+		width:100%!important;
+	}
+
+}
+@media screen and (max-width: 623px) {
+	.encuesta_sorteo{
+		padding-left:10px;
+		padding-right:10px;
+		width:100%;	
+		margin-bottom:8px;
+	}
+}
+
+.encuesta_sorteo{
+    padding-top: 0;    
+    height: auto;
+    background-color: #FFF;
+}
+ 
+.encuesta_sorteo .titulo{
+    float:left;
+    line-height:25px;
+    padding-right:10px;
+}
+.encuesta_sorteo hr{
+    margin-top: 0;
+	position:relative;
+	top:24px;	
+}
+.encuesta_sorteo  .titulo{
+    font-size:24px;
+    color:#00A9E0;
+    font-weight:bold;
+    font-family:"roboto_slabbold";
+
+}
+.encuesta_sorteo ul li input[type="radio"] {
+    margin: 4px 14px 4px 4px;
+}
+
+.encuesta_sorteo ul li{
+    padding-left: 8px;
+    line-height: 36px;
+    height: 36px;
+    border-top:1px dotted #CCCCCC;
+}
+.ecuesta-sorteo ul li:hover{
+    background: rgba(134,81,25,0.3);
+}
+.encuesta_sorteo .last{
+    height: 39px;
+    border-bottom:1px solid #CCCCCC;
+}
+
+.encuesta_sorteo .pregunta{
+    padding: 12px;
+    height: auto;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+}
+
+.encuesta_sorteo input[type="button"]{
+    z-index:100;
+    border: 1px solid #86B519;
+    width: 92px;
+    height: 30px;
+    background-color: #86B519;
+    color: #FFF;
+    font-weight: bold;
+    font-style: italic;
+    float:right;
+}
+
+
+/*Show result of poll*/
+ .encuesta_sorteo form .encuesta_sorteo_results {
+        border-bottom: 1px solid #CCC;
+        width: 100%;
+        display: none;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results:before,
+    .encuesta_sorteo form .encuesta_sorteo_results:after {
+        content: "";
+        display: table;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results:after {
+        clear: both;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results li {
+        border-top: 1px dashed #CCC;
+        clear: both;
+        border-bottom: none;
+        height: 44px;
+    }
+    .encuesta_sorteo form ul.encuesta_sorteo_results li div:first-child {
+        border: none;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        width: 69%;
+        height: 50px;
+        float: left;
+        padding-left: 10px;
+    }
+    .encuesta_sorteo form ul.encuesta_sorteo_results li div p {
+    	height: auto;
+		display: block;
+		overflow: hidden;
+		line-height: 19px;    
+    }
+	
+	
+    .encuesta_sorteo form .encuesta_sorteo_results li.encuesta_sorteo_typed div:first-child div {
+        background-color: #3a3b8d;;
+        float: left;
+        width: 30%;
+        height: 10px;
+        margin: 0;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results li div:first-child p.encuesta_sorteo_quantity {
+        color: #3a3b8d;
+        float: left;
+        font-size: 10pt;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results li.encuesta_sorteo_typeb div:first-child p.encuesta_sorteo_quantity {
+        color: #2e8fca;
+    }
+
+    .encuesta_sorteo form .encuesta_sorteo_results li div:first-child p {
+        font-size: 13px;
+        font-style: italic;
+        color: #232323;
+    }
+    .ie7 .encuesta_sorteo form .encuesta_sorteo_results li div.encuesta_sorteo_finalsc p {
+        font-size: 13px;
+        font-style: italic;
+    }
+    .ie8 .encuesta_sorteo form .encuesta_sorteo_results li div.encuesta_sorteo_finalsc p {
+        font-size: 13px;
+        font-style: italic;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results li div:last-child {
+        float: right;
+        margin: 0;
+        margin-top: 14px;
+        padding: 0;
+        text-align: right;
+        color:#3a3b8d;
+        font-weight: bold;
+        margin-right: 20px;
+        width: 40px;
+        font-size: 13px;
+    }
+
+    .ie7 .encuesta_sorteo form .encuesta_sorteo_results li .encuesta_sorteo_finalsc {
+        float: right;
+        margin: 0;
+        margin-top: 14px;
+        padding: 0;
+        text-align: right;
+        color:#3a3b8d;
+        font-weight: bold;
+        margin-right: 20px;
+        width: 40px;
+        font-size: 13px;
+    }
+
+    .ie8 .encuesta_sorteo form .encuesta_sorteo_results li .encuesta_sorteo_finalsc {
+        float: right;
+        margin: 0;
+        margin-top: 14px;
+        padding: 0;
+        text-align: right;
+        color:#3a3b8d;
+        font-weight: bold;
+        margin-right: 20px;
+        width: 40px;
+        font-size: 13px;
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results li.encuesta_sorteo_typeb div.encuesta_sorteo_finalsc {
+        color:#2e8fca;
+    }
+    .encuesta_sorteo form div.encuesta_sorteo_total span.encuesta_sorteo_texttotal {
+        font-size: 13px;
+        font-style: italic;
+        float: left;
+        margin-top: 6px;
+        padding-left: 10px;
+        color: #a2a2a2;
+    }
+    .encuesta_sorteo form div.encuesta_sorteo_total span.encuesta_sorteo_totalvotes {
+        color: #fff;
+        background-color: #cdcdcd;
+        display: none;
+        font-size: 11px;
+        font-style: italic;
+        float: right;
+        padding: 11px 29px;      
+    }
+    .encuesta_sorteo form .encuesta_sorteo_results li div p {
+    	margin: 0;
+    }
+

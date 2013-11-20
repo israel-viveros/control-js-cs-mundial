@@ -1,0 +1,987 @@
+/* desktop only*/
+@media screen and (min-width: 624px) {
+ .calendar_sorteo {
+    width: 948px;
+    margin-bottom: 36px;
+}
+
+ .calendar_sorteo img.brand5{
+    width: 270px;
+}
+div.calendar_sorteo img.base_calendario{
+     display:none;
+}
+ .calendar_sorteo div.head_calendar{
+    width: 680px;
+    float:left;
+    height:79px;    
+}
+ .calendar_sorteo div.div1{
+    width: 268px;
+    float:left;
+    margin-top:18px;
+}
+ .calendar_sorteo ul.bloque {
+    display: inline;
+}
+    /* .calendar_sorteo ul.nav-tabs  li div {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+}*/
+ .calendar_sorteo .nav-tabs, .calendar_sorteo .nav-tabs li {
+    text-align: right;
+}
+
+ .calendar_sorteo div.div1 div.horario_local {
+    margin-top: 14px;
+}
+.calendar_sorteo div.semanas{
+    display:none;
+}
+/*
+ .calendar_sorteo h3,
+ .calendar_sorteo div.div1,
+ .calendar_sorteo div div.horario_local {
+    width: 266px;
+    display:inline-block;
+    background-color:red;
+}
+ .calendar_sorteo h3{
+margin-top:20px;
+margin-left:-1px;
+}*/
+ .calendar_sorteo h3 {
+    /*line-height: 30px;
+    float: left;*/
+    font-size: 24px;
+}
+ .calendar_sorteo .nav-tabs > li > a span {
+    margin-left:5px;
+    padding-right: 20px;
+}
+ .calendar_sorteo .nav-tabs, .calendar_sorteo .nav-tabs li {
+    left: -5px;
+    top:3px;
+}
+ .calendar_sorteo .nav-tabs>li a{
+    height: 36px;
+}
+}
+@media screen and (max-width:623px){
+     .calendar_sorteo div.head_calendar{
+    margin-top:14px;
+    }
+    .calendar_sorteo ul.ul_semana2,
+    .calendar_sorteo ul.ul_semana3{
+        margin-top:12px;
+        display: inline-block;
+    }
+    .calendar_sorteo .container_img{
+        text-align: center;
+    }
+     .calendar_sorteo div.head_calendar div.tabs{
+    width: 100%;
+    text-align:left;
+}
+    /* .calendar_sorteo h3{
+    margin-top:0px;
+}*/
+     .calendar_sorteo{
+    width: 100%
+}
+     .calendar_sorteo .nav-tabs, .calendar_sorteo .nav-tabs li {
+    text-align: left;
+}
+     .calendar_sorteo ul.nav-tabs li.second {
+    width: 136px
+}
+ .calendar_sorteo div.div1 div.horario_local {
+    margin-top: 12px;
+}
+ .calendar_sorteo div.div1{
+    margin-top: 18px;
+}
+.nav-tabs > li > a {
+    padding:2px 0 0 23px;
+}
+ .calendar_sorteo .nav-tabs>li a{
+    height: 42px;
+}
+ .calendar_sorteo .nav-tabs, .calendar_sorteo .nav-tabs li {
+    left: -2px;
+    top:3px;
+}
+ .calendar_sorteo ul.nav-tabs{
+    border:0px;
+}
+ .calendar_sorteo ul.ul_semana1{
+    margin-top:12px;
+    display: inline-block;
+}
+.calendar_sorteo div.div1 h3{
+        font-size: 24px;
+        margin-left: 14px;
+    }
+    .calendar_sorteo div.div1 div.horario_local{
+        margin-top: 2px;
+        margin-left: 16px;
+        word-spacing: 0.01em;
+    }
+    .calendar_sorteo ul.nav-tabs{
+       width: 270px;
+       margin: auto;
+       margin-top: -17px;
+       left: -1px;     
+    }
+     .calendar_sorteo .nav-tabs li{
+         margin:auto;
+     }
+     .calendar_sorteo .nav-tabs li a{
+         height: 36px;
+     }   
+     .calendar_sorteo ul li.semana2,
+     .calendar_sorteo ul li.semana3{
+         display:none;
+     }
+     .calendar_sorteo img.brand5{
+         display:none;
+     }
+     div.calendar_sorteo img.base_calendario{
+         display:none;
+         width: 270px;
+         height:50px; 
+         margin:auto;
+         display:inline-block;
+    }
+    .calendar_sorteo div.semanas{
+        width: 100%;   
+    }
+    .calendar_sorteo div.semanas div.tabs ul{   
+        margin-top:0px;
+        width: 303px;
+        
+    }
+    .calendar_sorteo div.semanas div.tabs ul.nav li a{  
+        border-bottom:none;
+    }
+    .calendar_sorteo div.semanas div.tabs ul.nav li a:hover{  
+        background:none;
+    }
+}
+    
+
+
+ .calendar_sorteo .nav-tabs, .calendar_sorteo .nav-tabs li a span.no_border {
+    background:none;
+}
+ .calendar_sorteo ul  li.px135, .calendar_sorteo ul  li.px136
+    {
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+ .calendar_sorteo ul  li.px135 {
+    width: 135px;
+}
+
+ .calendar_sorteo ul  li.px136 {
+    width: 136px;
+}
+
+
+
+ .calendar_sorteo ul  li div.div_letras div {
+    font-family: 'Trebuchet MS', Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing:1px;
+}
+
+ .calendar_sorteo ul  li div.partidos_gris {
+    width: 100%;
+    height: 147px;
+    background-color: #f2f2f2;
+}
+
+ .calendar_sorteo ul  li div.partidos_blanco {
+    width: 100%;
+    height: 147px;
+    background-color: #fff;
+}
+
+ .calendar_sorteo ul  li div.verde {
+    background-color: #86b519;
+}
+
+ .calendar_sorteo ul  li div.amarillo {
+    background-color: #febf00;
+}
+
+ .calendar_sorteo ul  li div.azul {
+    background-color: #00a9e0;
+}
+
+ .calendar_sorteo ul  li div.rosa {
+    background-color: #ed008c;
+}
+
+ .calendar_sorteo ul  li div.gris {
+    background-color: #8f8f8f;
+}
+
+ .calendar_sorteo div.title {
+    background-color: #8f8f8f;
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+/**/
+
+ .calendar_sorteo h3 a {
+    text-decoration: none;
+}
+
+ .calendar_sorteo .nav-tabs>li{
+    font-size: 14px;
+    height: 40px;
+}
+ .calendar_sorteo .nav-tabs>li.active>a,
+ .calendar_sorteo .nav-tabs>li.active>a:hover,
+ .calendar_sorteo .nav-tabs>li.active>a:focus{
+    border-bottom: 2px solid #86b519;
+    /*right: 13px;*/
+    /*padding: 0px 19px 36px 18px;*/
+}
+ .calendar_sorteo div.div1 div.horario_local span {
+    width: 100%;
+    text-align: left;
+    color: #ec008c;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ .calendar_sorteo div.horario_local i {
+    font-size: 16px;
+    color: #ec008c;
+}
+
+ .calendar_sorteo ul  li div.div_letras {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding-top: 4px;
+    word-spacing:0.2em
+}
+ .calendar_sorteo ul.bloque  li div ul.encuentro{
+    height: 100%;
+    width: 100%;
+}
+ .calendar_sorteo ul.bloque  li div ul.encuentro li{
+    width: 76%!important;
+    height: 25%;
+    padding-top:9px;
+    padding-left:3px;
+    color: #232323;
+    font-weight: bold;
+    font-size: 14px;
+    margin:auto;
+}
+ .calendar_sorteo ul.bloque  li div ul.encuentro li span.vs{
+    color: #81818f;
+    font-size: 12px;
+}
+ .calendar_sorteo ul  li  div p.anuncio{
+    color: #8f8f8f;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    height: 50%;
+    padding-top:49px;
+}
+ .calendar_sorteo a:focus {outline:0px;
+}
+ .calendar_sorteo ul li div ul.encuentro span {
+    cursor:pointer;
+}
+ .calendar_sorteo ul li div ul.encuentro li{
+    position:relative;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido{
+    width: 136px;
+    height: 344px;
+    position:absolute;
+    left:-16px;
+    z-index:1;
+    top:-30px;
+    display:none;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.x{
+    width: 37px!important;
+	height: 36px!important;
+	background-color: #759b1c!important;
+	margin-left: 99px;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 7px;
+	cursor: pointer;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido span.dia_partido{
+    width: 80%;
+    height: 31px;
+    display:inline-block;
+    padding:5px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing:1px;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_gris{
+    width: 100%;
+    background-color:#4a6a00;
+    display:inline-block;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_obscuro{
+    width: 100%;
+    background-color:#759b1c;
+    display:inline-block;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido span.hora_partido{
+    font-style: italic;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    display:inline-block;
+    padding:4px 0 0 0;
+    width: 100%;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido span.grupo_partido{
+    font-style: italic;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    display:inline-block;
+    padding:8px 0 0 0;
+    width: 100%;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_obscuro img.bandera1{
+    width: 30px;
+    height: 22px;
+    background-color:yellow;
+    display:inline-block;
+    float:left;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_obscuro span.marcador1{
+    display:inline-block;
+    float:left;
+    margin-left: 46px;
+    margin-top: 14px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing:2px;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_obscuro span.pais1{
+    display:inline-block;
+    float:left;
+    margin-left: 19px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #fff;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_obscuro span.vs{
+    display:inline-block;
+    font-size: 12px;
+    color: #fff;
+    width: 25%;
+    height: 12px;
+    background-color:#759b1c;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido div.div_obscuro span.dooted{
+    display:inline-block;
+    float:left;
+    font-size: 12px;
+    color: #fff;
+    width: 100%;
+    height: 12px;
+    margin-top:1px;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido span.partido_no  {
+    font-style: italic;
+    height: 40px;
+    font-size: 12px;
+    color: #fff;
+    display:inline-block;
+    padding:14px 0 0 0;
+    width: 80%;
+    font-family: 'Trebuchet MS', Arial;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido span.arena  {
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    font-family: 'Trebuchet MS', Arial;
+    font-weight: bold;
+    height:34px;
+    line-height:2px;
+    display:inline-block;
+    margin-top: 19px;
+}
+ .calendar_sorteo ul li div ul.encuentro li div.info_partido span.sede{
+    font-style: italic;
+    font-size: 14px;
+    color: #fff;
+    padding:10px 0 0 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', Arial;
+    font-weight: normal;
+    display:inline-block;
+}
+@media screen and (max-width:623px){
+    ul.bloque{
+        width: 271px;        
+    }
+    .calendar_sorteo ul.ul_semana1,
+    .calendar_sorteo ul.ul_semana2,
+    .calendar_sorteo ul.ul_semana3{
+        margin-top:13px;
+        margin:auto;
+        padding:0px;
+        width:271px;
+        height:auto;
+        /*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */         
+        display: inline-block;
+        float:left;
+    }
+    .container_2{
+                width: 271px;
+                margin:auto;
+            }
+            .contentS
+            {
+                height:auto;
+                width:auto;
+                overflow:hidden;
+                position:relative;
+            }
+            
+            .fase_2_imgs 
+            {
+                float:left;
+                display:inline;
+                
+                -webkit-transition-property: -webkit-transform;
+                -webkit-transition-duration: 0.5s;
+                -webkit-transition-timing-function: ease-out;
+                padding:0px;
+                margin:0px;
+                
+                width:1510px;
+                
+                /*apply a transfor to kick in the hardware acceleration.  Without this, the first time we add the transform you get odd rendering of the divs (half missing) */
+                -webkit-transform: translate3d(0px,0px,0px); 
+                
+            }
+    
+    }
+    
+    
+/***************************************************** Fase 2 *************************************************************/
+@media screen and (min-width:624px){
+    .calendar_sorteo div.fase_2{
+        width:950px;
+        display:none;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria{
+        width:948px;
+        height:1074px;
+        margin-top: 53px;
+        margin-left: 2px;   
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/bgFase2calendario.jpg);     
+    }
+    
+}
+@media screen and (max-width:623px){
+    .calendar_sorteo div.fase_2{
+        width:100%;
+        overflow:hidden;
+        display:none;    
+            
+    }
+    .div_padre_fase2{
+        width: 320px;
+        min-width: 300px;
+        margin: auto;
+    }
+    div.fase_1{
+        margin-top:12px;
+    }
+    div.div_eliminatoria{
+        margin-top:0px;        
+    }
+    div.div_padre_fase2
+    {
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/bgFase2calendario.jpg) repeat;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria{
+        width:950px;
+        height:auto;
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+    .padre_ul_tab_fase_2{
+        width:320px;
+    }
+}
+.calendar_sorteo div.fase_2 ul.ul_tab_fase_2{
+        margin-top: 15px;
+        margin-left: 3px;
+    }  
+    .calendar_sorteo div.fase_2 ul li.tab_fase_2 {
+        display:inline-block;
+    }
+    .calendar_sorteo div.fase_2 ul li.tab_fase_2 div{
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        font-size:15px;
+        text-align: center;    
+    }
+    .calendar_sorteo div.fase_2 ul li.tab_fase_2{
+        float:left;
+    }      
+    .calendar_sorteo div.fase_2 ul li.li_octavos div{
+        width:203px;
+        padding-right: 14px;
+        word-spacing: -0.1em;
+        letter-spacing: .03em;
+    }
+    .calendar_sorteo div.fase_2 ul li.li_cuartos div{
+        width:216px;
+        padding-right: 1px;
+        word-spacing: -.1em;
+        letter-spacing: .05em;
+    }
+    .calendar_sorteo div.fase_2 ul li.li_semi div{
+        width:214px;
+        padding-right: 0px;
+        word-spacing: -.1em;
+        letter-spacing: .05em;
+    }
+    .calendar_sorteo div.fase_2 ul li.li_final div{
+        width:312px;
+        padding-left:11px;
+        letter-spacing: .04em;
+    }    
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        float:left;
+        margin-top: 2px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves,
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_semis,
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_final{
+        width: 24px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves li,
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_semis li,
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_final li{
+        height: 102px;
+        background-color:red;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves li{
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/corchete1.png) no-repeat;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_semis li{
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/corchete2.png) no-repeat  1px -2px;;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_final li{
+        background:url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/corchete3.png) no-repeat  1px -2px;;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves li.first{
+        margin-top: 74px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves li.llaves_salto{
+        margin-top: 172px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_semis li{
+        height: 225px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_semis li.first{
+        margin-top:150px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_semis li.llaves_salto{
+        margin-top:323px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.cuartos{
+        margin-top: 65px;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.semis{
+        margin-top: 201px;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final{
+        margin-top: 18px;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_final{
+       margin-top: 260px;           
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.llaves_final li{
+       height: 556px;       
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.semis li.fase2_recuadro_salto{
+        margin-top: 423px;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.cuartos li.fase2_recuadro_salto{
+     margin-top:149px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro{
+        width:192px;
+        height:125px;
+        position:relative;
+    }
+     .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro_salto{
+     margin-top:24px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro div{
+        background-color:#00a9e0;
+        width:100%;
+        height:125px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro div.fase2_div_fecha_azul{
+        background-color:#00a9e0;
+        height:31px;
+        width:100%;
+        text-align: center;
+        padding-top: 6px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        word-spacing: .3em;
+        cursor:pointer;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro div.fase2_div_fecha_naranja{
+        background-color:#febf00;
+        height:31px;
+        width:100%;
+        text-align: center;
+        padding-top: 6px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        word-spacing: .3em;
+        cursor:pointer;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro div.fase2_div_fecha_verde{
+        background-color:#86b519;
+        height:31px;
+        width:100%;
+        text-align: center;
+        padding-top: 6px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        word-spacing: .3em;
+        cursor:pointer;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.fase2_recuadro div.fase2_div_contenido{
+        background-color:#f2f2f2;
+        width:100%;
+        height:94px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final li.fase2_recuadro{
+        width:300px;
+        height:auto;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final li.fase2_recuadro div.fase2_div_fecha_verde{
+        height:70px;        
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final li.fase2_recuadro div.fase2_div_contenido{
+        height: 191px;        
+    }
+    .calendar_sorteo div.fase_2 img.coca_cola{
+        height: 40px;
+        width: 252px;
+        margin-top: 298px;
+        margin-left: 24px;    
+    }
+    .calendar_sorteo div.fase_2 h2.final{
+        color: #d80228;
+        font-family: 'Roboto Slab Bold';
+        font-weight: bold;
+        font-size: 32px;
+        text-decoration: none;
+        word-spacing: 0.04em;
+        letter-spacing: -.01em;
+        margin-top: 18px;        
+    }
+    .calendar_sorteo div.fase_2 h2.tercer_lugar{
+        color: #d80228;
+        font-family: 'Roboto Slab Bold';
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        word-spacing: 0.05em;
+        letter-spacing: -.02em;
+        margin-top: 51px;
+        display: inline-block;       
+    }
+    .calendar_sorteo div.fase_2 ul.ul_tercer_lugar{
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-top: 7px!important;
+    }
+    .calendar_sorteo div.fase_2 ul.ul_tercer_lugar li.fase2_recuadro div.fase2_div_contenido{
+        height:80px!important;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido {
+        width: auto;
+        height: 43px;
+        margin-top: 23px;
+        margin-left: 25px;       
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido li{
+        text-align:center;   
+        display:inline-block;
+        height: 46px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido .li_vs{
+        display: inline-block;
+        position: absolute;
+        width: 67px;
+        margin-top: 1px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido .list_visitante{
+        margin-left: 71px;
+    }
+    
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido div.bandera_local{
+        width: 34px;
+        height: 25px;
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000; 
+        background-color:#f2f2f2;      
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido span.nombre_local{
+        font-weight: bold;
+        margin-top: 1px;
+        display: block; 
+    }  
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.ul_partido span.fase2_vs{
+        font-weight: bold;
+        margin-top: 1px;
+        display: block; 
+    }   
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul .li_finalista{
+        margin-top: 1px;
+        margin-left: 34px;
+        width: 48px;
+        height: auto!important;   
+    } 
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.li_finalista_vs{
+        margin-top: 7px!important;
+        margin-left: 5px;
+    } 
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul li.visitante_finalista{
+        margin-left: 80px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul .li_finalista div.bandera_local{
+        width: 48px;
+        height: 36px!important;   
+    } 
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul .li_finalista div.bandera_local{
+        width: 48px;
+        height: 36px!important;   
+    }
+     .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final span.num_partido{
+        font-family: Arial;
+        margin-top: 40px;
+        display: inline-block;
+        margin-left: 40px;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: italic;
+        color: #8f8f8f;
+        width: 225PX;
+        height: 30PX;
+        padding-top: 7px;
+        padding-left: 78px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final span.maracana{
+        font-family: Arial;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        color: #8f8f8f;
+        width: 225px;
+        height: 15px;
+        margin-left: 40px;
+        padding-left: 60px;
+        position:relative;
+        padding-top:14px
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final span.rio{
+        font-family: Arial;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: normal;
+        color: #8f8f8f;
+        width: 225px;
+        font-style: italic;
+        position:absolute;
+        left: 71px;
+        top: 26px;;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido{
+        position:absolute!important;
+        width: 100%!important;
+        height:240px!important;
+        background-color:transparent!important;
+        top:-37px!important;
+        z-index: 1;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_cerrar{
+        width: 37px!important;
+        height: 36px!important;
+        background-color: #759b1c!important;
+        margin-left: 155px;
+        color:#fff;
+        font-size:16px;
+        padding-left: 14px;
+        padding-top: 7px;
+        cursor:pointer;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_head{
+        width: 192px!important;
+        height:70px!important;
+        background-color:#4a6a00!important;
+        text-align: center!important;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_head span.fase2_detalle_partido_head_fecha{
+        text-align: center;
+        padding-top: 6px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        word-spacing: .3em;
+        margin-top: 1px;
+        display: inline-block;
+        width: 148px;
+        height: 36px;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_head span.fase2_detalle_partido_hora{
+        text-align: center;
+        padding-top: 6px;
+        color: #fff;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        word-spacing: .3em;
+        margin-top: 1px;
+        display: inline-block;
+        width: 148px;
+        height: 36px;
+        font-style: italic;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_body{
+        width: 192px!important;
+        height:170px!important;
+        background-color:#759b1c!important;
+        text-align: center!important;
+    }
+     .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_body ul.ul_partido{
+        margin-left:23px!important;
+    }
+    .calendar_sorteo div.fase_2 ul li.fase2_recuadro div.fase2_detalle_partido_body ul.ul_partido{
+        margin-left:23px!important;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria  div.fase2_detalle_partido_body ul.ul_partido div.bandera_local{
+        width: 34px;
+        height: 25px;
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff; 
+        background-color:#f2f2f2;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria  div.fase2_detalle_partido_body ul.ul_partido span.nombre_local {
+        color:#fff;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria div.fase2_detalle_partido_body ul.ul_partido .li_vs{
+        color:#fff;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria div.fase2_detalle_partido_body span.num_partido{
+        font-family: Arial;
+        margin-top: 23px;
+        margin-left: -18px;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: italic;
+        width: 148px;
+        height: 30px;
+        margin-left: 1px;
+        color:#fff;
+        padding-top: 8px;
+    }
+     .calendar_sorteo div.fase_2 div.div_eliminatoria div.fase2_detalle_partido_body span.maracana{
+        font-family: Arial;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        height: 15px;
+        position:relative;
+        padding-top:14px;
+        width: 147px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria div.fase2_detalle_partido_body span.rio{
+        font-family: Arial;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: normal;
+        color: #fff;
+        width: 225px;
+        font-style: italic;
+        position:absolute;
+        left: -39px;
+        top: 27px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria  .fase2_detalle_partido{
+        display:none;
+    }
+    div.fase_2 ul.ul_tab_fase_2{
+        height: 21px;
+        width: 950px;
+    }
+    .calendar_sorteo {
+    margin-bottom: 36px;
+    }
+    ul.final div.fase2_detalle_partido{
+        margin-left: 108px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final div.fase2_detalle_partido_body span.num_partido {
+       padding-left: 2px;
+    }
+    .calendar_sorteo div.fase_2 div.div_eliminatoria ul.final div.fase2_detalle_partido_body span.maracana {
+       margin-left: 0px;
+       padding-left: 0px;
+    }

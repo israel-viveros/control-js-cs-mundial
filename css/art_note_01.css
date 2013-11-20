@@ -1,0 +1,44 @@
+/*BEGIN: art_note_01 / desktop*/
+@media screen and (min-width: 624px) {
+    .art_note_01{
+        padding: 15px 0 0 25px ;        
+        padding-top: 0px;
+        font-size:14px;
+		line-height: 16px;
+        color:#333;
+        margin-bottom: 24px;
+        width: 624px;			
+    }
+    .art_note_01 p{       
+        margin-bottom: 20px;
+		line-height: 16px;
+    }
+     .art_note_01 p:last-child{
+     	margin-bottom: 0;
+     }
+    .art_note_01 a{
+        text-decoration:none;
+        color: #EC008C;
+    }
+}
+
+
+/*BEGIN: art_note_01 / mobile*/
+@media screen and (max-width:623px){
+	.art_note_01{
+        padding: 15px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size:14px;
+		line-height: 16px;
+        color:#333;			
+    }
+    .art_note_01 p{       
+        margin-bottom: 20px;
+		line-height: 16px;
+    }
+    .art_note_01 a{
+        text-decoration:none;
+        color: #EC008C;
+    }    
+}

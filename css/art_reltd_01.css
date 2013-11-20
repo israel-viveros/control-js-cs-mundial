@@ -1,0 +1,36 @@
+/*BEGIN: art_reltd_01 / desktop*/
+@media screen and (min-width: 624px) {
+	.art_reltd_01 {
+        display: inline;                
+        float:left;
+        margin-bottom: 5px;      
+        padding-bottom: 18px;
+        text-align: left;                
+        width:300px;  
+    }
+    .art_reltd_01_title {        
+        font-size: 0.9em;
+        font-style: italic;
+        margin: 0; 
+        width: 100%;
+    }        
+    .art_reltd_01 .art_reltd_01_title .art_reltd_01_blue {               
+        font-weight: bold;        
+        text-decoration: none;
+    }
+    .art_reltd_01 .art_reltd_01_title .art_reltd_01_black {        
+        display: block;
+        font-weight: normal;
+        line-height: 16px;
+        padding-right: 75px;
+    }
+}
+/*END: art_reltd_01 / desktop*/
+
+/*BEGIN: art_reltd_01 / mobile*/
+@media screen and (max-width:623px){
+	.art_reltd_01{
+		display: none;
+	}	
+}
+/*END: art_reltd_01 / mobile*/
