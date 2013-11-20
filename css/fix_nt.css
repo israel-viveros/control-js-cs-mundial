@@ -1,5 +1,6 @@
  /*
- 	Developer: Viveros 1.3
+ 	Developer: Viveros 1.4
+ 	/* QA diseño */
  */
  .img_stage_01 div.img_stage_01_image img {
  	z-index: 0;
@@ -37,11 +38,12 @@
     li.commentData p{
         font-style:italic!important;
         padding: 6px!important;
-        color:#666!important;
+        color:#232323!important;
         font-size:14px!important;
         display:block!important;
         margin-bottom: 5px;
 		font-weight: bold;
+		font-family: Trebuchet MS!important
     } 
     .answer_l0{
     	padding: 0!important;

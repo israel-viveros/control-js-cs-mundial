@@ -1,3 +1,4 @@
+/* QA diseño */
 @media screen {
 	.img_stage_01{
 		position:relative;
@@ -31,8 +32,6 @@
 		padding-left: 5%;
 		padding-top: 3%;
 		font-style: italic;
-		font-weight: bold;
-		font-size: 11px;
 		width: 90%;
 	 	*font-size: 12px;
 		font-size: 12px;
@@ -41,9 +40,7 @@
 		display: block;
 		padding-left: 5%;
 		font-style: italic;
-		color: #666666;
-		font-weight: bold;
-		font-size: 11px;
+		color: #666666;		
 		width: 85%;
 	 	*font-size: 12px;
 		font-size: 12px;
@@ -92,7 +89,7 @@
 		background: rgba(255, 255, 255, 0.6);
 		width: 600px;
 		bottom:0;
-		padding: 20px 35px;
+		padding: 10px 35px 0;
 	}
 	.img_stage_01 a p.img_stage_01_black {
 		display: block;

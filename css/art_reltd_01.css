@@ -1,4 +1,5 @@
 /*BEGIN: art_reltd_01 / desktop*/
+/* QA diseño */
 @media screen and (min-width: 624px) {
 	.art_reltd_01 {
         display: inline;                
@@ -9,7 +10,7 @@
         width:300px;  
     }
     .art_reltd_01_title {        
-        font-size: 0.9em;
+        font-size: 14px;
         font-style: italic;
         margin: 0; 
         width: 100%;

@@ -1,4 +1,5 @@
 /*BEGIN: mix_3arts_04 / desktop*/
+/* QA diseño */
 @media screen and (min-width: 624px) {
 	.mix_3arts_04{
         width: 624px;
@@ -61,6 +62,7 @@
 	 .mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_middle .mix_1arts_09 .mix_1arts_09_thumb li a span,
 	 .mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_last .mix_1arts_09 .mix_1arts_09_thumb li a span {
 	 	font-size: 14px;
+	 	font-style: italic;
 	 }
 	.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_first .mix_1arts_09 .mix_1arts_09_thumb li a p,
 	.mix_3arts_04 div.mix_3arts_02 div.mix_3arts_02_middle .mix_1arts_09 .mix_1arts_09_thumb li a p,

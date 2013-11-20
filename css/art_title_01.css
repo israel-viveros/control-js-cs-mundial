@@ -1,4 +1,5 @@
 /*BEGIN: art_title_01 / desktop*/
+/* QA diseño */
 @media screen and (min-width: 624px) {
 	.art_title_01 {
 		/*cambiar esta URL cuando para que funcione en el template a:  url("../../images/dotted-horizontal-gris.png") repeat-x  bottom !important;*/			
@@ -19,13 +20,12 @@
 		text-decoration: none;
 	}
 	.art_title_01 div p a span{
-		margin-right: 11px;
+		margin-right: 12px;
 	}	
 	.art_title_01 div div a{
 		color: #232323;
-		font-family: 'roboto_slabbold';
-		font-weight: bold;
-		font-size: 1.9em;
+		font-family: 'roboto_slabbold';		
+		font-size: 28px;
 		letter-spacing: -2px;
 		text-decoration: none;
 		word-spacing: 3px;		
