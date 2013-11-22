@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$('.header i').on('click',function(){
+	$('.header i').on('click',function(e){
+		e.preventDefault();
 		$('.header nav').find('.header_sub_menu').slideToggle('slow');
 		var class_i = $(this).attr('class');
 		if(class_i == 'tvsa-caret-down')

@@ -1,11 +1,10 @@
 /*
-    Developer: viveros 1.5
+    Developer: viveros 1.6
 */
 var MundialFunctions = new Object;
 
-MundialFunctions.Photoplayer = function() {
-    //var variablesPhoto = "/embed?pausa=true&fullscreen=false&nostats=1";
-    var variablesPhoto = "?nostats=1";
+MundialFunctions.Photoplayer = function() {    
+    var variablesPhoto = "?embed=true&nostats=true";
     $(".GeneratesrcGallery").find("iframe").attr("src", $(".GeneratesrcGallery iframe").data("galeria") + variablesPhoto);
 }
 

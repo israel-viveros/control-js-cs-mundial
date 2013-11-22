@@ -1,7 +1,12 @@
  /*
  	Developer: Viveros 1.4
- 	/* QA diseño */
+ 	QA diseño 
  */
+ *:focus
+{
+    outline: none;
+}
+
  .img_stage_01 div.img_stage_01_image img {
  	z-index: 0;
  }
@@ -95,7 +100,7 @@ p.l0 b{
 	display: block!important;
 	font-size: 14px!important;
 	font-style: italic!important;
-	color: #FED0EE!important;
+	color: #ec008c!important;
 	font-size: 16px!important;
 	font-weight: bold!important;
 	margin-bottom: -1.2em!important;
@@ -114,6 +119,7 @@ p.l0 b .comment_grey{
 	margin-top: 0px!important;
 	color: #232323!important;
 	padding-left: 8px!important;
+	font-family: 'Trebuchet Ms'!important;
 }
 
 .comm_pagging a{
