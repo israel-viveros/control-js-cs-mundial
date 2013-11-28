@@ -1,5 +1,6 @@
-
+/* viveros */
 /*
+
 @media screen and (min-width: 948px) {
     
     .ie8 div.img_galry_01 .overlay {
@@ -90,7 +91,7 @@
     
     div.img_galry_01 .image-container{
        position:relative;
-       height: 472px;
+       height: 520px;
     }
         
     #videobtn{
@@ -195,12 +196,13 @@
     /* Flechas de navegacion de carruseles */
     div.img_galry_01 div.gallery-controls {
         position:relative;
-        padding-top:12px;
+        margin-top:12px;
         margin-left:24px;
         background:#FFF;
         top:-4px;
         width: auto;
-        overflow: hidden;   
+        overflow: hidden;
+        background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/dotted-horizontal-gris.png) repeat-x 0px 0px;  
     }
     div.img_galry_01 .carrusel1 .arrowLeft,
     div.img_galry_01 .carrusel1 .arrowRight {
