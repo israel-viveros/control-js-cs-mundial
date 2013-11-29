@@ -1,0 +1,376 @@
+/*
+	Developer: Israel Viveros;
+	Version: 1.0;
+*/
+.loadtimeline{
+	color: #000;
+	text-align: center;
+	padding: 20px 0;
+}
+.TimelineBody{
+	width: 865px;
+	display:block;
+	margin:  0 auto;
+	height: auto;
+	position: relative;
+	margin-top: -36px;
+	z-index: 0;
+}
+.TimelineBody .backTop{	
+	width: 868px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/bgTopHistoria.gif) no-repeat center center;
+	height: 255px;
+}
+.TimelineBody .titleTop{
+	font-family: "roboto_slabbold", serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: #002776;
+	text-align: center;
+	position: relative;
+	z-index: 99;
+	max-height: 100px;
+	overflow: hidden;
+	padding-top: 36px;
+}
+.TimelineBody .sponsorTop{
+	color: #002776;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	max-height: 33px;
+	z-index: 99;
+	overflow: hidden;
+}
+.TimelineBody .sponsorTop span{ 
+	vertical-align: top;
+	display: inline-block;
+	padding: 0.3em;
+}
+
+
+.TimelineBody .wrapTimeline{
+	width: 100%;
+	height: 700px;	
+	position: relative;
+	z-index: 100;
+	display: block;	
+	margin-top: 20px;
+	overflow: hidden;
+	
+	
+}
+.TimelineBody .wrapTimeline .mascaraTimeline{
+	width: 100%;
+	height: auto;	
+	position: relative;	
+	top: 0;
+}
+
+.TimelineBody .backBottom{
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/bgDwnHistoria.gif) no-repeat center center;
+	width: 865px;
+	height: 172px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+.TimelineBody .scroll{
+	position: absolute!important;
+	width: 20px;
+	height: 46px;
+	background: url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/imgDrag.png) no-repeat center center;
+	z-index: 999;
+	cursor: pointer;
+	left: 417px;
+	top: 0;
+}
+.TimelineBody .lineScroll{
+	width: 6px;
+	height: 100%;
+	background: gray;
+	position: absolute;
+	z-index: 1;
+	left: 49%;
+
+}
+.wrapTimeline .itemTimeline{
+	width: 408px;
+	display: block;
+	position: relative;
+	height: auto;
+	left: 53%;
+	margin-bottom: 36px;
+}
+
+.wrapTimeline .itemTimeline.mundial{
+	left: 0;
+	
+}
+
+.wrapTimeline .itemTimeline .yearItemTimeline{
+	font-size: 24px;
+	display: inline-block;
+	font-weight: bold;
+	background: #00a9e0;
+	color: #FFF;
+	font-family: "roboto_slabbold", serif;
+	padding: 5px 12px 5px 20px;	
+	margin-bottom: 24px;
+	position: relative;
+	left: -29px;
+	transition:all 0.3s linear 0;
+	-webkit-transition:all 0.3s linear 0;
+	-moz-transition:all 0.3s linear 0;
+	-o-transition:all 0.3s linear 0;
+	}
+.wrapTimeline .itemTimeline.mundial .yearItemTimeline{
+	left: 325px;
+	background: #ed008c;
+	padding: 5px 30px 5px 20px;
+}
+.wrapTimeline .itemTimeline .yearItemTimeline img{	
+	display: inline-block;
+	width: 77px;
+	height: 26px;
+	overflow: hidden;
+	vertical-align: top;
+	padding: 3px 26px 0;
+}
+.wrapTimeline .itemTimeline .infoItemTimeline{
+	width: 100%;
+	display: block;
+	transition:all 0.3s linear 0;
+	-webkit-transition:all 0.3s linear 0;
+	-moz-transition:all 0.3s linear 0;
+	-o-transition:all 0.3s linear 0;
+}
+.wrapTimeline .itemTimeline.mundial .infoItemTimeline{
+	width: 324px;
+	width: 324px;
+	background: #ed008c;
+	margin: -68px 27px 0;
+}
+.wrapTimeline .itemTimeline .infoItemTimeline img{
+	display: inline-block;
+	width: 120px;
+	margin: 0 12px 12px 0;
+	vertical-align: top;
+	height: 90px;
+}
+.wrapTimeline .itemTimeline.mundial .infoItemTimeline img{
+	width: 100px;
+	height: 100px;
+	margin: 24px 12px 24px 24px;
+}
+.wrapTimeline .itemTimeline .infoItemTimeline .summaryItemTimeline{
+	display: inline-block;
+	width: 270px;	
+	font-family: "roboto_slabbold", serif;
+	font-weight: 700;
+	font-size: 18px;
+	vertical-align: top;
+	color: #00a9e0;
+	line-height: 1.1em;
+	margin-bottom: 12px;
+}
+.wrapTimeline .itemTimeline.mundial .infoItemTimeline .summaryItemTimeline{	
+	width: 151px;
+	font-family: Trebuchet Ms;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	margin-left: 12px;
+	padding-left: 12px;
+	border-left: 1px dotted #fff;
+}
+.wrapTimeline .itemTimeline .infoItemTimeline  .OtherTimeline{
+	display: block;
+	width: 100%;
+	font-family: "roboto_slabbold", serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #00a9e0;
+	padding-top: 24px;
+	line-height: 1.1em;
+	border-top: 1px dotted gray;
+}
+
+.wrapTimeline .itemTimeline.mundial .infoItemTimeline .titleMundialItem{
+	font-family: "roboto_slabbold", serif;
+	font-size: 24px;
+	color: #FFF;
+	max-height: 55px;
+	overflow: hidden;
+	line-height: 2em;
+	width: 285px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.viewmoreItemTimeline{
+	display: block;
+	width: 92px;
+	height: 32px;
+	position: relative;
+	left: 259px;
+	font-family: Trebuchet Ms;
+	font-size: 14px;	
+	background: #86b519;
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+	padding-top: 6px;
+	transition:all 0.3s linear 0;
+	-webkit-transition:all 0.3s linear 0;
+	-moz-transition:all 0.3s linear 0;
+	-o-transition:all 0.3s linear 0;
+}
+a .viewmoreItemTimeline{
+	color: #FEFEFE;
+	text-decoration: none;
+}
+.itemTimeline a{
+	text-decoration: none;
+}
+.relleno{
+	width:100%;height:160px;display:block;
+}
+.relleno2{
+	 height: 20px;
+}
+
+.bottomTimeline{
+	width: 970px;
+	display: block;	
+	height: auto;
+	position: relative;
+	margin: 50px 0 0;
+}
+.twitterTimeline, .encuestaTimeline, .cuboTimeline{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;	
+	vertical-align: top;
+	width: 300px;
+}
+
+
+@media only screen and (min-width : 481px) {
+	.wrapTimeline .itemTimeline:hover .yearItemTimeline{
+		text-shadow: 5px 3px 5px #FFF;
+	}
+	.twitterTimeline, .encuestaTimeline{
+		margin-right: 35px;
+	}
+
+
+}
+
+
+@media only screen and (max-width : 481px) {
+
+
+	.twitterTimeline, .cuboTimeline{
+		display: none;		
+	}
+
+	.TimelineBody .wrapTimeline .mascaraTimeline{
+		top: 0!important;
+	}
+	.TimelineBody{
+		width: 100%;
+		overflow: hidden;
+		margin-top: -12px;
+	}
+	.TimelineBody .backTop{
+		width: 120%;
+		left: -10%;
+		height: 102px;
+	}
+	.TimelineBody .lineScroll{
+		left: 15px;
+	}
+	.wrapTimeline .itemTimeline{
+		left: 45px;
+		margin-bottom: 36px;
+		width: 90%;		
+	}
+	.wrapTimeline .itemTimeline.mundial{
+		left: 45px;
+	}
+	.wrapTimeline .itemTimeline .infoItemTimeline{
+		width: 95%;
+	}
+	.TimelineBody .scroll{
+		display: none;
+	}
+	.wrapTimeline .itemTimeline .infoItemTimeline .summaryItemTimeline,
+	.wrapTimeline .itemTimeline .infoItemTimeline .OtherTimeline{
+		display: block;
+		width: 98%;
+	}
+	.wrapTimeline .itemTimeline.mundial .infoItemTimeline{
+		margin-top: -25px;
+		padding-bottom: 10px;
+		width: 100%;
+		left: -35px;
+		position: relative;
+	}
+	.wrapTimeline .itemTimeline.mundial .yearItemTimeline{
+		left: -25px;
+	}
+	.wrapTimeline .itemTimeline.mundial .infoItemTimeline .summaryItemTimeline{
+		width: 85%;
+		padding-bottom: 1px;
+		border-left: none;
+		border-top: 1px dotted #FFF;
+		margin-bottom: 0;
+		padding-top: 12px;
+	}
+	.wrapTimeline .itemTimeline.mundial .infoItemTimeline img{
+		margin-bottom: 12px;
+		margin-top: 0px;
+	}
+	
+	.TimelineBody .sponsorTop img{
+		width: 74px;
+		height: 23px;
+	}
+	.TimelineBody .backBottom{
+		width: 120%;
+		height: 105px;
+		left: -10%;
+	}
+	.viewmoreItemTimeline{
+		left: 61%;
+	}
+	.TimelineBody .wrapTimeline{
+		height: 100%;
+	}
+	.relleno{
+		display: none;
+	}
+
+
+}
+
+
+@media screen and (min-width: 343px) and (max-width: 405px) {
+  .viewmoreItemTimeline{
+		left: 70%;
+	}
+}
+@media screen and (min-width: 406px) and (max-width: 481px) {
+  .viewmoreItemTimeline{
+		left: 74%;
+	}
+}
+
