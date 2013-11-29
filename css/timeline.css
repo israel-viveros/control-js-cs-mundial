@@ -1,6 +1,6 @@
 /*
 	Developer: Israel Viveros;
-	Version: 1.0;
+	Version: 1.1;
 */
 .loadtimeline{
 	color: #000;
@@ -276,8 +276,10 @@ a .viewmoreItemTimeline{
 
 
 @media only screen and (max-width : 481px) {
-
-
+	
+	.bottomTimeline, .encuestaTimeline{
+		width: 100%;
+	}
 	.twitterTimeline, .cuboTimeline{
 		display: none;		
 	}
