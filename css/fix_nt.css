@@ -1,7 +1,14 @@
  /*
- 	Developer: Viveros 1.4
- 	QA diseño 
+ 	Developer: Viveros 1.5; 	
  */
+ .wdg_social_01{
+ 	padding-left: 4px!important;
+ }
+ .wdg_social_01 .social-icons li.social_icon{
+ 	margin-right: 7px!important;
+ 	padding-left: 0!important;
+ 	padding-right:0!important;
+ }
  *:focus
 {
     outline: none;
