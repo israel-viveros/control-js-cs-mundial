@@ -1,9 +1,14 @@
   /*
     Developer: Israel Viveros;
-    Version: 1.0;
+    Version: 1.1;
   */
   span.data{ display: none!important;}
   @media screen {
+
+    .publicidad_948x90 img.image1,
+    .publicidad_320x50 img.image2{
+        display: none;
+    }
 
     .wdg_social_01{
         width: 100%;
