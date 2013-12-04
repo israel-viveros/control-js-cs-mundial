@@ -1,5 +1,55 @@
-// JavaScript Document
+/*
+	Developer: viveros 1.0	
+*/
 $(document).ready(function(e) { 
+
+
+	if($("#OutTop10").length){
+		var validacionTop = "";			
+
+			$.ajax({
+				url: 'http://televisadeportes.esmas.com/copa-mundial-fifa-brasil-2014/top10.html',
+				dataType: 'script'
+			})
+			.done(function() {
+
+				if(validacionTop != "" && validacionTop != null){
+					$("#OutTop10").html("Cargando...");
+					
+				var OutTop10 = "";
+				OutTop10 += '<div class="top_ten" data-enhance="false">';
+				OutTop10 += '<div class="wdg_carousa showArrows">';
+				OutTop10 += '<div class="top_ten_title">';
+				OutTop10 += '<h3><a class="azul"  title="'+titleTop +'">'+titleTop +'<span class="icon mobile"></span></a></h3>';
+				OutTop10 += '<ul class="wt10_arrows">';
+				OutTop10 += '<li><a href="#left" class="wdg_carousa_left2 carouselArrowLeft"><i class="tvsa-double-caret-left inactive"></i></a></li>';
+				OutTop10 += '<li class="dotted-left"><a href="#right" class="wdg_carousa_right2 carouselArrowRight"><i class="tvsa-double-caret-right"></i></a></li>';
+				OutTop10 += '</ul></div>';
+				OutTop10 += '<div class="top_ten_carousel">';
+				OutTop10 += '<ul><li class="li_content">';		
+
+				$.each(Top10, function(index, val) {			
+					if(Top10[index][2]){				
+						 OutTop10 += '<div class="div_content">';
+						 OutTop10 += '<a href="'+Top10[index][3]+'" title="'+Top10[index][2]+'">';
+						 OutTop10 += '<img src="'+Top10[index][0]+'" alt="'+Top10[index][2]+'"/>';
+						 OutTop10 += '<h3>'+Top10[index][1]+'</h3>';
+						 OutTop10 += '<p>'+Top10[index][2]+'</p>';
+						 OutTop10 += '<span class="icon"></span> </a> ';
+						 OutTop10 += '</div>';
+					}
+				});
+
+				OutTop10 += '</li></ul>';
+				OutTop10 += '</div></div></div>';
+
+				$("#OutTop10").html(OutTop10);
+				$("div.countdown").remove();
+			}
+
+
+
+			
 		
 		$('.top_ten').each(function(ix, element) {   
 			$wt10_elements = $('.top_ten .top_ten_carousel ul li').size();     
@@ -62,7 +112,7 @@ $(document).ready(function(e) {
 
 		$('.top_ten .tvsa-double-caret-right').click(function(e) {
 			e.preventDefault();
-		/*Verifico posición del scroll*/ 
+		/*Verifico posiciÃ³n del scroll*/ 
 		if (navigator.appVersion.indexOf("MSIE 7.")!=-1 || navigator.appVersion.indexOf("MSIE 8.")!=-1){
 			var $wt10_large = 625;
 			$('.top_ten .top_ten_carousel').children().attr('style', 'width: '+$wt10_large+'px !important');
@@ -85,11 +135,9 @@ $(document).ready(function(e) {
 						$(this).parents('.top_ten').find('.bullets').children().eq(1).addClass('background-color1');
 						}
 		
-		});
+		
 
-
-		/*Swipe*/ 
-		$(function() {      
+	     
 		  $(".top_ten .wdg_carousa .top_ten_carousel").swipe( { swipeLeft:swipe1, swipeRight:swipe2, allowPageScroll:"auto"} );
 		  //Swipe handlers.
 		  function swipe1(event, direction) {
@@ -129,5 +177,17 @@ $(document).ready(function(e) {
 
 		$('.top_ten').bind("touchmove",function(event){
     		event.preventDefault();
-    	});    
+    	});  
+
+
+
+
+})
+			.fail(function() {
+				//console.log("error");
+			})			
+						
+		}
+
+
 });  
