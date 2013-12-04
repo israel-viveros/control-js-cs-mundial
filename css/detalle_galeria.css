@@ -1,5 +1,3 @@
-
-/*  211113 */
 /*BEGIN: img_galry_02 / desktop*/
 @media screen and (min-width: 624px) { /*Version Desktop*/	
 
@@ -555,6 +553,14 @@
 	}
 	div.img_galry_02{
 		border-bottom: none;
+	}
+
+	div.img_galry_02 .overlay{
+		height: 45px;
+		bottom: -1px;
+	}
+	div.img_galry_02 div.image-container .controls{
+		bottom: 71px !important;
 	}
 
  }
