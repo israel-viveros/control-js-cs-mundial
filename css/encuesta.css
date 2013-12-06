@@ -1,0 +1,767 @@
+/* SAFE :: ENCUESTA Normal :: Sorteo 2014 :: 01-noviembre-13
+Modify by: Viveros 051213;
+*/
+
+@import url(http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/css/roboto_slabbold.css);
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+margin:0;
+padding:0;
+background-color: transparent;
+border: none;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+fieldset,img {
+border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style:normal;
+font-weight:normal;
+}
+ol,ul {
+list-style:none;
+}
+caption,th {
+text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+font-size:100%;
+font-weight:normal;
+}
+q:before,q:after {
+content:;
+}
+abbr,acronym { border:0;
+}
+HTML { /*overflow: hidden;*/ }
+/* FIN INICIALIZACI?N CROSSBROWSER */
+
+@font-face {
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: 400;
+src: local(Roboto Slab Regular), local(RobotoSlab-Regular), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v2/y7lebkjgREBJK96VQi37ZobN6UDyHWBl620a-IRfuBk.woff) format(woff);
+}
+@font-face {
+font-family: Roboto Slab bold;
+font-style: normal;
+font-weight: bold;
+src: local(Roboto Slab Bold), local(RobotoSlab-Bold), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v2/dazS1PrQQuCxC3iOAJFEJTqR_3kx9_hJXbbyU8S6IN0.woff) format(woff);
+}
+
+.wg_esmas_safe_wrapper *{
+margin: 0;
+padding:0;
+font: normal normal 100% Trebuchet MS, Arial, sans-serif;
+}
+.wg_esmas_safe_wrapper UL{
+list-style:none;
+list-style-type:none;
+}
+/*Contenedor principal, no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/ 
+.wg_esmas_safe_wrapper{	
+width: 300px;
+overflow: hidden;
+}
+/*Contenedor del T?tulo*/
+.wg_esmas_safe_title_container{
+width: 300px;
+height: 30px;
+/*overflow:hidden;*/
+border-bottom: 1px solid #CCC;
+max-width: 18.75em;
+}
+/*Texto del T?tulo*/
+.wg_esmas_safe_title_container H1{
+  font-family: roboto_slabbold;
+overflow:hidden;
+color: #00A9E0;
+font-size: 24px;	
+display: inline-block;
+width: 30%;
+height: 31px;
+background-color: #FFFFFF;
+z-index: 10;
+margin-top: 8px;
+}
+/*Parte Central, no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/ 
+.wg_esmas_safe_body_container{
+
+width: 598px; 
+overflow:hidden;
+}
+/*Parte que se desliza hacia la izquierda, por ello deber? ser del doble de ancho que la encuesta*/
+.wg_esmas_safe_sections{
+position:relative;
+width: 600px;
+/*right: 294px !important;*/
+}
+/*Cada una de las secciones, 1. Muestra las posibles respuestas, 2. Muestra las barras de resultados*/
+.wg_esmas_safe_simple_poll_section{
+float: left;
+width: 300px;
+margin-left: 0px !important;
+/*margin-bottom: 15px;*/
+}
+
+/*Contenedor de Pregunta*/
+.wg_esmas_safe_question_container{
+display:inline-block;
+width:300px;
+text-align:left;
+}
+/*Se puede colocar un Icono arriba o a la izquierda de las preguntas, en este caso lo ocultamos*/
+.wg_esmas_safe_icon_container{
+width: 0;
+height: 0;
+display: none !important;
+visibility: hidden !important;
+overflow:hidden;
+}
+.wg_esmas_safe_icon_container A IMG{
+width: 0;
+height: 0;
+display: none;
+visibility: hidden;
+overflow:hidden;
+}
+/*Posicionador de la Pregunta*/
+.wg_esmas_safe_text_container{
+margin-left: 0px !important;
+}
+/*Texto de la Pregunta, preferible no fijarle altura*/ 
+.wg_esmas_safe_text_container H2{
+display:inline-block;
+font: normal normal 100% Trebuchet MS, Arial, sans-serif;
+color: #102345; 
+font-size: 0.91em;
+font-weight: bold;
+text-align:left;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+/*Contenedor de posibles Respuestas (RadioButtons), no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/
+.wg_esmas_safe_answer_container{
+width: 300px;
+display: inline-block;
+margin-top: 0px;
+}
+/*Lista de Respuestas*/
+.wg_esmas_safe_answer_container UL{
+width: 260px;
+margin-left: 10px;
+margin-right: 20px;	
+margin-top: 0px;
+}
+/*Cada una de las posibles Respuestas*/
+.wg_esmas_safe_answer_container UL LI{
+display:inline-block; 
+float:none; 
+margin: 0px !important; 
+padding: 0px !important; 
+min-height: 1px !important;
+margin-top: 1px !important;
+border-top:1px dotted #CCC;
+width: 100%;
+}
+
+.result{
+border-bottom:1px dotted #CCC !important;
+display: block;
+height: 12px;
+margin: 0 !important;
+/*border-bottom-style: none !important;*/
+}
+/*Contenedor del Radio Button*/
+.wg_esmas_safe_answer_container UL LI DIV{
+float: left;
+text-align: left;
+}
+/*Radio Button*/
+.wg_esmas_safe_answer_container UL LI DIV INPUT{
+margin-right: 7px;
+height: 25px;
+padding-left: 0.45em;
+margin-top: 4px;
+}
+/*Etiqueta*/
+.wg_esmas_safe_answer_container UL LI DIV SPAN A{
+font: normal normal 100% Trebuchet MS, Arial, sans-serif;
+font-size: 12px !important;
+min-height: 15px;
+width: 225px;
+display: inline-block;
+text-align: left;
+padding-left: 0.55em;
+margin-top: 8px;
+color: #232323;	
+}
+
+
+/*Contenedor de: Bot?n de Votar, Texto de Elija una opci?n, ?Comenta! ? Gracias por Votar*/
+.wg_esmas_safe_footer_container{
+width: 300px;
+height: 32px;
+/*background-image:url(http://polls.esmas.com/resources/img/frontend/boxes/7776c714-777d-102d-8011-0019b9d72c08/img_back_bottom.gif);*/
+background-repeat:no-repeat;
+background-position:bottom;
+border-top:1px solid #CCC;
+}
+/*Bot?n de Votar*/
+.wg_esmas_safe_footer_container A IMG{
+float: right;
+width: 92px;
+height: 32px;
+background-image:url(http://i2.esmas.com/encuestas/public/img/frontend/botones/btn-mundial2014.gif);
+background-repeat:no-repeat;
+}
+/*Contenedor de Texto de Elija una opci?n, ?Comenta! ? Gracias por Votar*/
+.wg_esmas_safe_thanks_text{
+width:120px;
+height: 12px;
+font: italic normal 100% Trebuchet MS, Arial, sans-serif;
+font-size:12px;
+color:#A2A2A2 !important;
+margin: 0px;
+margin-top: 5px;
+margin-left: 0px;
+padding-right: 20px;
+text-align: right;	
+display: block;
+float:left;
+}
+/*Liga de Texto ?Comenta! (si es que aplica)*/
+.wg_esmas_safe_thanks_text A{
+color: #F00 !important;
+}
+
+.total{
+width: 45%;
+float: right;
+color: #FFF;
+display: block;
+background-color: #cdcdcd;
+margin-right: 0px !important;
+height: 20px;
+padding: 10px;
+font-style: italic !important;
+vertical-align: middle !important;
+}
+/*Contenedor de Gr?fica de Resulatados, no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/ 
+.wg_esmas_safe_results_container{
+float: left;
+width: 298px;
+margin-left: 0px;
+padding-left: 0px;
+}
+.wg_esmas_safe_graph_container{
+width:270px;
+margin-top:3px;
+}
+.wg_esmas_safe_chart_container{
+width: 100%; 
+text-align:center;
+}
+
+.safe_chart_element_label{
+font-size: 11px;
+font-style: italic !important;
+height: 9px !important;
+}
+
+.group-answer{
+margin-top: 0px;
+padding-top: 0px;
+height: 28px;
+}
+
+/*Contenedor de Texto de Conclusiones, por ahora no se usa*/
+.wg_esmas_safe_conclusion_container{
+display: inline-block;
+margin-left: 0px !important;
+float: left;
+width: 300px;
+border-bottom:1px dashed #CCC;
+}
+.wg_esmas_safe_conclusion_container H2{
+display:inline-block;
+font: normal normal 100% Trebuchet MS, Arial, sans-serif;
+color: #232323; 
+font-size: 0.91em;
+font-weight: bold;
+text-align:left;
+margin-top: 20px;
+margin-bottom: 0px;
+}
+
+.safe_percent_votes{
+height: 8px !important;
+float: right;
+}
+/*Contenedor de Comentarios, actualmente ninguna encuesta lo muestra en versi?n Widget*/
+.wg_esmas_safe_otherpolls_container{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.wg_safe_more_title{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.wg_safe_more_title H3{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.wg_safe_more_title H4{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.wg_safe_more_items{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.wg_safe_more_items LI{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.wg_safe_more_items LI A{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+
+.wg_esmas_safe_poll_go{padding-bottom:5px;}
+
+
+/*Contenedor principal, no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/ 
+.nt_esmas_safe_wrapper *{
+margin: 0;
+padding:0;
+background-color: transparent;
+}
+.nt_esmas_safe_wrapper UL{
+list-style:none;
+list-style-type:none;
+}
+.nt_esmas_safe_wrapper{
+width: 610px;
+overflow: hidden;
+}
+/*Contenedor del T?tulo*/
+.nt_esmas_safe_title_container{
+width: 610px;
+height: 0px;
+/*background-image:url(http://polls.esmas.com/resources/img/standalone/head_encuesta_610px.gif);*/
+background-repeat:no-repeat;
+}
+/*Texto del T?tulo*/
+.nt_esmas_safe_title_container H1{
+width: 610px;
+height: 0px;
+padding-left: 16px;
+padding-top: 11px;
+font: normal normal 100% Trebuchet MS, Arial, sans-serif;
+color: #FFFFFF; 
+font-size: 14px;
+text-align:left;
+font-weight: bold;
+}
+/*Parte Central, no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/ 
+.nt_esmas_safe_body_container{
+width: 1220px; 
+background-color: #FFFFFF;
+overflow:hidden;
+}
+/*Parte que se desliza hacia la izquierda, por ello deber? ser del doble de ancho que la encuesta*/
+.nt_esmas_safe_sections{
+position:relative;
+width: 1220px;
+}
+/*Cada una de las secciones, 1. Muestra las posibles respuestas, 2. Muestra las barras de resultados*/
+.nt_esmas_safe_simple_poll_section{
+float: left;
+width: 610px;
+}
+
+/*Contenedor de Pregunta*/
+.nt_esmas_safe_question_container{
+width:610px; 
+}
+/*Se puede colocar un Icono arriba o a la izquierda de las preguntas, en este caso lo ocultamos*/
+.nt_esmas_safe_icon_container{
+/*width: 69px;*/
+width: 0px;
+height: 0px;
+/*margin-left: 20px;*/
+margin-left: 10px;
+margin-top: 7px;
+/*background-image:url(http://polls.esmas.com/resources/img/standalone/logoTD.gif);*/
+background-repeat:no-repeat;
+background-position:top left;
+float:left; 
+}
+.nt_esmas_safe_icon_container A IMG{
+width: 69px;
+height: 0px;
+border: none;	
+}
+/*Posicionador de la Pregunta*/
+.nt_esmas_safe_text_container{
+width: 500px;
+float:left; 
+margin-top: 7px;
+}
+/*Texto de la Pregunta, preferible no fijarle altura*/ 
+.nt_esmas_safe_text_container H2{
+display: inline-block;
+width: 500px;
+margin-left: 10px;
+font: normal normal 100% Trebuchet MS, Arial, sans-serif;
+color: #003; 
+font-size: 20px;
+text-align:left;
+font-weight:normal;
+padding-top: 10px;
+}
+/*Contenedor de posibles Respuestas (RadioButtons), no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/
+.nt_esmas_safe_answer_container{
+width: 610px;
+display: inline-block;
+padding: 0px !important;
+margin-bottom: 19px;
+margin-top: 10px;
+}
+/*Lista de Respuestas*/
+.nt_esmas_safe_answer_container UL{
+width: 560px;
+margin-left: 20px;
+margin-top: 0px !important;
+padding-top: 0px !important;
+}
+/*Cada una de las posibles Respuestas*/
+.nt_esmas_safe_answer_container UL LI{
+float:none;
+width: 560px;
+height: 24px !important;
+overflow: hidden !important;
+margin: 0px !important;
+padding: 0px !important;
+margin-bottom: 7px !important;
+
+}
+/*Contenedor del Radio Button*/
+.nt_esmas_safe_answer_container UL LI DIV{
+float: left;
+
+height: 18px !important;
+overflow: hidden !important;
+margin: 0px !important;
+padding: 0px !important;
+
+
+}
+/*Radio Button*/
+.nt_esmas_safe_answer_container UL LI DIV INPUT{
+margin-right: 7px;
+}
+/*Etiqueta*/
+.nt_esmas_safe_answer_container UL LI DIV SPAN{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px !important;
+color: #102345;
+
+height: 18px !important;
+overflow: hidden !important;
+margin: 0px !important;
+padding: 0px !important;
+
+
+}
+
+/*Contenedor de: Bot?n de Votar, Texto de Elija una opci?n, ?Comenta! ? Gracias por Votar*/
+.nt_esmas_safe_footer_container{ 
+width: 610px;
+height: 0px;
+/*background-image:url(http://polls.esmas.com/resources/img/standalone/bg_rounded_bar_bottom_big_2.gif);
+background-repeat:no-repeat;
+background-position:bottom left;*/
+}
+/*Bot?n de Votar*/
+.nt_esmas_safe_footer_container A IMG{ 
+margin-top: 5px;
+margin-left: 20px;
+margin-right: 5px;
+float:left;
+width: 100px;
+height: 26px;
+background-image:url(http://i2.esmas.com/canal30/img/btn_VotaComenta.gif);
+background-repeat:no-repeat;	
+}
+/*Contenedor de Texto de Elija una opci?n, ?Comenta! ? Gracias por Votar*/
+.nt_esmas_safe_thanks_text{
+width:150px !important;
+height: 18px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#F00 !important;
+margin: 0px;
+margin-top: 12px;
+margin-left: 10px;
+text-align: right;	
+display: inline-block;
+float:left;
+}
+/*Liga de Texto ?Comenta! (si es que aplica)*/
+.nt_esmas_safe_thanks_text A{ 
+color:#F00 !important;
+}
+/*Contenedor de Gr?fica de Resulatados, no debe fijarse la altura, debido a que ser? variable seg?n la cantidad de respuestas*/ 
+.nt_esmas_safe_results_container{
+float: left;
+width: 610px;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+.nt_esmas_safe_graph_container{
+display:inline-block; 
+width:560px; 
+margin-left: 20px;	
+margin-top: 0px;
+}
+.nt_esmas_safe_chart_container{
+display: inline-block;
+width: 560px;
+text-align:center;
+}
+
+/*Contenedor de Texto de Conclusiones, por ahora no se usa*/
+.nt_esmas_safe_conclusion_container{
+display: inline-block; 
+width: 560px;
+height: 60px;
+position:relative;
+margin-top: 10px;
+left:20px;
+
+}
+.nt_esmas_safe_conclusion_container H2{
+display: inline-block; 
+height: 0px;
+/*background-image:url(http://polls.esmas.com/resources/img/standalone/logoTD.gif);*/
+background-repeat:no-repeat;
+background-position:top left;
+padding-left: 0px;
+width: 560px;
+font-family: Arial, Helvetica, sans-serif;
+color: #003; 
+font-size: 20px;
+text-align:left;
+font-weight:normal;
+margin-top: 0px;
+}
+
+/*Contenedor de Comentarios, actualmente ninguna encuesta lo muestra en versi?n Widget*/
+.nt_esmas_safe_otherpolls_container{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.nt_safe_more_title{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.nt_safe_more_title H3{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.nt_safe_more_title H4{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.nt_safe_more_items{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.nt_safe_more_items LI{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+.nt_safe_more_items LI A{
+width: 0px;
+height: 0px;
+overflow:hidden;
+display: none;
+visibility: hidden;
+}
+
+.nt_esmas_safe_poll_go{padding-bottom:5px;}
+
+.nt_safe_chart_element_label{
+color:#000000 !important;
+font-size: 12px !important;
+display: inline-block;
+}
+
+
+/*ENCUESTAS RECIENTES EN VERSI?N NOTA TERMINAL */
+/*Contenedor Encuestas Recientes*/
+.esmas_safe_more_spl{
+font-family: arial !important;
+  width: 300px;
+  background-repeat: no-repeat;
+  margin-top: 20px !important;
+}
+
+/*Contenedor de T?tulo*/
+.esmas_safe_more_spl DIV.safe_more_title{
+  width: 300px;
+  height: 25px;
+  background-image:url(http://i2.esmas.com/noticierostelevisa/img/bk_pleca_02.gif);
+  background-repeat:no-repeat;
+}
+/*Texto del T?tulo*/
+.esmas_safe_more_spl DIV.safe_more_title H4{
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF; 
+  font-size: 14px;
+  text-align:left;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-left: 10px;
+  
+}
+/*Cuerpo de Cajita de Encuestas Recientes*/
+.esmas_safe_more_spl DIV.safe_more_body{
+  width: 300px; 
+overflow: hidden; 
+background-color: #FFFFFF;
+}
+/*Contenedor de Elementos*/
+.esmas_safe_more_spl DIV.safe_more_body DIV.elements_container{
+  margin-top: 5px;
+}
+/*Cada uno de los elementos*/
+.esmas_safe_more_spl DIV.safe_more_body DIV.elements_container DIV.element{
+  width:298px;
+  display:inline-block;
+  padding-top: 5px; 
+  margin-left: 1px;
+}
+/*Caracter?sticas de elemento alterno*/
+.esmas_safe_more_spl DIV.safe_more_body DIV.elements_container DIV.alternate{
+  background-color: #ECEDEC; 
+}
+/*Contenedor de Link*/ 
+.esmas_safe_more_spl DIV.safe_more_body DIV.elements_container DIV.element SPAN{
+display:inline-block;
+}
+/*Link*/            
+.esmas_safe_more_spl DIV.safe_more_body DIV.elements_container DIV.element SPAN A{
+display:inline-block;
+  color: #000000; 
+  font-size: 14px;
+  text-align:left;
+  font-weight: normal !important;
+  padding-left: 10px;
+margin-bottom:3px;
+}
+/*Footer*/
+.esmas_safe_more_spl DIV.safe_more_footer{
+   width: 300px;
+   height: 8px;
+   /*background-image:url(http://encuestas.esmas.com.mx/resources/img/standalone/img_back_bottom.gif);
+   background-repeat:no-repeat;*/
+border-bottom: 1px solid #036;
+}
+
+
+/*COLORES DE SERIES (Agregar m?s si se requieren encuestas con m?s preguntas)*/
+.serie_color_0{
+background-color: #3A3B8D;
+border-style: none !important;
+}
+.serie_color_1{
+background-color: #2E8FCA;
+border-style: none !important;
+}
+.serie_color_2{
+background-color: #3A3B8D;
+border-style: none !important;
+}
+.serie_color_3{
+background-color: #3A3B8D;
+border-style: none !important;
+}
+.serie_color_4{
+background-color: #3A3B8D;
+border-style: none !important;
+}
+.serie_color_5{
+background-color: #3A3B8D; 
+border-style: none !important;
+}
+.serie_color_6{
+background-color: #3A3B8D; 
+border-style: none !important;
+}
+.serie_color_7{
+background-color: #3A3B8D; 
+border-style: none !important;
+}
+.serie_color_8{
+background-color: #3A3B8D; 
+border-style: none !important;
+}
+.serie_color_9{
+background-color: #3A3B8D; 
+border-style: none !important;
+}
+.serie_color_10{
+background-color: #3A3B8D; 
+border-style: none !important;
+}
+
+
+

@@ -1,5 +1,16 @@
-/*BEGIN: img_galry_02 / desktop*/
+/*BEGIN: img_galry_02 / desktop 051213*/
 @media screen and (min-width: 624px) { /*Version Desktop*/	
+
+	.social_icon_top{
+		display: none;
+	}
+
+	div.img_galry_02 .type1a .arrowLeft,
+	div.img_galry_02 .type1a .arrowLeft a i,
+	div.img_galry_02 .type1a .arrowRight,
+	div.img_galry_02 .type1a .arrowRight a i{
+		color: #232323;
+	}
 
 	div.img_galry_02 .container-left{
 		float: left;
@@ -391,7 +402,7 @@
 		padding-left: 0px !important;
 	}
 	.container-right #img_fotogalfull_01_sideBar .txt1 h3 {
-		font-size: 24px;
+		font-size: 23px;
 		font-weight: bold;
 		margin-bottom: 10px;
 	}
@@ -400,7 +411,8 @@
 	}
 	.container-right #img_fotogalfull_01_sideBar .txt1 p {
 		display: block;
-		font-size: 12px;
+		font-size: 14px;
+		color: #232323;
 	}
 	.container-right #img_fotogalfull_01_sideBar .txt1, .right_p #img_fotogalfull_01_sideBar .txt2, .right_p #img_fotogalfull_01_sideBar .txt3 {
 		float: none;
@@ -415,19 +427,24 @@
 	}
 	.container-right #img_fotogalfull_01_sideBar .txt2 h3 {
 		color: #00a9e0;
-		font-size: 13px;
+		font-size: 14px;
 		font-style: italic;
 		font-weight: bold;
 		margin-top: 0;
+		font-family: 'Trebuchet MS';
 	}
 	.container-right #img_fotogalfull_01_sideBar .txt2 h4, .img_fotogalfull_01 #img_fotogalfull_01_sideBar .txt3 {
 		color: #ec008c;
-		font-size: 13px;
+		font-size: 14px;
 		font-style: italic;
 		font-weight: normal;
 		border-bottom: 0;
+		font-family: 'Trebuchet MS';
 	}
 
+	.container-right #img_fotogalfull_01_sideBar .contenedor{
+		width: 300px;
+	}
 
 }
 /*END:img_galry_02 / desktop*/
@@ -561,6 +578,15 @@
 	}
 	div.img_galry_02 div.image-container .controls{
 		bottom: 71px !important;
+	}
+	.social_icon_top{
+		display: none;
+	}
+	div.img_galry_02 .type1a .arrowLeft,
+	div.img_galry_02 .type1a .arrowLeft a i,
+	div.img_galry_02 .type1a .arrowRight,
+	div.img_galry_02 .type1a .arrowRight a i{
+		color: #232323;
 	}
 
  }
