@@ -1,13 +1,22 @@
   /*
     Developer: Israel Viveros;
-    Version: 1.1;
+    Version: 1.5.1;
   */
   span.data{ display: none!important;}
   @media screen {
+    .content .col-md-12{
+        margin: 0!important;
+        padding: 0!important;
+    }
 
     .publicidad_948x90 img.image1,
     .publicidad_320x50 img.image2{
         display: none;
+    }
+    .publicidad_320x50{
+        width: 100%!important;
+        height: auto;
+        max-height: 50px;
     }
 
     .wdg_social_01{
@@ -47,4 +56,45 @@
         height: 30px;
         text-align: center;
     }
+}
+
+/*
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    header,footer{
+        width:1250px!important;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+    header,footer{
+        width:1250px!important;
+    }
+}
+*/
+
+@media screen and (min-width : 624px){
+    footer,header{
+    min-width: 1250px!important;
+    }
+}
+
+
+@media only screen and (max-width : 624px){
+.header_inoficial{
+    margin-bottom: 9px;
+}
+.td_bg.camera{
+    background-color: #86b519!important;
+}
+    
+.container-right{
+    background: #f2f2f2;
+}
+#widgetSocialShare{
+    margin-left: 24px;
+}
+#comm_div_num,
+a[href="#COMM_comments_social"]{
+    display: none;
+}
+
 }

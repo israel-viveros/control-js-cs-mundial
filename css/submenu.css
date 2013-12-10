@@ -1,0 +1,229 @@
+/*BEGIN: submenu / desktop*/
+@media screen and (min-width: 624px) {
+.header_none div.submenu {
+        display: none;
+}
+div.submenu {
+        background-position: 0px;
+        background-image: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/menu_oficial2.png");
+        background-repeat: no-repeat;
+        display: block;
+        height: 94px;
+        width: 948px;
+        margin-bottom: 28px;
+        margin-top: -68px;
+        z-index: 10;
+        padding-top: 10px;
+}
+div.submenu ul li.last {
+        width: 243px;
+}
+div.submenu ul {
+        display: block;
+        height: auto;
+        line-height: 21px;
+        overflow: hidden;
+        padding-top: 55px;
+        position: relative;
+        text-align: center;
+        z-index: 10;
+}
+div.submenu ul li {
+        display: inline-block;
+        text-align: center;
+        width: 160px;
+        float: left;
+}
+div.submenu ul li:first-child {
+        display: inline-block;
+        width: 50px;
+}
+div.submenu ul li a {
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+}
+div.submenu ul li a:hover {
+        color: #FEE510;
+}
+div.submenu ul li a i {
+/*display: block;*/
+}
+div.submenu ul li a span {
+        display: none;
+}
+}
+/*END: submenu / desktop*/
+
+/*BEGIN: submenu / mobile*/
+@media screen and (max-width:623px) {
+div.submenu {
+        display: block;
+        height: auto;
+        overflow: hidden;
+        overflow-y: hidden;
+        width: 100%;
+        /*min-width: 320px;*/
+        position: relative;
+        height: 36px;
+        margin-bottom: 12px;
+}
+div.submenu ul {
+        display: block;
+        height: 36px;
+        line-height: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        position: relative;
+        position: absolute;
+        width: 100%!important;
+        background: #429544;
+}
+div.submenu ul li.first,  div.submenu ul li.second {
+        display: inline-block;
+        text-align: center;
+        width: 27%;
+}
+div.submenu ul li.third {
+        display: inline-block;
+        text-align: center;
+        width: 42%;
+}
+div.submenu ul li.responsive_hidden {
+        display: none;
+}
+div.submenu ul li a {
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+}
+div.submenu ul li a:hover {
+        color: #FEE510;
+}
+div.submenu ul li a i {
+        display: none;
+}
+div.submenu ul li a span {
+        display: block;
+}
+div.submenu div.container_submenu {
+        position: relative;
+        padding-bottom: 5%;
+}
+}
+/*END: submenu / mobile*/
+
+/*BEGIN: submenu / desktop*/
+@media screen and (min-width: 624px) {
+div.submenu_inoficial {
+        background-position: 0px;
+        background-image: url("http://i2.esmas.com/deportes30/copa-mundial-fifa-brasil-2014/img/menu_no_oficial.png");
+        background-repeat: no-repeat;
+        display: block;
+        height: 79px;
+        width: 943px;
+        margin-bottom: 28px;
+    margin-top: -57px;
+}
+div.submenu_inoficial ul {
+        display: block;
+        height: auto;
+        line-height: 21px;
+        overflow: hidden;
+        padding-top: 41px;
+        position: relative;
+        text-align: center;
+}
+div.submenu_inoficial ul li {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+}
+div.submenu_inoficial ul li:first-child {
+        display: inline-block;
+        width: 50px;
+}
+div.submenu_inoficial ul li a {
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+}
+div.submenu_inoficial ul li a:hover {
+        color: #FEE510;
+}
+div.submenu_inoficial ul li a i {
+        display: block;
+}
+div.submenu_inoficial ul li a span {
+        display: none;
+}
+
+}
+/*END: submenu / desktop*/
+
+
+/*BEGIN: submenu / mobile*/
+@media screen and (max-width:623px) {
+div.submenu_inoficial {
+        background: #429544;
+        display: block;
+        height: 36px;
+        margin-bottom:12px;
+        margin-top:-12px;
+        overflow: hidden;
+        width: 100%;
+}
+div.submenu_inoficial .scroll{
+        height:55px;
+        overflow: scroll;
+        overflow-y: hidden;
+}
+div.submenu_inoficial ul {
+        display: block;
+        height: 36px;
+        line-height: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        position: relative;
+        text-align: center;
+}
+div.submenu_inoficial ul li {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+}
+div.submenu_inoficial ul li a {
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+}
+div.submenu_inoficial ul li a:hover {
+        color: #FEE510;
+}
+div.submenu_inoficial ul li a i {
+        display: none;
+}
+div.submenu_inoficial ul li a span {
+        display: block;
+}
+}
+/*END: submenu / mobile --iv  */
+
+
+

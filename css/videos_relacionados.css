@@ -1,0 +1,338 @@
+@media screen {
+    .videos_relacionados{
+        margin-bottom: 24px;
+        overflow: hidden;
+		position:relative;
+    }
+	.videos_relacionados a{
+		text-decoration:none;
+	}
+    .videos_relacionados .type1a {
+        overflow: hidden;
+        width: 100%;
+    }
+     .videos_relacionados .type1a .carrusel{
+        overflow: hidden;
+		height:auto;
+    }
+    .videos_relacionados .type1a .carrusel ul{
+        overflow: hidden;
+    }
+    .videos_relacionados .type1a div {
+        width: 100%;
+        height: 31px;
+    }
+    .videos_relacionados .type1a .title {
+        border-bottom: 1px solid #CCC;
+    }
+    .videos_relacionados .type1a .title .flechas{
+        display: none;
+    }
+    .videos_relacionados .type1a div ul {
+        width: 62px;
+        margin: 0;
+        float: right;
+    }
+    .videos_relacionados .type1a div ul li {
+        width: 33px;
+		height:21px;
+        float: left;
+        margin: 0;
+        margin-top: 5px;
+    }
+	
+	.videos_relacionados .type1a div .flechas li:nth-child(2) {
+		width: 21px;
+	}
+    .videos_relacionados .type1a div ul li a {
+        width: 15px;
+        height: 16px;
+        padding-right: 1px !important;
+    }
+	.videos_relacionados .type1a div ul li .carouselArrowRight {
+		padding-right: 0px;
+	}
+    .videos_relacionados .type1a div ul li:first-child {
+        margin: 6px 8px 0 0;
+    }
+   
+    .videos_relacionados .type1a.showArrows .title h1 {
+        width: 50%;
+    }
+    .videos_relacionados .type1a.showArrows .title h1 a span.icon {
+        display: none;
+    }
+    .videos_relacionados .type1a .carrusel {
+        width: 100%;
+        overflow: hidden;
+    }
+    .videos_relacionados .type1a .carrusel ul {
+        float: none;
+        margin: 0;
+        margin-top: 12px;
+        width: 16000px;
+        height: 116px;
+    }
+    .videos_relacionados .type1a .carrusel ul:before,
+    .videos_relacionados .type1a .carrusel ul:after {
+        content: "";
+        display: table;
+    }
+    .videos_relacionados .type1a .carrusel ul:after {
+        clear: both;
+    }
+    .videos_relacionados .type1a .carrusel ul {
+        zoom: 1;
+    }
+    .videos_relacionados .type1a .carrusel ul li {
+        display: block;
+        float: left;
+        width: 137px;
+        height: auto;
+        margin: 0 0 24px 25px;
+    }
+    .videos_relacionados .type1a .carrusel ul li h4 {
+        font-size: 14px;
+        line-height: 16px;
+        width: 136px;
+    }
+    .videos_relacionados .type1a .carrusel ul li h4 a {
+        color: #232323;
+        background: none;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .videos_relacionados .type1a .carrusel ul li p {
+        font-style: italic;
+        font-size: 11px;
+        font-weight:normal;
+    }
+    .videos_relacionados .type1a .carrusel ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: block;
+    }
+    .videos_relacionados .type1a .carrusel ul li a img {
+        background-color: #666;
+        margin-bottom: 1px !important;
+    }
+    .videos_relacionados .type1a .carrusel ul li:first-child {
+        margin: 0 0 0 12px;
+    }
+    .videos_relacionados .type1a .carrusel ul li:last-child {
+        margin-right: 0;
+        border: none;
+    }
+    .videos_relacionados div.title h3 {
+        height: 40px;
+    }
+    .videos_relacionados .type1a .title h3 a {
+        text-decoration: none;
+        height: 32px;
+        display: block;
+        line-height: 33px;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+		margin-top: 0px;
+    }
+    .videos_relacionados .bullets{
+        display: block;
+        width: 100%;
+		margin-top: 0px;
+        margin-bottom: 0px;
+        height: 20px;
+    }
+	.videos_relacionados .bullets .background-color1{
+		background-color:#00A9E0;
+	}
+    .videos_relacionados .bullets ul{
+        width:102px;
+        float: right;
+        margin-top:5px;
+		margin-right:12px;
+    }
+    .videos_relacionados .bullets ul li{
+
+        width:12px;
+        height: 12px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+    .videos_relacionados .bullets ul li.selected{
+        background-color:#A70A0B;
+    }
+	.videos_relacionados .carouselArrowLeft{
+		margin-top:-2px;
+	}
+	.videos_relacionados .tvsa-caret-down{
+		display:none;
+	}
+	.videos_relacionados .tvsa-caret-up{
+		display:block;
+	}
+	.videos_relacionados .tvsa-caret-up,
+    .videos_relacionados .tvsa-caret-down{
+        color: #FFFFFF;
+        font-size:25px;
+        font-weight:bold;
+        cursor:pointer;
+        float: right;
+        position: absolute;
+        right: 30px;
+        top: 3px;
+    }
+	.videos_relacionados a.azul {
+        float: left;
+		font-family: "roboto_slabbold";
+		font-size: 24px;
+		font-weight: bold;
+		padding-left:12px;
+		padding-right: 6px;
+		position: absolute;
+		top: 4px;
+		background:#EDEDED;
+	}
+	.inoficial .videos_relacionados a.azul {
+		background:#FFF;
+	}
+}
+
+@media screen and (min-width: 624px){
+    .videos_relacionados{
+        margin-bottom: 36px;
+        overflow: hidden;
+    }
+	.videos_relacionados .type1a div{
+		height:auto;
+	}
+	.videos_relacionados a.azul {
+		padding-left:0;
+	}
+    .videos_relacionados .type1a {
+        padding-left: 0;
+    }
+    .videos_relacionados .type1a .title .flechas{
+        display: none !important;
+    }
+    .videos_relacionados .type1a ul {
+        margin: 25px 0 auto;
+    }
+   
+    .videos_relacionados .type1a .carrusel {
+        overflow: hidden !important;
+    }
+    .videos_relacionados .type1a .carrusel ul {
+        margin-top: 0;
+        overflow: hidden !important;
+    }
+    .videos_relacionados .type1a .carrusel ul li {        
+        margin: 0 0 6px 25px;
+    }
+    .videos_relacionados div.title {
+        margin-bottom: 24px;
+    }
+    .videos_relacionados div.title:before,
+    .videos_relacionados div.title:after {
+        content: "";
+        display: table;
+    }
+    .videos_relacionados div.title:after {
+        clear: both;
+    }
+    .videos_relacionados div.title {
+        zoom: 1;
+    }
+    .videos_relacionados div.title h3 {
+        width: 48%;
+        min-width:165px;
+        float: left;
+        height: 32px;
+    }
+    .videos_relacionados div.title h3 a {
+        background-image: none !important;
+        padding: 7px 16px 5px 0px;
+        line-height: 24px !important;
+		line-height:32px;
+    }
+	.videos_relacionados .type1a .title h3 a {
+		margin-top:-2px;
+	}
+    .videos_relacionados div.title h3 a span.icon {
+        display: none;
+    }
+
+    .videos_relacionados .bullets ul li:nth-of-type(4),
+    .videos_relacionados .bullets ul li:nth-of-type(5),
+    .videos_relacionados .bullets ul li:nth-of-type(6){
+        display: none;
+    }
+    .videos_relacionados .bullets ul {
+        width: 53px;
+        margin-top: 10px;
+    }
+    .videos_relacionados .type1a .carrusel ul li a img{
+        background-color: #666;
+        margin-bottom: 2px !important;
+    }
+    .videos_relacionados .type1a .carrusel ul li h4{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .videos_relacionados .type1a div ul li a{
+        padding-right: 0 !important;
+    }
+    .videos_relacionados .type1a .carrusel ul{
+        height: 119px !important;
+    }
+	.videos_relacionados .type1a .carrusel ul li:first-child {
+        margin: 0;
+    }
+	.videos_relacionados .bullets{
+		margin-top:24px;
+	}
+	.videos_relacionados .bullets ul{
+		margin-right:0;
+	}
+	.videos_relacionados .tvsa-caret-up,
+    .videos_relacionados .tvsa-caret-down{
+        display:none;   
+    }
+    
+    .videos_relacionados {
+        border-bottom: none;
+    }
+    .videos_relacionados .bullets{
+        display: none;
+    }
+    .videos_relacionados .type1a .title .flechas{
+        display: block !important;
+    }
+      .videos_relacionados .type1a .carrusel ul li {        
+        margin: 0 0 24px 25px;
+    }
+    .videos_relacionados div.title h3 {
+        width: 31%;
+    }
+
+    .videos_relacionados .carouselArrowLeft{
+        width: 34px !important;
+    }
+    .videos_relacionados .carouselArrowLeft i{
+        color: #8f8f8e;
+    }
+    .videos_relacionados .carouselArrowRight{
+        width: 14px !important;
+    }
+    .videos_relacionados .arrow_inactive{
+        color: #8f8f8e !important; 
+    }
+    .videos_relacionados .arrow_active{
+        color: #232323 !important; 
+    }
+}

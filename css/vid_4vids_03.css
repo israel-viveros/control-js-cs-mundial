@@ -1,0 +1,194 @@
+/*
+	Modify: Viveros;
+	version :1.0;
+*/
+@media screen {
+	.vid_4vids_03{
+		height:auto;
+		overflow:hidden;
+        margin-bottom:24px;
+		width:100%;
+		position:relative;
+	}
+	.vid_4vids_03 a{
+		text-decoration:none;
+	} 
+	.vid_4vids_03 .vid_4vids_03_title{
+		clear:both;
+		border-bottom:1px solid #CCC;
+		height:29px;
+	}
+    .vid_4vids_03 .vid_4vids_03_title .one {
+        width: 100%;
+        font-size: 14px;
+        float: left;
+        text-align: left;
+        line-height: 32px;
+        height: 40px;
+		background:#EDEDED;
+    }
+	 .inoficial .vid_4vids_03 .vid_4vids_03_title .one {
+		 background:#FFF;
+	 }
+    .vid_4vids_03 .vid_4vids_03_title .one a.azul {
+        float: left;
+		font-family: "roboto_slabbold";
+		font-size: 24px;
+		font-weight: bold;
+		left: 12px;
+		padding-right: 6px;
+		position: absolute;
+		top: 4px;
+	}
+	.vid_4vids_03 .vid_4vids_03_title ul.arrows{
+		float:right;
+		padding-top:5px;
+	}
+	.vid_4vids_03 .vid_4vids_03_title ul.arrows li{
+		float:left;
+	}
+	.vid_4vids_03 .vid_4vids_03_title ul.arrows li.izq{
+		padding-right:5px;
+	}
+	.vid_4vids_03 .vid_4vids_03_title ul.arrows li.der{
+		padding-left:5px;
+	}
+	.vid_4vids_03 .general{
+		padding-top:12px;
+	}
+	.vid_4vids_03 ul.v4_ul{
+		position:relative;
+		width:956px;
+	}
+	.vid_4vids_03 ul.v4_ul li,
+	.vid_4vids_03 .general div.mascara ul li{
+		float:left;
+		width:136px;
+		height:122px;
+		margin-left:24px;
+		overflow:hidden;
+	}
+	.vid_4vids_03 ul.v4_ul li.sin_margen,
+	.vid_4vids_03 .general div.mascara ul li.sin_margen{
+		margin-left:12px;
+	}
+	.vid_4vids_03 ul.v4_ul li.final_m,
+	.vid_4vids_03 .general div.mascara ul li.final_m{
+		margin-right:0px;
+	}
+	.vid_4vids_03 .tvsa-double-caret-left{
+		color:#000;
+	}
+	.vid_4vids_03 .tvsa-double-caret-right{
+		color:#000;
+	}
+	.vid_4vids_03 .inactive{
+		color:#BABABA;
+	}
+	.vid_4vids_03 .general{
+		overflow-y:hidden;
+		overflow-x:hidden;
+		width:100%;
+	}
+	.vid_4vids_03 .arrows{
+		display:none;
+	}
+	.vid_4vids_03 .two{
+		height:auto;
+		width:136px;
+	}
+	.vid_4vids_03 .two a{
+		color: #000000;
+		font-size: 14px;
+		font-weight:bold;
+		width:auto;
+		height:auto;
+		overflow:hidden;
+	}
+	.vid_4vids_03 .two p{
+		height:37px;
+		width:136px;
+		overflow:hidden;
+	}
+	 .vid_4vids_03 .bullets{
+		height:24px;
+        padding-left: 84%;
+        clear: both;
+        overflow: hidden;
+        margin-top: 0;
+        padding-top: 12px;
+        margin-bottom: 7px;
+    }
+    .vid_4vids_03 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+    .vid_4vids_03 .inactive{
+        color: #BABABA;
+    }
+    .vid_4vids_03 .bullets div.background-color1{
+        background-color:#00A9E0;
+    }
+}
+
+@media screen and (min-width: 624px){
+
+	.vid_4vids_03 .general div.mascara{
+		width: 960px;
+	}
+	.vid_4vids_03 .general div.mascara ul{
+		width: 300px;
+		float: left;
+	}
+
+	.vid_4vids_03 .general div.mascara ul.middle{
+		margin: 0 30px;
+	}
+	.vid_4vids_03 {
+		width:300px;
+		margin-bottom:36px;
+	}
+	.vid_4vids_03 .vid_4vids_03_title .one {
+		width:170px;
+	}
+	.vid_4vids_03 .vid_4vids_03_title .one a.azul {
+		left:0;
+	}
+	.vid_4vids_03 ul.v4_ul li,
+	.vid_4vids_03 .general div.mascara ul li{
+		margin-left:28px;
+	}
+	.vid_4vids_03 ul.v4_ul li.sin_margen,
+	.vid_4vids_03 .general div.mascara ul li.sin_margen{
+		margin-left:0px;
+	}
+	.vid_4vids_03 ul.v4_ul li.final_m,
+	.vid_4vids_03 .general div.mascara ul li.final_m{
+		margin-right:0px;
+	}
+	.vid_4vids_03 .arrows{
+		display:block;
+	}
+	.vid_4vids_03 .bullets{
+		display:none;
+	}
+}
+
+@media screen and (max-width: 624px){
+
+.vid_4vids_03 ul.v4_ul li.sin_margen, .vid_4vids_03 .general div.mascara ul li.sin_margen{
+	margin-left: 0;
+}
+.vid_4vids_03 ul.v4_ul li, .vid_4vids_03 .general div.mascara ul li{
+	margin-left: 19px;
+}
+
+.vid_4vids_03 ul.v4_ul li.sin_margen, .vid_4vids_03 .general div.mascara ul:nth-child(2),
+.vid_4vids_03 ul.v4_ul li.sin_margen, .vid_4vids_03 .general div.mascara ul:nth-child(3),
+.vid_4vids_03 .bullets{
+	display: none;
+}
+}

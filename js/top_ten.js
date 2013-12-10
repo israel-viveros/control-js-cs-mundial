@@ -1,5 +1,5 @@
 /*
-	Developer: viveros 1.0	
+	Developer: viveros 1.1	
 */
 $(document).ready(function(e) { 
 
@@ -13,7 +13,7 @@ $(document).ready(function(e) {
 			})
 			.done(function() {
 
-				if(validacionTop != "" && validacionTop != null){
+				if(validacionTop != "" || validacionTop != null){
 					$("#OutTop10").html("Cargando...");
 					
 				var OutTop10 = "";
@@ -112,7 +112,7 @@ $(document).ready(function(e) {
 
 		$('.top_ten .tvsa-double-caret-right').click(function(e) {
 			e.preventDefault();
-		/*Verifico posiciÃ³n del scroll*/ 
+		/*Verifico posiciÃƒÂ³n del scroll*/ 
 		if (navigator.appVersion.indexOf("MSIE 7.")!=-1 || navigator.appVersion.indexOf("MSIE 8.")!=-1){
 			var $wt10_large = 625;
 			$('.top_ten .top_ten_carousel').children().attr('style', 'width: '+$wt10_large+'px !important');
